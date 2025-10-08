@@ -32,9 +32,6 @@ const GalleryVideo = [
   {
     video: "/riad/guest-video-2.mp4",
   },
-  {
-    video: "/riad/guest-video-1.mp4",
-  },
 ];
 
 const Shooting = () => {

@@ -8,7 +8,7 @@ const Intro = () => {
       </h1>
       <p className="text-riad_primary text-[14px] leading-[21px] px-5 md:px-80 lg:px-96 text-center">
         {
-          "Capture timeless memories with an exclusive photoshoot at our Riad in Marrakech. Surrounded by elegant architecture, vibrant hues, and authentic Moroccan charm, each image reveals the soul of the city—blending culture, beauty, and emotion into unforgettable moments."
+          "Capture timeless memories with an exclusive photoshoot at our Riad in Marrakech. Surrounded by elegant architecture, vibrant hues, and authentic Moroccan charm, each image reveals the soul of the city blending culture, beauty, and emotion into unforgettable moments."
         }
       </p>
     </div>
