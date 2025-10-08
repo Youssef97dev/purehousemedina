@@ -125,7 +125,7 @@ const Navbar = ({ path, change = false }) => {
             leaveFrom="transform -translate-y-0 opacity-100"
             leaveTo="transform -translate-y-full opacity-0"
           >
-            <div className="fixed top-0 left-0 z-10 w-full h-full lg:h-fit bg-riad_background flex flex-col items-left justify-center gap-4 px-5 mx-auto lg:px-10 py-1">
+            <div className="fixed top-0 left-0 z-10 w-full h-fit lg:h-fit bg-riad_background flex flex-col items-left justify-center gap-4 px-5 mx-auto lg:px-10 py-1">
               <Menu setIsOpen={setIsOpen} path={path} />
               <div className=" px-6 py-5">
                 <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-8">
@@ -160,6 +160,14 @@ const Navbar = ({ path, change = false }) => {
                           Suites
                         </Link>
                       </li>
+                      <li>
+                        <Link
+                          href="#"
+                          className="hover:text-riad_primary transition-all duration-200 ease-in-out"
+                        >
+                          Photoshooting
+                        </Link>
+                      </li>
                     </ul>
                   </div>
 
@@ -172,10 +180,18 @@ const Navbar = ({ path, change = false }) => {
                     <ul className="space-y-2 text-[12px] text-riad_secondary">
                       <li>
                         <Link
-                          href="https://www.instagram.com/pure.farmhouse/"
+                          href="purehousecollection.vercel.app/pure-farmhouse"
                           className="hover:text-riad_primary transition-all duration-200 ease-in-out"
                         >
-                          Instagram
+                          Home
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          href="#"
+                          className="hover:text-riad_primary transition-all duration-200 ease-in-out"
+                        >
+                          Photoshooting
                         </Link>
                       </li>
                     </ul>
@@ -190,10 +206,18 @@ const Navbar = ({ path, change = false }) => {
                     <ul className="space-y-2 text-[12px] text-riad_secondary">
                       <li>
                         <Link
-                          href="https://www.instagram.com/pure_house_on_the_lake_/"
+                          href="https://purehousecollection.vercel.app/pure-house-on-the-lake"
                           className="hover:text-riad_primary transition-all duration-200 ease-in-out"
                         >
-                          Instagram
+                          Home
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          href="#"
+                          className="hover:text-riad_primary transition-all duration-200 ease-in-out"
+                        >
+                          Photoshooting
                         </Link>
                       </li>
                     </ul>
@@ -234,8 +258,6 @@ const Navbar = ({ path, change = false }) => {
                   </div>*/}
                 </div>
               </div>
-              <div className="mt-0 w-full h-[1px] bg-riad_secondary mx-auto"></div>
-              <Footer />
             </div>
           </Transition>
         </div>
