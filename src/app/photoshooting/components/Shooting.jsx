@@ -4,10 +4,6 @@ import Link from "next/link";
 
 const GalleryImage = [
   {
-    image: "/riad/guest-3.jpg",
-    class: "object-center",
-  },
-  {
     image: "/riad/guest-4.jpg",
     class: "object-center",
   },
