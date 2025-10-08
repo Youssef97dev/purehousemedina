@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://purehousemarrakech.com/sitemap.xml
