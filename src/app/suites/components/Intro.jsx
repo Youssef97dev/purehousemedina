@@ -8,7 +8,7 @@ const Intro = () => {
       </h1>
       <p className="text-riad_primary text-[14px] leading-[21px] px-5 md:px-80 lg:px-96 text-center">
         {
-          "These air-conditioned suites are equipped with a smartphone and a flat-screen TV with streaming services. Each unit features one bed."
+          "These air-conditioned suites are equipped with a smartphone and a flat-screen TV with streaming services. Each unit offers a double bed with a capacity of maximum 2 guests."
         }
       </p>
     </div>

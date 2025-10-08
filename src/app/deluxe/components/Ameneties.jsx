@@ -4,14 +4,12 @@ import { FaSnowflake, FaWifi, FaBed, FaShower } from "react-icons/fa";
 import { PiHairDryerFill } from "react-icons/pi";
 import { BsFillSafeFill } from "react-icons/bs";
 import { TbSmokingNo } from "react-icons/tb";
-import { FaHouseChimneyWindow } from "react-icons/fa6";
 
 const amenities = [
-  { icon: <FaBed />, label: "Queen size bed (Large Double Bed)" },
+  { icon: <FaBed />, label: "King size bed" },
   { icon: <FaShower />, label: "Private Bathroom with Shower" },
   { icon: <FaWifi />, label: "Wifi" },
   { icon: <FaSnowflake />, label: "Individually controlled air conditioning" },
-  { icon: <FaHouseChimneyWindow />, label: "Window" },
   { icon: <PiHairDryerFill />, label: "Hair Dryer" },
   { icon: <BsFillSafeFill />, label: "In-room safe" },
   { icon: <TbSmokingNo />, label: "No smoking" },

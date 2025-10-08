@@ -6,7 +6,7 @@ import { BsFillSafeFill } from "react-icons/bs";
 import { TbSmokingNo } from "react-icons/tb";
 
 const amenities = [
-  { icon: <FaShower />, label: "Private Bathroom with Shower" },
+  { icon: <FaShower />, label: "Private bathroom with walk-in shower" },
   { icon: <FaWifi />, label: "Wifi" },
   { icon: <FaSnowflake />, label: "Individually controlled air conditioning" },
   { icon: <PiHairDryerFill />, label: "Hair Dryer" },
