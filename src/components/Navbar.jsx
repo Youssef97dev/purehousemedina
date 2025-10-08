@@ -188,6 +188,14 @@ const Navbar = ({ path, change = false }) => {
                       </li>
                       <li>
                         <Link
+                          href="https://purehousecollection.vercel.app/pure-farmhouse/contact"
+                          className="hover:text-riad_primary transition-all duration-200 ease-in-out"
+                        >
+                          Contact
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
                           href="#"
                           className="hover:text-riad_primary transition-all duration-200 ease-in-out"
                         >
@@ -210,6 +218,14 @@ const Navbar = ({ path, change = false }) => {
                           className="hover:text-riad_primary transition-all duration-200 ease-in-out"
                         >
                           Home
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          href="https://purehousecollection.vercel.app/pure-house-on-the-lake/events"
+                          className="hover:text-riad_primary transition-all duration-200 ease-in-out"
+                        >
+                          Events
                         </Link>
                       </li>
                       <li>
