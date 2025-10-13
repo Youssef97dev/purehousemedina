@@ -8,7 +8,7 @@ const About = () => {
         <div className="flex flex-col gap-10 lg:gap-16 order-2 lg:order-1">
           <div className="relative w-full h-[400px] lg:h-[600px] overflow-hidden">
             <Image
-              src="/riad/riad-23.jpg"
+              src="/riad/riad-1.jpg"
               alt="Luxury resort pool"
               fill
               className="object-cover"
@@ -20,10 +20,10 @@ const About = () => {
           </h2>
           <div className="relative w-full h-[250px] overflow-hidden shadow-lg block lg:hidden">
             <Image
-              src="/riad/riad-hero-1.jpg"
+              src="/riad/riad-14.jpg"
               alt="Resort villa"
               fill
-              className="object-cover"
+              className="object-cover object-bottom"
             />
           </div>
         </div>
