@@ -56,7 +56,7 @@ const Navbar = ({ path, change = false }) => {
             ></div>
           </div>
           <div className="w-[50%] lg:w-[60%] flex justify-center items-center pb-2">
-            <Link href="/">
+            <Link href="/fr">
               <Image
                 src={
                   scrolled || change

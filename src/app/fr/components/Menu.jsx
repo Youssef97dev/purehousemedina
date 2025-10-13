@@ -18,7 +18,7 @@ const Menu = ({ setIsOpen, path }) => {
           <IoIosClose size={35} />
         </div>
         <div className="w-full flex justify-center items-center pb-2">
-          <Link href="/">
+          <Link href="/fr">
             <Image
               src="/riad/riad-logo-black.png"
               width={300}
