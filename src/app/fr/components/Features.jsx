@@ -13,7 +13,7 @@ const categories = [
     title: "Restauration",
     subtitle:
       "Au Pure House Marrakech, les hôtes peuvent savourer de délicieux plats marocains et méditerranéens préparés avec des ingrédients frais. Profitez d’un petit-déjeuner paisible dans le jardin ou d’un dîner relaxant sur la terrasse, où chaque repas est soigneusement conçu pour éveiller vos sens, créer des instants mémorables et offrir un véritable aperçu du charme culinaire de Marrakech.",
-    image: "/riad/dining-riad-2.jpg",
+    image: "/riad/riad-hero-4.jpg",
   },
 ];
 

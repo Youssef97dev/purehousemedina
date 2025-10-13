@@ -3,11 +3,9 @@ import { useEffect, useState } from "react";
 import { Transition } from "@headlessui/react";
 import Link from "next/link";
 import Image from "next/image";
-import { IoIosMenu, IoMdClose } from "react-icons/io";
 import { RiArrowDownSLine } from "react-icons/ri";
 import { MdLanguage } from "react-icons/md";
 import Menu from "./Menu";
-import Footer from "./Footer";
 
 const Navbar = ({ path, change = false }) => {
   const [scrolled, setScrolled] = useState(false);
@@ -41,7 +39,7 @@ const Navbar = ({ path, change = false }) => {
             : "bg-transparent text-white"
         }`}
       >
-        <div className="w-full flex justify-center items-center mx-auto px-5 lg:px-10">
+        <div className="w-full flex justify-center items-center mx-auto px-5 lg:px-10 ">
           <div
             className={`pt-1 lg:pt-0 cursor-pointer w-[25%] lg:w-[20%] text-[18px] lg:text-[30px] ${
               scrolled || change ? "text-riad_primary" : "text-white"
@@ -58,7 +56,7 @@ const Navbar = ({ path, change = false }) => {
             ></div>
           </div>
           <div className="w-[50%] lg:w-[60%] flex justify-center items-center pb-2">
-            <Link href="/fr">
+            <Link href="/">
               <Image
                 src={
                   scrolled || change
@@ -107,7 +105,7 @@ const Navbar = ({ path, change = false }) => {
                     </Link>
                   </li>
                   <li className="px-4 py-2 rounded-lg cursor-pointer hover:bg-riad_secondary transition-all duration-200 ease-in-out font-light text-riad_primary">
-                    <Link rel="alternate" hreflang="fr" href="#">
+                    <Link rel="alternate" hreflang="fr" href={`#`}>
                       {"FR"}
                     </Link>
                   </li>
@@ -125,14 +123,14 @@ const Navbar = ({ path, change = false }) => {
             leaveFrom="transform -translate-y-0 opacity-100"
             leaveTo="transform -translate-y-full opacity-0"
           >
-            <div className="fixed top-0 left-0 z-10 w-full h-full lg:h-fit bg-riad_background flex flex-col items-left justify-center gap-4 px-5 mx-auto lg:px-10 py-1">
+            <div className="fixed top-0 left-0 z-10 w-full h-fit lg:h-fit bg-riad_background flex flex-col items-left justify-center gap-4 px-5 mx-auto lg:px-10 py-1">
               <Menu setIsOpen={setIsOpen} path={path} />
               <div className=" px-6 py-5">
                 <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-8">
                   {/* Pure House Medina */}
                   <div className="border-r border-riad_secondary">
                     <h3 className="mb-4 text-riad_primary cursor-pointer ttext-[16px] leading-[28px]">
-                      {"Pure House Medina"}{" "}
+                      {"Pure House Riad Medina"}{" "}
                       <span className="text-[12px]">{"▼"}</span>
                     </h3>
                     <ul className="space-y-2 text-[12px] text-riad_secondary">
@@ -160,6 +158,14 @@ const Navbar = ({ path, change = false }) => {
                           Suites
                         </Link>
                       </li>
+                      <li>
+                        <Link
+                          href="/fr/photoshooting"
+                          className="hover:text-riad_primary transition-all duration-200 ease-in-out"
+                        >
+                          Séance photo
+                        </Link>
+                      </li>
                     </ul>
                   </div>
 
@@ -172,10 +178,26 @@ const Navbar = ({ path, change = false }) => {
                     <ul className="space-y-2 text-[12px] text-riad_secondary">
                       <li>
                         <Link
-                          href="https://www.instagram.com/pure.farmhouse/"
+                          href="purehousecollection.vercel.app/pure-farmhouse"
                           className="hover:text-riad_primary transition-all duration-200 ease-in-out"
                         >
-                          Instagram
+                          Accueil
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          href="https://purehousecollection.vercel.app/pure-farmhouse/contact"
+                          className="hover:text-riad_primary transition-all duration-200 ease-in-out"
+                        >
+                          Contact
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          href="#"
+                          className="hover:text-riad_primary transition-all duration-200 ease-in-out"
+                        >
+                          Photoshooting
                         </Link>
                       </li>
                     </ul>
@@ -190,10 +212,26 @@ const Navbar = ({ path, change = false }) => {
                     <ul className="space-y-2 text-[12px] text-riad_secondary">
                       <li>
                         <Link
-                          href="https://www.instagram.com/pure_house_on_the_lake_/"
+                          href="https://purehousecollection.vercel.app/pure-house-on-the-lake"
                           className="hover:text-riad_primary transition-all duration-200 ease-in-out"
                         >
-                          Instagram
+                          Accueil
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          href="https://purehousecollection.vercel.app/pure-house-on-the-lake/events"
+                          className="hover:text-riad_primary transition-all duration-200 ease-in-out"
+                        >
+                          Événements
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          href="https://purehousecollection.vercel.app/pure-house-on-the-lake/photoshooting/"
+                          className="hover:text-riad_primary transition-all duration-200 ease-in-out"
+                        >
+                          Séance photo
                         </Link>
                       </li>
                     </ul>
@@ -234,8 +272,6 @@ const Navbar = ({ path, change = false }) => {
                   </div>*/}
                 </div>
               </div>
-              <div className="mt-0 w-full h-[1px] bg-riad_secondary mx-auto"></div>
-              <Footer />
             </div>
           </Transition>
         </div>

@@ -6,13 +6,13 @@ const categories = [
   {
     title: "Chambres Standard",
     subtitle: "Le confort et l’élégance en toute simplicité",
-    image: "/riad/standar-room-riad.jpg", // replace with your image path
+    image: "/riad/riad-19.jpg", // replace with your image path
     link: "/fr/standard",
   },
   {
     title: "Chambres Deluxe",
     subtitle: "Savourez le confort raffiné et le luxe moderne",
-    image: "/riad/deluxe-room-riad.jpg",
+    image: "/riad/riad-hero-3.jpg",
     link: "/fr/deluxe",
   },
   {

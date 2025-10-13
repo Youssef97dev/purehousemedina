@@ -230,7 +230,7 @@ const Navbar = ({ path, change = false }) => {
                       </li>
                       <li>
                         <Link
-                          href="#"
+                          href="https://purehousecollection.vercel.app/pure-house-on-the-lake/photoshooting/"
                           className="hover:text-riad_primary transition-all duration-200 ease-in-out"
                         >
                           Photoshooting

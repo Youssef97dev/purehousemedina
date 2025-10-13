@@ -19,11 +19,11 @@ const imagesLarge = [
 
 const imagesSmall = [
   {
-    src: "/riad/riad-7.jpg",
+    src: "/riad/riad-12.jpg",
     class: "object-center",
   },
   {
-    src: "/riad/riad-12.jpg",
+    src: "/riad/riad-7.jpg",
     class: "object-center",
   },
   {

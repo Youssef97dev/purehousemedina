@@ -35,7 +35,7 @@ const Info = () => {
 
         <div className="relative w-full h-[400px] lg:h-[400px] overflow-hidden">
           <Image
-            src="/riad/riad-info.jpg"
+            src="/riad/riad-hero-2.jpg"
             alt="Luxury resort pool"
             fill
             className="object-cover"

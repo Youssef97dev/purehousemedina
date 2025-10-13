@@ -4,10 +4,6 @@ import Image from "next/image";
 
 const imagesLarge = [
   {
-    src: "/riad/riad-hero-1.jpg",
-    class: "object-center",
-  },
-  {
     src: "/riad/riad-hero-2.jpg",
     class: "object-bottom",
   },
@@ -23,20 +19,16 @@ const imagesLarge = [
 
 const imagesSmall = [
   {
-    src: "/riad/riad-hero-mobile-1.jpg",
+    src: "/riad/riad-12.jpg",
     class: "object-center",
   },
   {
-    src: "/riad/riad-hero-mobile-2.jpg",
+    src: "/riad/riad-7.jpg",
     class: "object-center",
   },
   {
-    src: "/riad/riad-hero-mobile-3.jpg",
-    class: "object-center",
-  },
-  {
-    src: "/riad/riad-hero-mobile-4.jpg",
-    class: "object-center",
+    src: "/riad/riad-22.jpg",
+    class: "object-bottom",
   },
 ];
 
