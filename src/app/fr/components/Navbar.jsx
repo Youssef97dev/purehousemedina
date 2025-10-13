@@ -178,7 +178,7 @@ const Navbar = ({ path, change = false }) => {
                     <ul className="space-y-2 text-[12px] text-riad_secondary">
                       <li>
                         <Link
-                          href="purehousecollection.vercel.app/pure-farmhouse"
+                          href="https://purehousecollection.com/fr/pure-farmhouse/"
                           className="hover:text-riad_primary transition-all duration-200 ease-in-out"
                         >
                           Accueil
@@ -186,7 +186,7 @@ const Navbar = ({ path, change = false }) => {
                       </li>
                       <li>
                         <Link
-                          href="https://purehousecollection.vercel.app/pure-farmhouse/contact"
+                          href="https://purehousecollection.com/fr/pure-farmhouse/contact/"
                           className="hover:text-riad_primary transition-all duration-200 ease-in-out"
                         >
                           Contact
@@ -212,7 +212,7 @@ const Navbar = ({ path, change = false }) => {
                     <ul className="space-y-2 text-[12px] text-riad_secondary">
                       <li>
                         <Link
-                          href="https://purehousecollection.vercel.app/pure-house-on-the-lake"
+                          href="https://purehousecollection.com/fr/pure-house-on-the-lake/"
                           className="hover:text-riad_primary transition-all duration-200 ease-in-out"
                         >
                           Accueil
@@ -220,7 +220,7 @@ const Navbar = ({ path, change = false }) => {
                       </li>
                       <li>
                         <Link
-                          href="https://purehousecollection.vercel.app/pure-house-on-the-lake/events"
+                          href="https://purehousecollection.com/fr/pure-house-on-the-lake/events/"
                           className="hover:text-riad_primary transition-all duration-200 ease-in-out"
                         >
                           Événements
@@ -228,7 +228,7 @@ const Navbar = ({ path, change = false }) => {
                       </li>
                       <li>
                         <Link
-                          href="https://purehousecollection.vercel.app/pure-house-on-the-lake/photoshooting/"
+                          href="https://purehousecollection.com/fr/pure-house-on-the-lake/photoshooting"
                           className="hover:text-riad_primary transition-all duration-200 ease-in-out"
                         >
                           Séance photo
