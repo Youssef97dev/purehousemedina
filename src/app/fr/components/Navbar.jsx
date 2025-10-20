@@ -178,7 +178,7 @@ const Navbar = ({ path, change = false }) => {
                     <ul className="space-y-2 text-[12px] text-riad_secondary">
                       <li>
                         <Link
-                          href="https://purehousecollection.com/fr/pure-farmhouse/"
+                          href="https://purefarmhouse.com/fr/"
                           className="hover:text-riad_primary transition-all duration-200 ease-in-out"
                         >
                           Accueil
@@ -186,18 +186,10 @@ const Navbar = ({ path, change = false }) => {
                       </li>
                       <li>
                         <Link
-                          href="https://purehousecollection.com/fr/pure-farmhouse/contact/"
+                          href="https://purefarmhouse.com/fr/contact/"
                           className="hover:text-riad_primary transition-all duration-200 ease-in-out"
                         >
                           Contact
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          href="#"
-                          className="hover:text-riad_primary transition-all duration-200 ease-in-out"
-                        >
-                          Photoshooting
                         </Link>
                       </li>
                     </ul>
@@ -212,7 +204,7 @@ const Navbar = ({ path, change = false }) => {
                     <ul className="space-y-2 text-[12px] text-riad_secondary">
                       <li>
                         <Link
-                          href="https://purehousecollection.com/fr/pure-house-on-the-lake/"
+                          href="https://purehouseonthelake.com/fr/"
                           className="hover:text-riad_primary transition-all duration-200 ease-in-out"
                         >
                           Accueil
@@ -220,7 +212,7 @@ const Navbar = ({ path, change = false }) => {
                       </li>
                       <li>
                         <Link
-                          href="https://purehousecollection.com/fr/pure-house-on-the-lake/events/"
+                          href="https://purehouseonthelake.com/fr/events/"
                           className="hover:text-riad_primary transition-all duration-200 ease-in-out"
                         >
                           Événements
@@ -228,7 +220,7 @@ const Navbar = ({ path, change = false }) => {
                       </li>
                       <li>
                         <Link
-                          href="https://purehousecollection.com/fr/pure-house-on-the-lake/photoshooting"
+                          href="https://purehouseonthelake.com/fr/photoshooting"
                           className="hover:text-riad_primary transition-all duration-200 ease-in-out"
                         >
                           Séance photo
