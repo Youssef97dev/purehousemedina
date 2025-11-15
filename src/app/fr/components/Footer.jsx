@@ -49,10 +49,16 @@ const Footer = ({ path }) => {
 
         {/* Right Section */}
         <div className="flex space-x-4 mt-4 md:mt-0 text-riad_primary">
-          <Link href="#" className="hover:text-riad_secondary">
+          <Link
+            href="https://www.instagram.com/pure_house_marrakech/"
+            className="hover:text-riad_secondary"
+          >
             <FaInstagram />
           </Link>
-          <Link href="#" className="hover:text-riad_secondary">
+          <Link
+            href="https://wa.me/212682225235"
+            className="hover:text-riad_secondary"
+          >
             <FaWhatsapp />
           </Link>
         </div>
