@@ -1,16 +1,16 @@
 import React from "react";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
+import Navbar from "../../components/Navbar";
+import Footer from "../../components/Footer";
 import Intro from "./intro";
 import Gallery from "./Gallery";
 
 const Loader = () => {
   return (
     <div className="relative">
-      <Navbar path="/fr/booking" change={true} />
+      <Navbar path="/booking" change={true} />
       <Intro />
       <Gallery />
-      <Footer path="/fr/booking" />
+      <Footer path="/booking" />
     </div>
   );
 };
