@@ -1,6 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
+import BookDirect from "./BookDirect";
 
 const imagesLarge = [
   {
@@ -34,6 +35,7 @@ const imagesSmall = [
 
 const Hero = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [open, setOpen] = useState(false);
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % imagesLarge.length);
@@ -42,8 +44,17 @@ const Hero = () => {
     return () => clearInterval(interval);
   }, []);
 
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setOpen(true);
+    }, 2000); // show after 2 seconds
+
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <div id="hero" className="relative w-full h-screen">
+      <BookDirect isOpen={open} onClose={() => setOpen(false)} />
       <div className="w-full h-full hidden lg:block">
         {imagesLarge.map((image, index) => (
           <div
