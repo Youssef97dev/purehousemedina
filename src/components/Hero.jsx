@@ -16,19 +16,27 @@ const imagesLarge = [
     src: "/riad/riad-hero-6.jpg",
     class: "object-bottom",
   },
+  {
+    src: "/riad/riad-hall.jpeg",
+    class: "object-bottom",
+  },
 ];
 
 const imagesSmall = [
   {
-    src: "/riad/riad-12.jpg",
+    src: "/riad/riad-hero-small-2.jpeg",
     class: "object-center",
   },
   {
-    src: "/riad/riad-7.jpg",
+    src: "/riad/riad-hero-small-1.jpeg",
     class: "object-center",
   },
   {
-    src: "/riad/riad-22.jpg",
+    src: "/riad/riad-hero-small-3.jpeg",
+    class: "object-bottom",
+  },
+  {
+    src: "/riad/riad-hero-small-4.jpeg",
     class: "object-bottom",
   },
 ];
