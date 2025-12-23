@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
-import Intro from "./intro";
+import Intro from "./Intro";
 import Gallery from "./Gallery";
 
 const Loader = () => {
