@@ -3,12 +3,31 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { IoCloseSharp } from "react-icons/io5";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation } from "swiper/modules";
+
+import "swiper/css";
+import "swiper/css/navigation";
+
+const images = [
+  "/riad/riad-hall.jpeg",
+  "/riad/riad-hero-4.jpg",
+  "/riad/riad-hero-3.jpg",
+  "/riad/riad-hero-5.jpg",
+  "/riad/suite-room-riad.jpg",
+  "/riad/riad-42.jpeg",
+];
 
 const BookDirect = ({ isOpen, onClose }) => {
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 px-4">
+    <div
+      className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 px-4 [&_.swiper-button-next]:text-white
+  [&_.swiper-button-prev]:text-white
+  [&_.swiper-pagination-bullet]:bg-white
+  [&_.swiper-pagination-bullet-active]:bg-red-500 animate-[fadeIn_0.4s_forwards] duration-300"
+    >
       {/* Modal */}
       <div className="relative w-full max-w-md rounded-lg bg-white overflow-hidden shadow-xl">
         {/* Close button */}
@@ -19,28 +38,42 @@ const BookDirect = ({ isOpen, onClose }) => {
           <IoCloseSharp size={25} />
         </button>
 
-        {/* Image */}
-        <div className="relative h-52 w-full">
+        {/* Image 
+        <div className="relative h-56 w-full">
           <Image
-            src="/riad/riad-hall.jpeg" // replace with your image
+            src="/riad/riad-8.jpg" // replace with your image
             alt="Book direct"
             fill
-            className="object-cover object-right"
+            className="object-cover object-[50%,30%]"
           />
-        </div>
+        </div>*/}
+
+        <Swiper modules={[Navigation]} navigation className="rounded-lg">
+          {images.map((src, i) => (
+            <SwiperSlide key={i}>
+              <Image
+                src={src}
+                alt="Book direct"
+                width={500}
+                height={500}
+                className="object-cover h-[35vh] lg:h-[40vh] object-[50%,30%]"
+              />
+            </SwiperSlide>
+          ))}
+        </Swiper>
 
         {/* Content */}
         <div className="p-6 text-center">
-          <h2 className="mb-3 font-serif text-xl text-[#b59a5a]">
+          <h2 className="mb-3 text-xl text-[#b59a5a] font-light">
             Why book direct?
           </h2>
 
-          <p className="mb-5 text-sm text-gray-600 text-left">
+          <p className="mb-5 text-sm text-gray-600 text-left font-winthorpe">
             Book your stay directly through our website and enjoy exclusive
             benefits:
           </p>
 
-          <ul className="mb-6 space-y-3 text-sm text-gray-700">
+          <ul className="mb-6 space-y-3 text-sm text-gray-700 font-winthorpe">
             <li className="flex items-center justify-start gap-2">
               <span className="text-[#b59a5a]">✓</span>
               Best rate guaranteed
@@ -57,9 +90,9 @@ const BookDirect = ({ isOpen, onClose }) => {
 
           <Link
             href="/booking"
-            className="w-full bg-[#b59a5a] py-3 px-10 text-sm font-medium text-white hover:bg-[#a4894f] transition font-tntSport tracking-widest"
+            className="w-full bg-[#b59a5ab7] py-3 px-7 text-sm font-winthorpe text-white hover:bg-[#a4894f] transition tracking-widest"
           >
-            BOOK DIRECT
+            Book Direct
           </Link>
         </div>
       </div>

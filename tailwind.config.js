@@ -15,6 +15,7 @@ module.exports = {
       fontFamily: {
         robotoThin: ["RobotoThin", "sans-serif"],
         tntSport: ["TNTSportsSerif", "serif"],
+        winthorpe: ["Winthorpe", "serif"],
       },
       animation: {
         "slide-left": "slideLeft 2s ease-in-out forwards",
