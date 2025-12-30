@@ -5,38 +5,38 @@ import BookDirect from "./BookDirect";
 
 const imagesLarge = [
   {
-    src: "/riad/riad-hero-2.jpg",
+    src: "https://purehousemedina.vercel.app/riad/riad-hero-2.jpg",
     class: "object-bottom",
   },
   {
-    src: "/riad/riad-hero-3.jpg",
+    src: "https://purehousemedina.vercel.app/riad/riad-hero-3.jpg",
     class: "object-center",
   },
   {
-    src: "/riad/riad-hero-6.jpg",
+    src: "https://purehousemedina.vercel.app/riad/riad-hero-6.jpg",
     class: "object-bottom",
   },
   {
-    src: "/riad/riad-hall.jpeg",
+    src: "https://purehousemedina.vercel.app/riad/riad-hall.jpeg",
     class: "object-bottom",
   },
 ];
 
 const imagesSmall = [
   {
-    src: "/riad/riad-hero-small-2.jpeg",
+    src: "https://purehousemedina.vercel.app/riad/riad-hero-small-2.jpeg",
     class: "object-center",
   },
   {
-    src: "/riad/riad-hero-small-1.jpeg",
+    src: "https://purehousemedina.vercel.app/riad/riad-hero-small-1.jpeg",
     class: "object-center",
   },
   {
-    src: "/riad/riad-hero-small-3.jpeg",
+    src: "https://purehousemedina.vercel.app/riad/riad-hero-small-3.jpeg",
     class: "object-bottom",
   },
   {
-    src: "/riad/riad-hero-small-4.jpeg",
+    src: "https://purehousemedina.vercel.app/riad/riad-hero-small-4.jpeg",
     class: "object-bottom",
   },
 ];

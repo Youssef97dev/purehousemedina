@@ -7,12 +7,12 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 
 const images = [
-  "/riad/riad-hall.jpeg",
-  "/riad/riad-hero-4.jpg",
-  "/riad/riad-hero-3.jpg",
-  "/riad/riad-hero-5.jpg",
-  "/riad/suite-room-riad.jpg",
-  "/riad/riad-42.jpeg",
+  "https://purehousemedina.vercel.app/riad/riad-hall.jpeg",
+  "https://purehousemedina.vercel.app/riad/riad-hero-4.jpg",
+  "https://purehousemedina.vercel.app/riad/riad-hero-3.jpg",
+  "https://purehousemedina.vercel.app/riad/riad-hero-5.jpg",
+  "https://purehousemedina.vercel.app/riad/suite-room-riad.jpg",
+  "https://purehousemedina.vercel.app/riad/riad-42.jpeg",
 ];
 
 const BookDirect = ({ isOpen, onClose }) => {

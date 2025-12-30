@@ -3,33 +3,33 @@ import Image from "next/image";
 
 const GalleryImage = [
   {
-    image: "/riad/guest-4.jpg",
+    image: "https://purehousemedina.vercel.app/riad/guest-4.jpg",
     class: "object-center",
   },
   {
-    image: "/riad/guest-6.jpg",
+    image: "https://purehousemedina.vercel.app/riad/guest-6.jpg",
     class: "object-center",
   },
   {
-    image: "/riad/guest-7.jpg",
+    image: "https://purehousemedina.vercel.app/riad/guest-7.jpg",
     class: "object-center",
   },
   {
-    image: "/riad/guest-8.jpg",
+    image: "https://purehousemedina.vercel.app/riad/guest-8.jpg",
     class: "object-center",
   },
   {
-    image: "/riad/guest-9.jpg",
+    image: "https://purehousemedina.vercel.app/riad/guest-9.jpg",
     class: "object-center",
   },
 ];
 
 const GalleryVideo = [
   {
-    video: "/riad/guest-video-3.mp4",
+    video: "https://purehousemedina.vercel.app/riad/guest-video-3.mp4",
   },
   {
-    video: "/riad/guest-video-2.mp4",
+    video: "https://purehousemedina.vercel.app/riad/guest-video-2.mp4",
   },
 ];
 

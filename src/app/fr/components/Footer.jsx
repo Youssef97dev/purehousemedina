@@ -10,7 +10,7 @@ const Footer = ({ path }) => {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center md:items-center space-y-4 md:space-y-0">
         {/* Left Section */}
         <Image
-          src="/riad/riad-logo-gray.png"
+          src="https://purehousemedina.vercel.app/riad/riad-logo-gray.png"
           alt="logo pure house riad medina"
           width={100}
           height={100}

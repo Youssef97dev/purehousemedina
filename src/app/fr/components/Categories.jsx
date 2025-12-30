@@ -6,19 +6,19 @@ const categories = [
   {
     title: "Chambres Standard",
     subtitle: "Le confort et l’élégance en toute simplicité",
-    image: "/riad/riad-19.jpg", // replace with your image path
+    image: "https://purehousemedina.vercel.app/riad/riad-19.jpg", // replace with your image path
     link: "/fr/standard",
   },
   {
     title: "Chambres Deluxe",
     subtitle: "Savourez le confort raffiné et le luxe moderne",
-    image: "/riad/riad-hero-3.jpg",
+    image: "https://purehousemedina.vercel.app/riad/riad-hero-3.jpg",
     link: "/fr/deluxe",
   },
   {
     title: "Suites",
     subtitle: "Là où le luxe rencontre des expériences inoubliables",
-    image: "/riad/suite-room-riad.jpg",
+    image: "https://purehousemedina.vercel.app/riad/suite-room-riad.jpg",
     link: "/fr/suites",
   },
 ];

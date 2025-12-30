@@ -8,7 +8,7 @@ const About = () => {
         <div className="flex flex-col gap-10 lg:gap-16 order-2 lg:order-1">
           <div className="relative w-full h-[400px] lg:h-[600px] overflow-hidden">
             <Image
-              src="/riad/riad-1.jpg"
+              src="https://purehousemedina.vercel.app/riad/riad-1.jpg"
               alt="Luxury resort pool"
               fill
               className="object-cover"
@@ -20,7 +20,7 @@ const About = () => {
           </h2>
           <div className="relative w-full h-[250px] overflow-hidden shadow-lg block lg:hidden">
             <Image
-              src="/riad/riad-14.jpg"
+              src="https://purehousemedina.vercel.app/riad/riad-14.jpg"
               alt="Resort villa"
               fill
               className="object-cover object-bottom"
@@ -52,7 +52,7 @@ const About = () => {
           {/* Small image */}
           <div className="relative w-full h-full overflow-hidden shadow-lg hidden lg:block">
             <Image
-              src="/riad/about-small.jpg"
+              src="https://purehousemedina.vercel.app/riad/about-small.jpg"
               alt="Resort villa"
               fill
               className="object-cover"

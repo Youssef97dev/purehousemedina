@@ -6,14 +6,14 @@ const categories = [
     title: "Spa & Wellness",
     subtitle:
       "Step into our Moroccan hammam, a time-honored Moroccan steam bath that has been an integral part of the country's culture for centuries. Let the warm, soothing steam envelop you, as it cleanses your body and revitalizes your senses. Our skilled therapists will pamper you with a gentle exfoliation using traditional black soap, followed by a refreshing rinse with pure water.",
-    image: "/riad/spa-and-wellness.png", // replace with your image path
+    image: "https://purehousemedina.vercel.app/riad/spa-and-wellness.png", // replace with your image path
     class: "object-center",
   },
   {
     title: "Dining",
     subtitle:
       "At Pure House Marrakech, guests can savor delicious Moroccan and Mediterranean dishes made with the freshest ingredients, enjoying a leisurely breakfast in the garden or a relaxing dinner on the terrace, where every meal is thoughtfully prepared to delight the senses, create memorable moments, and offer a true taste of Marrakech’s culinary charm.",
-    image: "/riad/riad-6.jpg",
+    image: "https://purehousemedina.vercel.app/riad/riad-6.jpg",
     class: "object-center",
   },
 ];

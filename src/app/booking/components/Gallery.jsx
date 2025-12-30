@@ -3,19 +3,19 @@ import Image from "next/image";
 
 const GalleryImage = [
   {
-    image: "/riad/riad-12.jpg",
+    image: "https://purehousemedina.vercel.app/riad/riad-12.jpg",
     class: "object-bottom",
   },
   {
-    image: "/riad/deluxe-room-riad.jpg",
+    image: "https://purehousemedina.vercel.app/riad/deluxe-room-riad.jpg",
     class: "object-bottom",
   },
   {
-    image: "/riad/suite-room-riad.jpg",
+    image: "https://purehousemedina.vercel.app/riad/suite-room-riad.jpg",
     class: "object-center",
   },
   {
-    image: "/riad/riad-hero-5.jpg",
+    image: "https://purehousemedina.vercel.app/riad/riad-hero-5.jpg",
     class: "object-center",
   },
 ];

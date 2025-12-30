@@ -60,8 +60,8 @@ const Navbar = ({ path, change = false }) => {
               <Image
                 src={
                   scrolled || change
-                    ? "/riad/riad-logo-black.png"
-                    : "/riad/riad-logo-white.png"
+                    ? "https://purehousemedina.vercel.app/riad/riad-logo-black.png"
+                    : "https://purehousemedina.vercel.app/riad/riad-logo-white.png"
                 }
                 width={300}
                 height={300}
