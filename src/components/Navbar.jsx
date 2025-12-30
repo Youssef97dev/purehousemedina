@@ -3,11 +3,9 @@ import { useEffect, useState } from "react";
 import { Transition } from "@headlessui/react";
 import Link from "next/link";
 import Image from "next/image";
-import { IoIosMenu, IoMdClose } from "react-icons/io";
 import { RiArrowDownSLine } from "react-icons/ri";
 import { MdLanguage } from "react-icons/md";
 import Menu from "./Menu";
-import Footer from "./Footer";
 
 const Navbar = ({ path, change = false }) => {
   const [scrolled, setScrolled] = useState(false);

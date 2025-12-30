@@ -2,53 +2,47 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: "RobotoThin";
-  src: url("./fonts/Roboto-Thin.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
+@import "swiper/css";
+@import "swiper/css/navigation";
 
 @font-face {
-  font-family: "TNTSportsSerif";
-  src: url("./fonts/TNTSportsSerif.woff") format("woff");
+  font-family: "NotoSerif";
+  src: url("./fonts/NotoSerif-Regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "NotoSerif";
-  src: url("./fonts/NotoSerif-Regular.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "NotoSerif";
-  src: url("./fonts/NotoSerif-Light.woff") format("woff");
+  src: url("./fonts/NotoSerif-Light.woff2") format("woff2");
   font-weight: 300;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "NotoSerif";
-  src: url("./fonts/NotoSerif-ExtraLight.woff") format("woff");
+  src: url("./fonts/NotoSerif-ExtraLight.woff2") format("woff2");
   font-weight: 200;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "NotoSerif";
-  src: url("./fonts/NotoSerif-Thin.woff") format("woff");
+  src: url("./fonts/NotoSerif-Thin.woff2") format("woff2");
   font-weight: 100;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Winthorpe";
-  src: url("./fonts/Winthorpe.woff") format("woff");
+  src: url("./fonts/Winthorpe.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
+  font-display: swap;
 }
 
 :root {
@@ -63,7 +57,7 @@ html {
 
 body {
   background-color: var(--riad-background);
-  font-family: "NotoSerif", sans-serif;
+  font-family: "NotoSerif", serif;
 }
 
 /* scroll bar */

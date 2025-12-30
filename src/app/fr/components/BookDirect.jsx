@@ -6,9 +6,6 @@ import { IoCloseSharp } from "react-icons/io5";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 
-import "swiper/css";
-import "swiper/css/navigation";
-
 const images = [
   "/riad/riad-hall.jpeg",
   "/riad/riad-hero-4.jpg",

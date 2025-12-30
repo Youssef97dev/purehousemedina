@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Link from "next/link";
 import { IoIosClose } from "react-icons/io";
 import { RiArrowDownSLine } from "react-icons/ri";

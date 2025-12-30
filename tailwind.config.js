@@ -13,8 +13,6 @@ module.exports = {
         riad_secondary: "var(--riad-secondary)",
       },
       fontFamily: {
-        robotoThin: ["RobotoThin", "sans-serif"],
-        tntSport: ["TNTSportsSerif", "serif"],
         winthorpe: ["Winthorpe", "serif"],
       },
       animation: {
