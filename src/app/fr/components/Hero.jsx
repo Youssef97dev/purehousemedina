@@ -24,6 +24,10 @@ const imagesLarge = [
 
 const imagesSmall = [
   {
+    src: "https://purehousemedina.vercel.app/riad/purehousemedina.jpg",
+    class: "object-center",
+  },
+  {
     src: "https://purehousemedina.vercel.app/riad/riad-hero-small-2.jpeg",
     class: "object-center",
   },
