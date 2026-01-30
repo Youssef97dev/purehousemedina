@@ -3,42 +3,62 @@
 
   <url>
     <loc>https://purehousemarrakech.com/</loc>
-    <lastmod>2025-09-30</lastmod>
+    <lastmod>2026-01-30</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://purehousemarrakech.com/deluxe</loc>
-    <lastmod>2025-09-30</lastmod>
+    <lastmod>2026-01-30</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://purehousemarrakech.com/standard</loc>
-    <lastmod>2025-09-30</lastmod>
+    <lastmod>2026-01-30</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://purehousemarrakech.com/suites</loc>
-    <lastmod>2025-09-30</lastmod>
+    <lastmod>2026-01-30</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://purehousemarrakech.com/gallery</loc>
+    <lastmod>2026-01-30</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://purehousemarrakech.com/booking</loc>
+    <lastmod>2026-01-30</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://purehousemarrakech.com/fr</loc>
-    <lastmod>2025-09-30</lastmod>
+    <lastmod>2026-01-30</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://purehousemarrakech.com/fr/deluxe</loc>
-    <lastmod>2025-09-30</lastmod>
+    <lastmod>2026-01-30</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://purehousemarrakech.com/fr/standard</loc>
-    <lastmod>2025-09-30</lastmod>
+    <lastmod>2026-01-30</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://purehousemarrakech.com/fr/suites</loc>
-    <lastmod>2025-09-30</lastmod>
+    <lastmod>2026-01-30</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://purehousemarrakech.com/fr/gallery</loc>
+    <lastmod>2026-01-30</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://purehousemarrakech.com/fr/booking</loc>
+    <lastmod>2026-01-30</lastmod>
     <priority>0.9</priority>
   </url>
 </urlset>

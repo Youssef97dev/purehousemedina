@@ -20,7 +20,7 @@ const Menu = ({ setIsOpen, path }) => {
         <div className="w-full flex justify-center items-center pb-2">
           <Link href="/fr">
             <Image
-              src="https://purehousemedina.vercel.app/riad/riad-logo-black.png"
+              src="/riad/riad-logo-black.png"
               width={300}
               height={300}
               alt="Logo Pure House Medina"

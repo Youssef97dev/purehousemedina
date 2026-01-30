@@ -3,19 +3,23 @@ import Image from "next/image";
 
 const GalleryImage = [
   {
-    image: "https://purehousemedina.vercel.app/riad/riad-12.jpg",
+    image: "/riad-marrakech/marrakech-riad-with-rooftop-terrace.webp",
+    alt: "Modern boutique Riad styling at Pure House Marrakech",
     class: "object-bottom",
   },
   {
-    image: "https://purehousemedina.vercel.app/riad/deluxe-room-riad.jpg",
+    image: "/riad-marrakech/luxury-accommodation-marrakech-center.webp",
+    alt: "Authentic entrance of Pure House Marrakech, a luxury Riad in the Medina",
     class: "object-bottom",
   },
   {
-    image: "https://purehousemedina.vercel.app/riad/suite-room-riad.jpg",
+    image: "/riad-marrakech/pure-house-marrakech-riad-medina.webp",
+    alt: "pure house riad medina marrakech",
     class: "object-center",
   },
   {
-    image: "https://purehousemedina.vercel.app/riad/riad-hero-5.jpg",
+    image: "/riad-marrakech/romantic-riad-for-couples-marrakech.webp",
+    alt: "Fresh flowers and a warm welcome at a Marrakech Riad",
     class: "object-center",
   },
 ];
@@ -30,7 +34,7 @@ const Gallery = () => {
             <div className="relative w-full aspect-square ">
               <Image
                 src={category.image}
-                alt="Gallery Pure House Marrakech, Medina, Marrakech Vibes"
+                alt={category.alt}
                 fill
                 className={`object-cover aspect-square h-full ${category.class}`}
               />

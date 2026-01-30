@@ -5,53 +5,71 @@ import BookDirect from "./BookDirect";
 
 const imagesLarge = [
   {
-    src: "https://purehousemedina.vercel.app/riad/riad-hero-2.jpg",
+    src: "/riad-marrakech/luxury-riad-marrakech.webp",
+    alt: "The charming street view leading to the Riad in the Medina",
     class: "object-bottom",
   },
   {
-    src: "https://purehousemedina.vercel.app/riad/riad-hero-3.jpg",
+    src: "/riad-marrakech/hotels-in-marrakech.webp",
+    alt: "Luxury travel inspiration for a trip to Marrakech, Morocco",
     class: "object-center",
   },
   {
-    src: "https://purehousemedina.vercel.app/riad/riad-hero-6.jpg",
+    src: "/riad-marrakech/top-riad-marrakech.webp",
+    alt: "Private chef dining experience at a luxury Marrakech Riad",
     class: "object-bottom",
   },
   {
-    src: "https://purehousemedina.vercel.app/riad/riad-hall.jpeg",
+    src: "/riad-marrakech/traditional-moroccan-riad-experience.webp",
+    alt: "Beautiful traditional Moroccan lanterns providing warm lighting",
     class: "object-bottom",
   },
 ];
 
 const imagesSmall = [
   {
-    src: "https://purehousemedina.vercel.app/riad/purehousemedina.jpg",
+    src: "/riad-marrakech/riad-marrakech-with-private-chef.webp",
+    alt: "A peaceful courtyard stay in the center of Marrakech",
     class: "object-center",
   },
   {
-    src: "https://purehousemedina.vercel.app/riad/riad-hero-small-2.jpeg",
+    src: "/riad-marrakech/riad-near-koutoubia-mosque.webp",
+    alt: "Stylish and trendy interior of riad Marrakech",
     class: "object-center",
   },
   {
-    src: "https://purehousemedina.vercel.app/riad/riad-hero-small-1.jpeg",
+    src: "/riad-marrakech/accommodation-near-majorelle-garden.webp",
+    alt: "A peaceful and quiet bedroom tucked away in the Medina",
     class: "object-center",
   },
   {
-    src: "https://purehousemedina.vercel.app/riad/riad-hero-small-3.jpeg",
+    src: "/riad-marrakech/boutique-hotel-marrakech.webp",
+    alt: "Pool garden area inside a luxury Marrakech Medina Riad",
     class: "object-bottom",
   },
   {
-    src: "https://purehousemedina.vercel.app/riad/riad-hero-small-4.jpeg",
+    src: "/riad-marrakech/riad-marrakech-medina.webp",
+    alt: "Award-winning luxury guest house in the Marrakech Medina",
     class: "object-bottom",
   },
 ];
 
 const Hero = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [currentIndexSmall, setCurrentIndexSmall] = useState(0);
   const [open, setOpen] = useState(false);
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % imagesLarge.length);
     }, 5000); // Change image every 3000ms
+
+    return () => clearInterval(interval);
+  }, []);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentIndexSmall((prevIndex) => (prevIndex + 1) % imagesSmall.length);
+    }, 4000); // Change image every 3000ms
 
     return () => clearInterval(interval);
   }, []);
@@ -77,7 +95,7 @@ const Hero = () => {
           >
             <Image
               src={image.src}
-              alt={`Image ${index + 1}`}
+              alt={image.alt}
               width={1500}
               height={1500}
               className={`w-full h-full object-cover ${image.class}`}
@@ -91,12 +109,12 @@ const Hero = () => {
           <div
             key={index}
             className={`absolute inset-0 transition-opacity duration-1000 ${
-              index === currentIndex ? "opacity-100" : "opacity-0"
+              index === currentIndexSmall ? "opacity-100" : "opacity-0"
             }`}
           >
             <Image
               src={image.src}
-              alt={`Image ${index + 1}`}
+              alt={image.alt}
               width={1500}
               height={1500}
               className={`w-full h-full object-cover ${image.class}`}

@@ -2,51 +2,26 @@ import React from "react";
 import Loader from "./components/Loader";
 
 export const metadata = {
-  title: {
-    default: "Pure House Riad Medina",
-    template: "%s | Pure House Riad Medina",
-  },
+  title: "Pure House Riad Marrakech | Riad de Luxe & Charme dans la Médina",
   description:
-    "Découvrez le meilleur de Marrakech avec des séjours de luxe dans les plus beaux Riads et hôtels tels que La Mamounia, le Mandarin Oriental, le Fairmont, le Savoy Le Grand Hotel Marrakech ou encore l’Hivernage Hotel & Spa",
+    "Découvrez le Pure House Marrakech, un riad de luxe au cœur de la Médina. Suites de charme, piscine intérieure et terrasse panoramique pour un séjour inoubliable au Maroc.",
   keywords: [
     "Pure House Marrakech",
-    "Riad Guest House",
-    "Riad",
-    "Guest House",
-    "Ryad",
-    "Hotel",
-    "Luxury Riad",
-    "Moroccan Hospitality",
-    "Accommodation",
-    "Marrakech",
-    "Atlas Mountains",
-    "Morocco",
-    "Exquisite Cuisine",
-    "activities in marrakech",
-    "best time to visit marrakech",
-    "weather marrakech morocco",
-    "flights to marrakech",
-    "marrakech hotel booking",
-    "marrakech hotel palmeraie",
+    "Riad de luxe Marrakech Médina",
+    "Hôtel de charme Marrakech avec piscine",
+    "Maison d'hôtes de luxe Marrakech",
+    "Privatisation Riad Marrakech",
+    "Meilleur Riad Marrakech 2026",
   ],
   openGraph: {
-    title: "Pure House Riad Medina",
+    title: "Pure House Marrakech | Riad de Luxe dans la Médina",
     description:
-      "Découvrez le meilleur de Marrakech avec des séjours de luxe dans les plus beaux Riads et hôtels tels que La Mamounia, le Mandarin Oriental, le Fairmont, le Savoy Le Grand Hotel Marrakech ou encore l’Hivernage Hotel & Spa",
+      "Votre oasis privée au cœur de la Ville Ocre. Découvrez nos suites, notre piscine et notre toit-terrasse.",
     url: "https://purehousemarrakech.com/fr",
-    siteName: "Pure House Riad Medina",
-    images: [
-      {
-        url: "https://purehousemarrakech.com/riad/riad-slow-living.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Pure House Riad Medina - Slow living Riad",
-      },
-    ],
+    siteName: "Pure House Riad Marrakech",
     locale: "fr_FR",
     type: "website",
   },
-  metadataBase: new URL("https://purehousemarrakech.com/fr"),
 };
 
 const page = () => {

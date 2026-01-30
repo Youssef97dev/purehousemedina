@@ -7,12 +7,30 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 
 const images = [
-  "https://purehousemedina.vercel.app/riad/riad-hall.jpeg",
-  "https://purehousemedina.vercel.app/riad/riad-hero-4.jpg",
-  "https://purehousemedina.vercel.app/riad/riad-hero-3.jpg",
-  "https://purehousemedina.vercel.app/riad/riad-hero-5.jpg",
-  "https://purehousemedina.vercel.app/riad/suite-room-riad.jpg",
-  "https://purehousemedina.vercel.app/riad/riad-42.jpeg",
+  {
+    src: "/riad-marrakech/traditional-moroccan-riad-experience.webp",
+    alt: "Wellness and relaxation area in a Marrakech Riad",
+  },
+  {
+    src: "/riad-marrakech/riad-near-jemaa-el-fna.webp",
+    alt: "riad near jemaa el fna",
+  },
+  {
+    src: "/riad-marrakech/hotels-in-marrakech.webp",
+    alt: "Quiet space for yoga and meditation in a Marrakech Riad",
+  },
+  {
+    src: "/riad-marrakech/romantic-riad-for-couples-marrakech.webp",
+    alt: "The best luxury Riad stay in Marrakech for 2026",
+  },
+  {
+    src: "/riad-marrakech/pure-house-marrakech-riad-medina.webp",
+    alt: "Entire Riad available for exclusive private rental in Marrakech",
+  },
+  {
+    src: "/riad-marrakech/exclusive-use-riad-marrakech.webp",
+    alt: "Central patio of a traditional Riad with plants and seating",
+  },
 ];
 
 const BookDirect = ({ isOpen, onClose }) => {
@@ -35,22 +53,12 @@ const BookDirect = ({ isOpen, onClose }) => {
           <IoCloseSharp size={25} />
         </button>
 
-        {/* Image 
-        <div className="relative h-52 w-full">
-          <Image
-            src="/riad/riad-48.jpeg" // replace with your image
-            alt="Book direct"
-            fill
-            className="object-cover object-right"
-          />
-        </div>*/}
-
         <Swiper modules={[Navigation]} navigation className="rounded-lg">
           {images.map((src, i) => (
             <SwiperSlide key={i}>
               <Image
-                src={src}
-                alt="Book direct"
+                src={src.src}
+                alt={src.alt}
                 width={500}
                 height={500}
                 className="object-cover h-[35vh] lg:h-[40vh] object-[50%,30%]"

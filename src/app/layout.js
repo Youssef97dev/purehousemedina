@@ -1,50 +1,50 @@
 import "./globals.css";
+import Head from "next/head";
 import { GoogleAnalytics } from "@next/third-parties/google";
 
 export const metadata = {
   title: {
-    default: "Pure House Riad Medina",
-    template: "%s | Pure House Riad Medina",
+    default: "Pure House Riad Marrakech | Luxury Boutique Riad in the Medina",
+    template: "%s | Pure House Riad Marrakech",
   },
   description:
-    "Experience the best of Marrakesh with luxury stays at top Riads and hotels like Mamounia, Mandarin Oriental, Fairmont, Savoy Le Grand Hotel Marrakech, Hivernage Hotel & Spa",
+    "Discover Pure House Marrakech, an authentic luxury Riad in the heart of the Medina. Enjoy our boutique suites, courtyard swimming pool, and rooftop terrace. Book your peaceful oasis in Marrakesh today.",
   keywords: [
+    "Riad Marrakech",
+    "Luxury Riad Marrakech",
+    "Boutique Hotel Marrakech Medina",
     "Pure House Marrakech",
-    "Riad Guest House",
-    "Riad",
-    "Guest House",
-    "Ryad",
-    "Hotel",
-    "Luxury Riad",
-    "Moroccan Hospitality",
-    "Accommodation",
-    "Marrakech",
-    "Atlas Mountains",
-    "Morocco",
-    "Exquisite Cuisine",
-    "activities in marrakech",
-    "best time to visit marrakech",
-    "weather marrakech morocco",
-    "flights to marrakech",
-    "marrakech hotel booking",
-    "marrakech hotel palmeraie",
+    "Riad with swimming pool Marrakech",
+    "Private Riad rental Morocco",
+    "Best Riad in Marrakech Medina",
+    "Marrakech Guest House luxury",
+    "Authentic Moroccan Riad stay",
+    "Exclusive use Riad Marrakech",
+    "Slow living Riad",
   ],
   openGraph: {
-    title: "Pure House Riad Medina",
+    title: "Pure House Riad Marrakech | Luxury Boutique Riad in the Medina",
     description:
-      "Experience the best of Marrakesh with luxury stays at top Riads and hotels like Mamounia, Mandarin Oriental, Fairmont, Savoy Le Grand Hotel Marrakech, Hivernage Hotel & Spa",
+      "Escape to Pure House Marrakech. Experience authentic Moroccan luxury with our boutique suites and serene courtyard pool in the heart of the historic Medina.",
     url: "https://purehousemarrakech.com/",
     siteName: "Pure House Riad Medina",
     images: [
       {
-        url: "https://purehousemarrakech.com/riad/riad-slow-living.jpg",
+        url: "https://purehousemarrakech.com/riad-marrakech/riad-slow-living.webp",
         width: 1200,
         height: 630,
-        alt: "Pure House Riad Medina - Slow living Riad",
+        alt: "Pure House Marrakech - Luxury Courtyard and Pool",
       },
     ],
     locale: "en_US",
     type: "website",
+  },
+  alternates: {
+    canonical: "https://purehousemarrakech.com/",
+    languages: {
+      "en-US": "/",
+      "fr-FR": "/fr",
+    },
   },
   metadataBase: new URL("https://purehousemarrakech.com/"),
 };
@@ -52,6 +52,101 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <Head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Hotel",
+              "@id": "https://purehousemarrakech.com/#hotel",
+              name: "Pure House Riad Marrakech",
+              image:
+                "https://purehousemarrakech.com/riad-marrakech/riad-slow-living.webp",
+              description:
+                "A luxury boutique Riad in the heart of the Marrakech Medina featuring a courtyard pool and rooftop terrace.",
+              address: {
+                "@type": "PostalAddress",
+                streetAddress: "Jamaa El Fna",
+                addressLocality: "Marrakech",
+                postalCode: "40000",
+                addressRegion: "Marrakech-Safi",
+                addressCountry: "MA",
+              },
+              geo: {
+                "@type": "GeoCoordinates",
+                latitude: 31.625688803918774,
+                longitude: -7.986056778459857,
+              },
+              starRating: {
+                "@type": "Rating",
+                ratingValue: "5",
+              },
+              url: "https://purehousemarrakech.com/",
+              touristType: [
+                "Luxury travelers",
+                "Couples",
+                "Wedding travelers",
+                "Adventure travelers",
+                "International tourists",
+              ],
+              availableLanguage: ["English", "French", "Spanish"],
+              telephone: "+212682225235",
+              isAccessibleForFree: false,
+              sameAs: ["https://www.instagram.com/pure_house_marrakech"],
+              amenityFeature: [
+                {
+                  "@type": "LocationFeatureSpecification",
+                  name: "Swimming Pool",
+                  value: "Yes",
+                },
+                {
+                  "@type": "LocationFeatureSpecification",
+                  name: "Free WiFi",
+                  value: "Yes",
+                },
+                {
+                  "@type": "LocationFeatureSpecification",
+                  name: "Rooftop Terrace",
+                  value: "Yes",
+                },
+              ],
+              nearbyAttraction: [
+                {
+                  "@type": "TouristAttraction",
+                  name: "Agafay Desert",
+                },
+                {
+                  "@type": "TouristAttraction",
+                  name: "Lake Takerkoust",
+                },
+                {
+                  "@type": "TouristAttraction",
+                  name: "Marrakech",
+                },
+              ],
+              acceptsReservations: true,
+              openingHoursSpecification: [
+                {
+                  "@type": "OpeningHoursSpecification",
+                  dayOfWeek: [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday",
+                    "Saturday",
+                    "Sunday",
+                  ],
+                  opens: "09:00",
+                  closes: "18:00",
+                },
+              ],
+              hasMap: "https://maps.app.goo.gl/8tuwf921xh2fhjGe8",
+            }),
+          }}
+        />
+      </Head>
       <body>{children}</body>
       <GoogleAnalytics gaId="G-THT4VYHKCK" />
     </html>

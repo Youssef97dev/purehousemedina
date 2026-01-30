@@ -60,8 +60,8 @@ const Navbar = ({ path, change = false }) => {
               <Image
                 src={
                   scrolled || change
-                    ? "https://purehousemedina.vercel.app/riad/riad-logo-black.png"
-                    : "https://purehousemedina.vercel.app/riad/riad-logo-white.png"
+                    ? "/riad/riad-logo-black.png"
+                    : "/riad/riad-logo-white.png"
                 }
                 width={300}
                 height={300}
@@ -164,6 +164,14 @@ const Navbar = ({ path, change = false }) => {
                           className="hover:text-riad_primary transition-all duration-200 ease-in-out"
                         >
                           Photoshooting
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          href="/gallery"
+                          className="hover:text-riad_primary transition-all duration-200 ease-in-out"
+                        >
+                          Gallery
                         </Link>
                       </li>
                     </ul>

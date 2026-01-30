@@ -5,7 +5,7 @@ const Map = () => {
   return (
     <div className="w-full flex justify-center items-center h-full  md:h-fit">
       <Image
-        src="https://purehousemedina.vercel.app/riad/map-pure-house-medina.png"
+        src="/riad/map-pure-house-medina.png"
         alt="map pure house riad"
         width={500}
         height={500}

@@ -6,19 +6,22 @@ const categories = [
   {
     title: "Standard Rooms",
     subtitle: "Comfort and elegance made simple",
-    image: "https://purehousemedina.vercel.app/riad/riad-19.jpg", // replace with your image path
+    image: "/riad-marrakech/best-places-to-stay-in-marrakech.webp", // replace with your image path
+    alt: "A hidden gem luxury Riad located inside the Marrakech Medina walls",
     link: "/standard",
   },
   {
     title: "Deluxe Rooms",
     subtitle: "Indulge in refined comfort and modern luxury",
-    image: "https://purehousemedina.vercel.app/riad/riad-hero-3.jpg",
+    image: "/riad-marrakech/hotels-in-marrakech.webp",
+    alt: "Hand-crafted Moroccan artisan decor inside the Riad",
     link: "/deluxe",
   },
   {
     title: "Suites",
     subtitle: "Where luxury meets unforgettable experiences",
-    image: "https://purehousemedina.vercel.app/riad/suite-room-riad.jpg",
+    image: "/riad-marrakech/pure-house-marrakech-riad-medina.webp",
+    alt: "Experiencing an authentic Moroccan Riad stay in Marrakech",
     link: "/suites",
   },
 ];
@@ -33,7 +36,7 @@ const Categories = () => {
             <div className="relative w-full h-72 md:h-96">
               <Image
                 src={category.image}
-                alt={category.title}
+                alt={category.alt}
                 fill
                 className="object-cover"
               />
