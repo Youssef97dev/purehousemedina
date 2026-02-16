@@ -7,7 +7,7 @@ const ButtonWtsp = () => {
   return (
     <Link href="https://wa.me/212682225235">
       <Image
-        src="https://purehousemedina.vercel.app/whatsapp.png"
+        src="/whatsapp.png"
         alt="whatsapp pure house medina"
         width={100}
         height={100}
