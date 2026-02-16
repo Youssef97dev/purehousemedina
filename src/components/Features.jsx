@@ -3,17 +3,20 @@ import Image from "next/image";
 
 const categories = [
   {
-    title: "Spa & Wellness",
+    title: "Private Spa & Traditional Hammam in Marrakech",
     subtitle:
-      "Step into our Moroccan hammam, a time-honored Moroccan steam bath that has been an integral part of the country's culture for centuries. Let the warm, soothing steam envelop you, as it cleanses your body and revitalizes your senses. Our skilled therapists will pamper you with a gentle exfoliation using traditional black soap, followed by a refreshing rinse with pure water.",
+      "Step into our authentic Moroccan hammam, a serene sanctuary where centuries-old wellness rituals come to life. Let the soothing steam melt away the vibrant energy of the Medina while our expert therapists pamper you. Experience a deep, purifying cleanse with traditional black soap exfoliation, followed by bespoke treatments using pure argan oil. An intimate retreat designed to revitalize your body and calm your mind.",
+    subtitle_2: "",
     image: "/riad-marrakech/marrakech-riad-with-hammam-and-spa.webp", // replace with your image path
     alt: "Lifestyle photography of a luxury stay in Marrakech",
     class: "object-center",
   },
   {
-    title: "Dining",
+    title: "Culinary Excellence: Moroccan & Mediterranean Dining",
     subtitle:
-      "At Pure House Marrakech, guests can savor delicious Moroccan and Mediterranean dishes made with the freshest ingredients, enjoying a leisurely breakfast in the garden or a relaxing dinner on the terrace, where every meal is thoughtfully prepared to delight the senses, create memorable moments, and offer a true taste of Marrakech’s culinary charm.",
+      "Savor the authentic taste of Morocco fused with refined Mediterranean influences. At Pure House Marrakech, every dish is a curated culinary experience crafted from the freshest local market ingredients.",
+    subtitle_2:
+      "Enjoy a lingering, peaceful breakfast in our lush courtyard, or share a romantic, candlelit dinner on the rooftop terrace. Thoughtfully prepared and impeccably served, our dining experience offers a true, private taste of Marrakech’s charm.",
     image: "/riad-marrakech/luxury-stay-in-marrakech-medina.webp",
     alt: "Luxury Riad located walking distance from Jemaa El-Fna square",
     class: "object-center",
@@ -43,6 +46,8 @@ const Features = () => {
               </h3>
               <p className="mt-3 text-[13px] leading-[21px] text-riad_primary md:pr-32 pr-0 text-justify font-light">
                 {category.subtitle}
+                <br />
+                {category.subtitle_2}
               </p>
             </div>
           </div>
