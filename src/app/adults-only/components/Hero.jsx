@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -32,9 +33,12 @@ const Hero = () => {
         <p className="text-lg md:text-xl text-stone-100 font-light tracking-wide mb-10 drop-shadow-md">
           Uninterrupted peace and romance in the heart of the Medina.
         </p>
-        <button className="bg-white text-stone-900 px-8 py-4 uppercase tracking-[0.2em] text-sm hover:bg-stone-100 transition duration-300">
+        <Link
+          href="https://pure-house-marrakech.hotelrunner.com/bv3/search"
+          className="bg-white text-stone-900 px-4 py-3 uppercase tracking-[0.2em] text-sm hover:bg-stone-100 transition duration-300"
+        >
           Check Availability
-        </button>
+        </Link>
       </div>
     </section>
   );
