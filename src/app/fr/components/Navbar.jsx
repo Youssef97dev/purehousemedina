@@ -168,6 +168,14 @@ const Navbar = ({ path, change = false }) => {
                       </li>
                       <li>
                         <Link
+                          href="/fr/adults-only"
+                          className="hover:text-riad_primary transition-all duration-200 ease-in-out"
+                        >
+                          Adults Only
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
                           href="/fr/gallery"
                           className="hover:text-riad_primary transition-all duration-200 ease-in-out"
                         >

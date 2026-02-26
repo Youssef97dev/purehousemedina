@@ -9,14 +9,14 @@ const Hero = () => {
       <div className="absolute inset-0 w-full h-full">
         <Image
           src="/riad-marrakech/romantic-couple-getaway-medina-marrakech.webp"
-          alt="Luxury guest room at Pure House Marrakech featuring traditional Moroccan decor and a serene adults-only atmosphere"
+          alt="Chambre de luxe au Riad Pure House Marrakech avec décoration marocaine traditionnelle et atmosphère paisible réservée aux adultes"
           width={1500}
           height={1500}
           className={`w-full h-full object-cover hidden lg:block object-bottom`}
         />
         <Image
           src="/riad-marrakech/adults-only-luxury-riad-marrakech-pool.webp"
-          alt="Romantic boutique suite in the heart of the Marrakech Medina, designed for ultimate tranquility and comfort"
+          alt="Suite de charme romantique au cœur de la Médina de Marrakech, conçue pour un calme absolu et un confort total"
           width={1500}
           height={1500}
           className={`w-full h-full object-cover block lg:hidden`}
@@ -28,16 +28,16 @@ const Hero = () => {
       {/* Hero Content */}
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto mt-20">
         <h1 className="text-4xl md:text-6xl font-serif text-white mb-6 drop-shadow-lg">
-          An Exclusive Adults-Only Riad in Marrakech
+          Un Riad {"d'Exception"} Exclusivement Réservé aux Adultes à Marrakech
         </h1>
         <p className="text-lg md:text-xl text-stone-100 font-light tracking-wide mb-10 drop-shadow-md">
-          Uninterrupted peace and romance in the heart of the Medina.
+          Paix absolue et romantisme au cœur de la Médina.
         </p>
         <Link
           href="https://pure-house-marrakech.hotelrunner.com/bv3/search"
           className="bg-white text-stone-900 px-4 py-3 uppercase tracking-[0.2em] text-sm hover:bg-stone-100 transition duration-300"
         >
-          Check Availability
+          Vérifier la Disponibilité
         </Link>
       </div>
     </section>

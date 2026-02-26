@@ -1,15 +1,15 @@
 import React from "react";
-import Navbar from "@/components/Navbar";
+import Navbar from "../../components/Navbar";
 import Hero from "./Hero";
 import Intro from "./Intro";
 import Experience from "./Experience";
-import Footer from "@/components/Footer";
+import Footer from "../../components/Footer";
 import ButtonWtsp from "@/components/ButtonWtsp";
 
 const Loader = () => {
   return (
     <div className="relative">
-      <Navbar path={"/fr/adults-only"} />
+      <Navbar path={"/adults-only"} />
       <Hero />
       <Intro />
       <Experience />
