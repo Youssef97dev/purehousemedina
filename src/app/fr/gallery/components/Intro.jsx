@@ -11,8 +11,8 @@ const Intro = () => {
         {"Plongez au cœur de notre sanctuaire visuel et découvrez l'âme du "}
         <strong>Pure House Marrakech</strong>
         {", un "}
-        <strong>riad de luxe confidentiel</strong>
-        situé au centre de la <strong>Médina de Marrakech</strong>
+        <strong>riad de luxe confidentiel</strong> situé au centre de la{" "}
+        <strong>Médina de Marrakech</strong>
         {". Notre galerie illustre l'accord parfait entre "}
         <strong>{"l'architecture marocaine traditionnelle"}</strong> et le
         confort moderne épuré. De notre patio serein avec{" "}
