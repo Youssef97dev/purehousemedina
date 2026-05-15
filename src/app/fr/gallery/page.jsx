@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Intro from "./components/Intro";
-import Gallery from "@/app/gallery/components/Gallery";
+import Gallery from "./components/Gallery";
 
 export const metadata = {
   title: "Galerie Photos | Pure House Marrakech | Riad de Luxe & Charme Médina",

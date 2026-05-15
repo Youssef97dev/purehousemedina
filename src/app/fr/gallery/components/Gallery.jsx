@@ -12,8 +12,8 @@ const Gallery = () => {
             <div className="relative w-full h-[65vh] ">
               <Image
                 src={category.image}
-                alt={category.alt_en}
-                title={category.title_en}
+                alt={category.alt_fr}
+                title={category.title_fr}
                 fill
                 priority={index < 8}
                 sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
