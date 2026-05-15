@@ -1,101 +1,100 @@
 "use client";
+
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { IoCloseSharp } from "react-icons/io5";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
-
-const images = [
-  {
-    src: "/riad-marrakech/traditional-moroccan-riad-experience.webp",
-    alt: "Wellness and relaxation area in a Marrakech Riad",
-  },
-  {
-    src: "/riad-marrakech/riad-near-jemaa-el-fna.webp",
-    alt: "riad near jemaa el fna",
-  },
-  {
-    src: "/riad-marrakech/hotels-in-marrakech.webp",
-    alt: "Quiet space for yoga and meditation in a Marrakech Riad",
-  },
-  {
-    src: "/riad-marrakech/romantic-riad-for-couples-marrakech.webp",
-    alt: "The best luxury Riad stay in Marrakech for 2026",
-  },
-  {
-    src: "/riad-marrakech/pure-house-marrakech-riad-medina.webp",
-    alt: "Entire Riad available for exclusive private rental in Marrakech",
-  },
-  {
-    src: "/riad-marrakech/exclusive-use-riad-marrakech.webp",
-    alt: "Central patio of a traditional Riad with plants and seating",
-  },
-];
+import { HomeBookDirect } from "@/data/imageData";
 
 const BookDirect = ({ isOpen, onClose }) => {
   if (!isOpen) return null;
 
   return (
     <div
-      className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 px-4 [&_.swiper-button-next]:text-white
-  [&_.swiper-button-prev]:text-white
-  [&_.swiper-pagination-bullet]:bg-white
-  [&_.swiper-pagination-bullet-active]:bg-red-500 animate-[fadeIn_0.4s_forwards] duration-300"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="modal-title"
+      onClick={onClose} // Close modal when clicking the backdrop
+      className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 px-4 
+        [&_.swiper-button-next]:text-white [&_.swiper-button-prev]:text-white 
+        [&_.swiper-pagination-bullet]:bg-white [&_.swiper-pagination-bullet-active]:bg-red-500 
+        animate-[fadeIn_0.4s_forwards] duration-300"
     >
-      {/* Modal */}
-      <div className="relative w-full max-w-md rounded-lg bg-white overflow-hidden shadow-xl">
+      {/* Modal Container */}
+      <div
+        onClick={(e) => e.stopPropagation()} // Prevent clicks inside the modal from closing it
+        className="relative w-full max-w-md rounded-lg bg-white overflow-hidden shadow-xl"
+      >
         {/* Close button */}
         <button
           onClick={onClose}
-          className="absolute right-3 top-3 z-10 rounded-full  text-white"
+          aria-label="Close dialog"
+          className="absolute right-3 top-3 z-20 flex h-8 w-8 items-center justify-center rounded-full bg-black/30 text-white transition hover:bg-black/50"
         >
-          <IoCloseSharp size={25} />
+          <IoCloseSharp size={20} />
         </button>
 
-        <Swiper modules={[Navigation]} navigation className="rounded-lg">
-          {images.map((src, i) => (
-            <SwiperSlide key={i}>
-              <Image
-                src={src.src}
-                alt={src.alt}
-                width={500}
-                height={500}
-                className="object-cover h-[35vh] lg:h-[40vh] object-[50%,30%]"
-              />
+        {/* Image Carousel */}
+        <Swiper modules={[Navigation]} navigation className="w-full">
+          {HomeBookDirect.map((image, index) => (
+            <SwiperSlide key={image.src}>
+              <div className="relative w-full h-[35vh] lg:h-[40vh]">
+                <Image
+                  src={image.src}
+                  alt={image.fr.alt}
+                  title={image.fr.title}
+                  fill
+                  sizes="(max-width: 768px) 100vw, 500px"
+                  priority={index === 0} // CRITICAL: Only preloads the first slide for speed
+                  className={`object-cover object-[50%,30%] ${
+                    image.class || ""
+                  }`}
+                />
+              </div>
             </SwiperSlide>
           ))}
         </Swiper>
 
         {/* Content */}
         <div className="p-6 text-center">
-          <h2 className="mb-3 font-serif text-xl text-[#b59a5a] font-light">
-            {`Pourquoi réserver en direct ?`}
+          <h2
+            id="modal-title"
+            className="mb-3 text-xl text-[#b59a5a] font-light"
+          >
+            Pourquoi réserver en direct ?
           </h2>
 
           <p className="mb-5 text-sm text-gray-600 text-left font-winthorpe">
-            {`Réservez votre séjour directement sur notre site web et profitez
-            d’avantages exclusifs :`}
+            Réservez votre séjour directement sur notre site web et profitez
+            {"d’avantages"} exclusifs :
           </p>
 
           <ul className="mb-6 space-y-3 text-sm text-gray-700 font-winthorpe">
             <li className="flex items-center justify-start gap-2">
-              <span className="text-[#b59a5a]">✓</span>
+              <span className="text-[#b59a5a]" aria-hidden="true">
+                ✓
+              </span>
               Meilleur tarif garanti
             </li>
             <li className="flex items-center justify-start gap-2">
-              <span className="text-[#b59a5a]">✓</span>
+              <span className="text-[#b59a5a]" aria-hidden="true">
+                ✓
+              </span>
               Offres et avantages exclusifs
             </li>
             <li className="flex items-center justify-start gap-2">
-              <span className="text-[#b59a5a]">✓</span>
+              <span className="text-[#b59a5a]" aria-hidden="true">
+                ✓
+              </span>
               Service prioritaire et personnalisé
             </li>
           </ul>
 
           <Link
             href="/fr/booking"
-            className="w-full bg-[#b59a5a] py-3 px-10 text-sm font-winthorpe text-white hover:bg-[#a4894f] transition tracking-widest"
+            className="inline-block w-full bg-[#b59a5ab7] py-3 px-7 text-sm font-winthorpe text-white hover:bg-[#a4894f] transition tracking-widest"
           >
             Réservation directe
           </Link>
