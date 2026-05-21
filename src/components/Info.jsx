@@ -34,7 +34,7 @@ const Info = () => {
 
         <div className="relative w-full h-[400px] lg:h-[400px] overflow-hidden">
           <Image
-            src="/riad-marrakech/luxury-riad-marrakech.webp"
+            src="/images/luxury-riad-marrakech.webp"
             alt="Friendly concierge service at Pure House Marrakech"
             fill
             className="object-cover"

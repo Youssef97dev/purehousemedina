@@ -29,7 +29,7 @@ const Intro = () => {
         {/* Image Right */}
         <div className="w-full md:w-1/2 h-[500px]">
           <Image
-            src="/riad-marrakech/peaceful-rooftop-terrace-pure-house-marrakech.webp"
+            src="/images/peaceful-rooftop-terrace-pure-house-marrakech.webp"
             alt="Sun-drenched peaceful rooftop terrace offering a quiet escape at Pure House Marrakech"
             width={1500}
             height={1500}

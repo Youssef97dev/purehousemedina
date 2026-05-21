@@ -6,14 +6,14 @@ const categories = [
     title: "Spa & Bien-être",
     subtitle:
       "Entrez dans notre hammam marocain, un bain de vapeur ancestral qui fait partie intégrante de la culture du pays depuis des siècles. Laissez la chaleur apaisante de la vapeur vous envelopper, purifier votre corps et revitaliser vos sens. Nos thérapeutes expérimentés vous offriront un gommage doux au savon noir traditionnel, suivi d’un rinçage rafraîchissant à l’eau pure.",
-    image: "/riad-marrakech/marrakech-riad-with-hammam-and-spa.webp", // replace with your image path
+    image: "/images/marrakech-riad-with-hammam-and-spa.webp", // replace with your image path
     alt: "Lifestyle photography of a luxury stay in Marrakech",
   },
   {
     title: "Restauration",
     subtitle:
       "Au Pure House Marrakech, les hôtes peuvent savourer de délicieux plats marocains et méditerranéens préparés avec des ingrédients frais. Profitez d’un petit-déjeuner paisible dans le jardin ou d’un dîner relaxant sur la terrasse, où chaque repas est soigneusement conçu pour éveiller vos sens, créer des instants mémorables et offrir un véritable aperçu du charme culinaire de Marrakech.",
-    image: "/riad-marrakech/luxury-stay-in-marrakech-medina.webp",
+    image: "/images/luxury-stay-in-marrakech-medina.webp",
     alt: "Luxury Riad located walking distance from Jemaa El-Fna square",
   },
 ];

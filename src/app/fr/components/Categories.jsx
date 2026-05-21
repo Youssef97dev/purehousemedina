@@ -6,21 +6,21 @@ const categories = [
   {
     title: "Chambres Standard",
     subtitle: "Le confort et l’élégance en toute simplicité",
-    image: "/riad-marrakech/best-places-to-stay-in-marrakech.webp", // replace with your image path
+    image: "/images/best-places-to-stay-in-marrakech.webp", // replace with your image path
     alt: "A hidden gem luxury Riad located inside the Marrakech Medina walls",
     link: "/fr/standard",
   },
   {
     title: "Chambres Deluxe",
     subtitle: "Savourez le confort raffiné et le luxe moderne",
-    image: "/riad-marrakech/hotels-in-marrakech.webp",
+    image: "/images/hotels-in-marrakech.webp",
     alt: "Hand-crafted Moroccan artisan decor inside the Riad",
     link: "/fr/deluxe",
   },
   {
     title: "Suites",
     subtitle: "Là où le luxe rencontre des expériences inoubliables",
-    image: "/riad-marrakech/pure-house-marrakech-riad-medina.webp",
+    image: "/images/pure-house-marrakech-riad-medina.webp",
     alt: "Experiencing an authentic Moroccan Riad stay in Marrakech",
     link: "/fr/suites",
   },

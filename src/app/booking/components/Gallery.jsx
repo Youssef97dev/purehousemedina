@@ -3,22 +3,22 @@ import Image from "next/image";
 
 const GalleryImage = [
   {
-    image: "/riad-marrakech/luxury-riad-marrakech-interior-patio.webp",
+    image: "/images/luxury-riad-marrakech-interior-patio.webp",
     alt: "Elegant interior courtyard and patio of Pure House Marrakech riad",
     class: "object-center",
   },
   {
-    image: "/riad-marrakech/boutique-room-medina-marrakech-riad.webp",
+    image: "/images/boutique-room-medina-marrakech-riad.webp",
     alt: "High-end luxury bedroom suite with traditional Moroccan design at Pure House",
     class: "object-center",
   },
   {
-    image: "/riad-marrakech/pure-house-marrakech-yoga-pool-space.webp",
+    image: "/images/pure-house-marrakech-yoga-pool-space.webp",
     alt: "Rooftop terrace with swimming pool and lounge area at Pure House Marrakech",
     class: "object-center",
   },
   {
-    image: "/riad-marrakech/romantic-riad-for-couples-marrakech.webp",
+    image: "/images/romantic-riad-for-couples-marrakech.webp",
     alt: "Fresh flowers and a warm welcome at a Marrakech Riad",
     class: "object-center",
   },

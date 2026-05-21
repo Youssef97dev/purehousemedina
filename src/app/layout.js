@@ -30,7 +30,7 @@ export const metadata = {
     siteName: "Pure House Riad Medina",
     images: [
       {
-        url: "https://purehousemarrakech.com/riad-marrakech/riad-slow-living.webp",
+        url: "https://purehousemarrakech.com/images/riad-slow-living.webp",
         width: 1200,
         height: 630,
         alt: "Pure House Marrakech - Luxury Courtyard and Pool",
@@ -62,7 +62,7 @@ export default function RootLayout({ children }) {
               "@id": "https://purehousemarrakech.com/#hotel",
               name: "Pure House Riad Marrakech",
               image:
-                "https://purehousemarrakech.com/riad-marrakech/riad-slow-living.webp",
+                "https://purehousemarrakech.com/images/riad-slow-living.webp",
               description:
                 "A luxury boutique Riad in the heart of the Marrakech Medina featuring a courtyard pool and rooftop terrace.",
               address: {

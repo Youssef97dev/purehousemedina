@@ -8,14 +8,14 @@ const Hero = () => {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 w-full h-full">
         <Image
-          src="/riad-marrakech/romantic-couple-getaway-medina-marrakech.webp"
+          src="/images/romantic-couple-getaway-medina-marrakech.webp"
           alt="Chambre de luxe au Riad Pure House Marrakech avec décoration marocaine traditionnelle et atmosphère paisible réservée aux adultes"
           width={1500}
           height={1500}
           className={`w-full h-full object-cover hidden lg:block object-bottom`}
         />
         <Image
-          src="/riad-marrakech/adults-only-luxury-riad-marrakech-pool.webp"
+          src="/images/adults-only-luxury-riad-marrakech-pool.webp"
           alt="Suite de charme romantique au cœur de la Médina de Marrakech, conçue pour un calme absolu et un confort total"
           width={1500}
           height={1500}

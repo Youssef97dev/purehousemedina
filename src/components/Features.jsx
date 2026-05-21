@@ -7,7 +7,7 @@ const categories = [
     subtitle:
       "Step into our authentic Moroccan hammam, a serene sanctuary where centuries-old wellness rituals come to life. Let the soothing steam melt away the vibrant energy of the Medina while our expert therapists pamper you. Experience a deep, purifying cleanse with traditional black soap exfoliation, followed by bespoke treatments using pure argan oil. An intimate retreat designed to revitalize your body and calm your mind.",
     subtitle_2: "",
-    image: "/riad-marrakech/marrakech-riad-with-hammam-and-spa.webp", // replace with your image path
+    image: "/images/marrakech-riad-with-hammam-and-spa.webp", // replace with your image path
     alt: "Lifestyle photography of a luxury stay in Marrakech",
     class: "object-center",
   },
@@ -17,7 +17,7 @@ const categories = [
       "Savor the authentic taste of Morocco fused with refined Mediterranean influences. At Pure House Marrakech, every dish is a curated culinary experience crafted from the freshest local market ingredients.",
     subtitle_2:
       "Enjoy a lingering, peaceful breakfast in our lush courtyard, or share a romantic, candlelit dinner on the rooftop terrace. Thoughtfully prepared and impeccably served, our dining experience offers a true, private taste of Marrakech’s charm.",
-    image: "/riad-marrakech/luxury-stay-in-marrakech-medina.webp",
+    image: "/images/luxury-stay-in-marrakech-medina.webp",
     alt: "Luxury Riad located walking distance from Jemaa El-Fna square",
     class: "object-center",
   },

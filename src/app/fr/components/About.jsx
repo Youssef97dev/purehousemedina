@@ -8,7 +8,7 @@ const About = () => {
         <div className="flex flex-col gap-10 lg:gap-16 order-2 lg:order-1">
           <div className="relative w-full h-[400px] lg:h-[600px] overflow-hidden">
             <Image
-              src="/riad-marrakech/riad-in-marrakech.webp"
+              src="/images/riad-in-marrakech.webp"
               alt="Experiencing an authentic Moroccan Riad stay in Marrakech"
               fill
               className="object-cover"
@@ -20,7 +20,7 @@ const About = () => {
           </h2>
           <div className="relative w-full h-[250px] overflow-hidden shadow-lg block lg:hidden">
             <Image
-              src="/riad-marrakech/family-friendly-riad-marrakech.webp"
+              src="/images/family-friendly-riad-marrakech.webp"
               alt="Resort villa"
               fill
               className="object-cover"
@@ -47,7 +47,7 @@ const About = () => {
           {/* Small image */}
           <div className="relative w-full h-full overflow-hidden shadow-lg hidden lg:block">
             <Image
-              src="/riad-marrakech/private-riad-marrakech-with-pool.webp"
+              src="/images/private-riad-marrakech-with-pool.webp"
               alt="View of the courtyard pool from the balcony of a Marrakech hotel"
               fill
               className="object-cover"
