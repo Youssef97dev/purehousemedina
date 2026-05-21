@@ -55,16 +55,6 @@ export const GalleryImage = [
     class: "object-center",
   },
   {
-    image: "/riad-marrakech/marrakech-riad-with-rooftop-pool-pure-house.webp",
-    alt_en:
-      "Sun-drenched rooftop plunge pool with sun loungers overlooking the historic Marrakech Medina at Pure House hotel",
-    alt_fr:
-      "Petit bassin baigné de soleil sur le toit avec des chaises longues surplombant la médina historique de Marrakech à l'hôtel Pure House",
-    title_en: "Luxury Riad with Rooftop Pool in Marrakech",
-    title_fr: "Riad de Luxe avec Piscine sur le Toit à Marrakech",
-    class: "object-center",
-  },
-  {
     image: "/riad-marrakech/quiet-oasis-marrakech-center-reading-nook.webp",
     alt_en:
       "A comfortable reading nook with plush cushions and Moroccan textiles tucked away in a quiet corner of a boutique riad",
@@ -72,18 +62,6 @@ export const GalleryImage = [
       "Un coin lecture confortable avec des coussins moelleux et des textiles marocains niché dans un coin tranquille d'un riad boutique",
     title_en: "Peaceful Reading Corner in Boutique Hotel Marrakech",
     title_fr: "Coin Lecture Paisible dans un Boutique-Hôtel à Marrakech",
-    class: "object-center",
-  },
-  {
-    image:
-      "/riad-marrakech/romantic-honeymoon-suite-boutique-hotel-marrakech.webp",
-    alt_en:
-      "Romantic luxury suite with traditional Moroccan decor and canopy bed at Pure House boutique hotel in Marrakech",
-    alt_fr:
-      "Suite de luxe romantique avec décoration marocaine traditionnelle et lit à baldaquin au boutique-hôtel Pure House à Marrakech",
-    title_en: "Romantic Honeymoon Suite in Marrakech Boutique Hotel",
-    title_fr:
-      "Suite Romantique pour Lune de Miel dans un Boutique-Hôtel à Marrakech",
     class: "object-center",
   },
   {
@@ -493,7 +471,7 @@ export const HeroImagesMobile = [
     },
   },
   {
-    src: "/riad-marrakech/accommodation-near-majorelle-garden.webp",
+    src: "/riad-marrakech/best-places-to-stay-in-marrakech.webp",
     class: "object-center",
     en: {
       alt: "Elegant boutique hotel accommodation offering a serene adults-only getaway near the beautiful Majorelle Garden in Marrakech.",

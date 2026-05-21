@@ -50,21 +50,9 @@ const sitePages = [
         title: "Luxury Riad Marrakech with Private Pool - Pure House Medina",
       },
       {
-        image:
-          "/riad-marrakech/marrakech-riad-with-rooftop-pool-pure-house.webp",
-        alt: "Sun-drenched rooftop plunge pool with sun loungers overlooking the historic Marrakech Medina at Pure House hotel",
-        title: "Luxury Riad with Rooftop Pool in Marrakech",
-      },
-      {
         image: "/riad-marrakech/quiet-oasis-marrakech-center-reading-nook.webp",
         alt: "A comfortable reading nook with plush cushions and Moroccan textiles tucked away in a quiet corner of a boutique riad",
         title: "Peaceful Reading Corner in Boutique Hotel Marrakech",
-      },
-      {
-        image:
-          "/riad-marrakech/romantic-honeymoon-suite-boutique-hotel-marrakech.webp",
-        alt: "Romantic luxury suite with traditional Moroccan decor and canopy bed at Pure House boutique hotel in Marrakech",
-        title: "Romantic Honeymoon Suite in Marrakech Boutique Hotel",
       },
       {
         image:
@@ -274,11 +262,6 @@ const sitePages = [
         title: "Adults-Only Riad Near Koutoubia Mosque Marrakech",
       },
       {
-        image: "/riad-marrakech/accommodation-near-majorelle-garden.webp",
-        alt: "Elegant boutique hotel accommodation offering a serene adults-only getaway near the beautiful Majorelle Garden in Marrakech.",
-        title: "Luxury Accommodation Near Majorelle Garden Marrakech",
-      },
-      {
         image: "/riad-marrakech/boutique-hotel-marrakech.webp",
         alt: "Stunning architecture and relaxing atmosphere at Pure House, a premier luxury boutique hotel for couples in Marrakech.",
         title: "Luxury Boutique Hotel in Marrakech - Pure House",
@@ -368,22 +351,9 @@ const sitePages = [
         title: "Riad de Luxe Marrakech avec Piscine Privée - Pure House Medina",
       },
       {
-        image:
-          "/riad-marrakech/marrakech-riad-with-rooftop-pool-pure-house.webp",
-        alt: "Petit bassin baigné de soleil sur le toit avec des chaises longues surplombant la médina historique de Marrakech à l'hôtel Pure House",
-        title: "Riad de Luxe avec Piscine sur le Toit à Marrakech",
-      },
-      {
         image: "/riad-marrakech/quiet-oasis-marrakech-center-reading-nook.webp",
         alt: "Un coin lecture confortable avec des coussins moelleux et des textiles marocains niché dans un coin tranquille d'un riad boutique",
         title: "Coin Lecture Paisible dans un Boutique-Hôtel à Marrakech",
-      },
-      {
-        image:
-          "/riad-marrakech/romantic-honeymoon-suite-boutique-hotel-marrakech.webp",
-        alt: "Suite de luxe romantique avec décoration marocaine traditionnelle et lit à baldaquin au boutique-hôtel Pure House à Marrakech",
-        title:
-          "Suite Romantique pour Lune de Miel dans un Boutique-Hôtel à Marrakech",
       },
       {
         image:
@@ -598,11 +568,6 @@ const sitePages = [
         image: "/riad-marrakech/riad-near-koutoubia-mosque.webp",
         alt: "Riad de luxe paisible et romantique idéalement situé près de l'emblématique mosquée Koutoubia au cœur de Marrakech.",
         title: "Riad pour Adultes Près de la Mosquée Koutoubia à Marrakech",
-      },
-      {
-        image: "/riad-marrakech/accommodation-near-majorelle-garden.webp",
-        alt: "Hébergement de charme élégant offrant une escapade sereine réservée aux adultes près du magnifique Jardin Majorelle à Marrakech.",
-        title: "Hébergement de Luxe Près du Jardin Majorelle à Marrakech",
       },
       {
         image: "/riad-marrakech/boutique-hotel-marrakech.webp",
