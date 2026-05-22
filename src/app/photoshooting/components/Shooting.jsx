@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-async function getImages() {
+async function getImageShooting() {
   const res = await fetch(
     "https://purehousemarrakech.com/api/gallery.php?type=shooting",
     {
@@ -14,7 +14,11 @@ async function getImages() {
   );
 
   if (!res.ok) {
-    throw new Error("Failed to fetch images");
+    const errorText = await res.text();
+    console.error("❌ SERVER REJECTED THE REQUEST");
+    console.error("Status:", res.status, res.statusText);
+    console.error("Response Body:", errorText.substring(0, 500)); // Print first 500 chars of the block page
+    throw new Error(`Failed to fetch images: ${res.status}`);
   }
 
   return res.json();
@@ -30,7 +34,7 @@ const GalleryVideo = [
 ];
 
 const Shooting = async () => {
-  const data = await getImages();
+  const data = await getImageShooting();
 
   const jsonLd = {
     "@context": "https://schema.org",

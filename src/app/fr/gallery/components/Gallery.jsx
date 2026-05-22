@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-async function getImages() {
+async function getImageGallery() {
   const res = await fetch(
     "https://purehousemarrakech.com/api/gallery.php?type=gallery",
     {
@@ -21,7 +21,7 @@ async function getImages() {
 }
 
 export default async function Gallery() {
-  const data = await getImages();
+  const data = await getImageGallery();
 
   const jsonLd = {
     "@context": "https://schema.org",

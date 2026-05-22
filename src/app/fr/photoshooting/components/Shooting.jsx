@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-async function getImages() {
+async function getImageShooting() {
   const res = await fetch(
     "https://purehousemarrakech.com/api/gallery.php?type=shooting",
     {
@@ -30,7 +30,7 @@ const GalleryVideo = [
 ];
 
 const Shooting = async () => {
-  const data = await getImages();
+  const data = await getImageShooting();
 
   const jsonLd = {
     "@context": "https://schema.org",
