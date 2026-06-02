@@ -18,7 +18,7 @@ const DOMAIN = "https://purehousemarrakech.com";
 const sitePages = [
   // --- ENGLISH PAGES ---
   {
-    pageUrl: "/gallery",
+    pageUrl: "/gallery/",
     lastmod: "2026-06-02",
     priority: "1.0",
     images: [
@@ -282,7 +282,7 @@ const sitePages = [
     ],
   },
   {
-    pageUrl: "/shooting",
+    pageUrl: "/shooting/",
     lastmod: "2026-06-02",
     priority: "0.9",
     images: [
