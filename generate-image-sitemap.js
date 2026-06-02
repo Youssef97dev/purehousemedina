@@ -19,8 +19,50 @@ const sitePages = [
   // --- ENGLISH PAGES ---
   {
     pageUrl: "/gallery",
-    priority: "0.9",
+    lastmod: "2026-06-02",
+    priority: "1.0",
     images: [
+      {
+        image: "/images/romantic-dining-pure-house-riad-marrakech.webp",
+        alt: "Romantic dining table setup offering authentic Moroccan cuisine at Pure House, a luxury adults-only riad in the Marrakech Medina",
+        title: "Authentic Moroccan Dining at Pure House Marrakech",
+      },
+      {
+        image: "/images/luxury-adults-only-suite-marrakech-riad.webp",
+        alt: "Elegant luxury suite with traditional Moroccan decor and premium bedding at Pure House, the premier adults-only boutique hotel in Marrakech",
+        title: "Luxury Adults-Only Suite in Marrakech Medina",
+      },
+      {
+        image: "/images/rooftop-terrace-lounge-riad-marrakech.webp",
+        alt: "Peaceful rooftop terrace lounge with comfortable seating at Pure House, offering a quiet, sun-drenched escape in the heart of Marrakech",
+        title: "Relaxing Rooftop Terrace at Pure House Marrakech",
+      },
+      {
+        image: "/images/courtyard-plunge-pool-pure-house-marrakech.webp",
+        alt: "Guest relaxing by the tranquil courtyard plunge pool at Pure House, an exclusive adults-only luxury riad offering a peaceful oasis in Morocco",
+        title: "Tranquil Courtyard Pool Oasis in Marrakech",
+      },
+      {
+        image: "/images/moroccan-interior-design-boutique-hotel-marrakech.webp",
+        alt: "Beautifully decorated seating area highlighting traditional Moroccan craftsmanship, wabi-sabi design, and luxury comfort in a Marrakech riad",
+        title: "Traditional Moroccan Interior Design at Pure House",
+      },
+      {
+        image: "/images/peaceful-lounge-adults-only-riad-marrakech.webp",
+        alt: "Cozy and peaceful lounge chair surrounded by authentic Moroccan decor, perfect for quiet relaxation in our child-free boutique hotel",
+        title: "Peaceful Lounge Area in Marrakech Boutique Hotel",
+      },
+      {
+        image:
+          "/images/traditional-carved-doors-riad-marrakech-pure-house.webp",
+        alt: "Intricately carved traditional Moroccan wooden doors leading to a private luxury guest suite at Pure House Marrakech",
+        title: "Traditional Carved Wooden Doors in Marrakech Riad",
+      },
+      {
+        image: "/images/aerial-view-luxury-riad-marrakech-medina.webp",
+        alt: "Aerial view of Pure House Marrakech, showcasing the stunning traditional architecture and hidden courtyard of our luxury adults-only riad",
+        title: "Aerial View of Pure House Riad in Marrakech",
+      },
       {
         image: "/images/tadelakt-bathroom-luxury-riad-marrakech.webp",
         alt: "Minimalist tadelakt bathroom with a copper soaking tub inside a luxury riad suite in Marrakech",
@@ -241,6 +283,7 @@ const sitePages = [
   },
   {
     pageUrl: "/shooting",
+    lastmod: "2026-06-02",
     priority: "0.9",
     images: [
       {
@@ -272,7 +315,8 @@ const sitePages = [
   },
   {
     pageUrl: "/",
-    priority: "1.0",
+    lastmod: "2026-06-02",
+    priority: "0.9",
     images: [
       {
         image: "/images/riad-marrakech-with-private-chef.webp",
