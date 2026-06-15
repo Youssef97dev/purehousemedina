@@ -1,24 +1,5 @@
 import Image from "next/image";
-
-async function getImageShooting() {
-  const res = await fetch(
-    "https://purehousemarrakech.com/api/gallery.php?type=shooting",
-    {
-      next: { revalidate: 86400 }, // 24h cache
-      headers: {
-        "User-Agent":
-          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        Accept: "application/json",
-      },
-    }
-  );
-
-  if (!res.ok) {
-    throw new Error("Failed to fetch images");
-  }
-
-  return res.json();
-}
+import shooting from "@/data/shooting.json";
 
 const GalleryVideo = [
   {
@@ -29,9 +10,7 @@ const GalleryVideo = [
   },
 ];
 
-const Shooting = async () => {
-  const data = await getImageShooting();
-
+const Shooting = () => {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "ImageGallery",
@@ -39,7 +18,7 @@ const Shooting = async () => {
     description:
       "Découvrez l'élégance et l'atmosphère exclusive du Pure House Marrakech à travers une série de photographies lifestyle. Cette collection met en scène des personnes profitant des espaces luxueux de notre riad réservé aux adultes.",
     // Si votre 'fetch' renvoie directement le tableau (comme vu précédemment) :
-    image: data.map((img) => img.src),
+    image: shooting.map((img) => img.src),
     // Ou si votre donnée est encore imbriquée : data.shooting.map((img) => img.src)
   };
   return (
@@ -51,7 +30,7 @@ const Shooting = async () => {
         }}
       />
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4  gap-5">
-        {data.map((image, index) => (
+        {shooting.map((image, index) => (
           <figure key={image.src}>
             <Image
               src={image.src}
@@ -59,9 +38,9 @@ const Shooting = async () => {
               title={image.title.fr}
               width={900}
               height={1200}
-              priority={index < 8}
+              priority={index < 4}
               quality={75}
-              loading={index < 8 ? "eager" : "lazy"}
+              loading={index < 4 ? "eager" : "lazy"}
               sizes="
                         (max-width: 768px) 100vw,
                         (max-width: 1024px) 33vw,

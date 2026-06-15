@@ -1,35 +1,14 @@
 import Image from "next/image";
+import gallery from "@/data/gallery.json";
 
-async function getImageGallery() {
-  const res = await fetch(
-    "https://purehousemarrakech.com/api/gallery.php?type=gallery",
-    {
-      next: { revalidate: 86400 }, // 24h cache
-      headers: {
-        "User-Agent":
-          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        Accept: "application/json",
-      },
-    }
-  );
-
-  if (!res.ok) {
-    throw new Error("Failed to fetch gallery");
-  }
-
-  return res.json();
-}
-
-export default async function Gallery() {
-  const data = await getImageGallery();
-
+export default function Gallery() {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "ImageGallery",
     name: "Galerie du Riad de Luxe Pure House Marrakech",
     description:
       "Explorez les espaces magnifiquement conçus du Pure House Marrakech. Découvrez nos chambres boutique réservées aux adultes, notre paisible piscine dans la cour, notre hammam authentique et notre terrasse ensoleillée sur le toit.",
-    image: data.map((img) => img.src),
+    image: gallery.map((img) => img.src),
   };
 
   return (
@@ -45,7 +24,7 @@ export default async function Gallery() {
         id="gallery"
         className="mx-auto px-0 lg:px-4 py-[0.5px] lg:py-4 pt-[81px] lg:pt-28 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-[0.8px] lg:gap-4"
       >
-        {data.map((image, index) => (
+        {gallery.map((image, index) => (
           <figure key={image.src}>
             <Image
               src={image.src}

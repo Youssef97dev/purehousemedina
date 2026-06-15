@@ -195,11 +195,6 @@ const sitePages = [
         title: "Quiet Reading Corner with Authentic Moroccan Decor",
       },
       {
-        image: "/images/yoga-spot-pure-house-marrakech-terrace.webp",
-        alt: "Intricate architectural details and traditional Moroccan zellige decoration at the entrance of the exclusive Pure House boutique riad terrace.",
-        title: "Traditional Moroccan Architecture at Pure House Riad",
-      },
-      {
         image: "/images/pure-house-marrakech-room-amenities.webp",
         alt: "Warmly lit boutique hotel room at Pure House Marrakech, focusing on premium room amenities, ultimate comfort, and romantic aesthetics",
         title: "Premium Room Amenities in Marrakech Luxury Riad",
@@ -240,11 +235,6 @@ const sitePages = [
         title: "Romantic Night Ambiance and Dining at Pure House",
       },
       {
-        image: "/images/riad-in-marrakech.webp",
-        alt: "Sun-drenched rooftop terrace at a luxury riad offering total privacy, comfortable loungers, and panoramic views of the historic Medina",
-        title: "Sun-Drenched Rooftop Terrace at Marrakech Riad",
-      },
-      {
         image: "/images/pure-house-marrakech-yoga-pool-space.webp",
         alt: "Peaceful rooftop pool and yoga space illuminated at night, creating the ultimate romantic and serene spot in the Marrakech Medina",
         title: "Rooftop Pool and Serene Yoga Space at Night",
@@ -268,16 +258,6 @@ const sitePages = [
         image: "/images/pure-house-marrakech-hospitality-service.webp",
         alt: "Elegant dining setting at Pure House Marrakech, offering authentic Moroccan cuisine, mint tea, and premium hospitality in a quiet atmosphere",
         title: "Authentic Moroccan Hospitality and Dining Service",
-      },
-      {
-        image: "/images/marrakech-riad-with-rooftop-terrace.webp",
-        alt: "Top-down architectural view of the riad structure, showcasing the hidden luxury and stunning rooftop terrace of Pure House in the Medina",
-        title: "Top-Down View of Marrakech Riad with Rooftop Terrace",
-      },
-      {
-        image: "/images/family-friendly-riad-marrakech.webp",
-        alt: "Beautiful open sky view above the Pure House Marrakech terrace, symbolizing the total freedom, quiet, and peace of your luxury stay",
-        title: "Peaceful Open Sky View from Luxury Riad Terrace",
       },
     ],
   },

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://purehousemarrakech.com/gallery</loc>
+    <loc>https://purehousemarrakech.com/gallery/</loc>
     <lastmod>2026-06-02</lastmod>
     <priority>1.0</priority>
     <image:image>
@@ -363,7 +363,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://purehousemarrakech.com/shooting</loc>
+    <loc>https://purehousemarrakech.com/shooting/</loc>
     <lastmod>2026-06-02</lastmod>
     <priority>0.9</priority>
     <image:image>
