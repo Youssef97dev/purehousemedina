@@ -62,8 +62,6 @@ export default function RootLayout({ children }) {
               "@type": "Hotel",
               "@id": "https://purehousemarrakech.com/#hotel",
               name: "Pure House Riad Marrakech",
-              image:
-                "https://purehousemarrakech.com/images/riad-slow-living.webp",
               description:
                 "A luxury boutique Riad in the heart of the Marrakech Medina featuring a courtyard pool and rooftop terrace.",
               address: {
@@ -144,6 +142,18 @@ export default function RootLayout({ children }) {
                 },
               ],
               hasMap: "https://maps.app.goo.gl/8tuwf921xh2fhjGe8",
+              image: [
+                "https://purehousemarrakech.com/images/riad-marrakech-with-private-chef.webp",
+                "https://purehousemarrakech.com/images/riad-near-koutoubia-mosque.webp",
+                "https://purehousemarrakech.com/images/riad-marrakech-medina.webp",
+                "https://purehousemarrakech.com/images/hotels-in-marrakech.webp",
+                "https://purehousemarrakech.com/images/top-riad-marrakech.webp",
+                "https://purehousemarrakech.com/images/traditional-moroccan-riad-experience.webp",
+                "https://purehousemarrakech.com/images/riad-near-jemaa-el-fna.webp",
+                "https://purehousemarrakech.com/images/romantic-riad-for-couples-marrakech.webp",
+                "https://purehousemarrakech.com/images/pure-house-marrakech-riad-medina.webp",
+                "https://purehousemarrakech.com/images/exclusive-use-riad-marrakech.webp",
+              ],
             }),
           }}
         />

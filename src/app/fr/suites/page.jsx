@@ -48,8 +48,46 @@ export const metadata = {
 };
 
 const page = () => {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "HotelRoom",
+    name: "Suite King de Luxe Absolu pour Lune de Miel",
+    description:
+      "Nos Suites King offrent le luxe le plus raffiné de Marrakech. Profitez de grands espaces, d'équipements haut de gamme et d'une atmosphère profondément romantique parfaite pour votre lune de miel.",
+    url: "https://purehousemarrakech.com/fr/suites/",
+    bed: {
+      "@type": "BedDetails",
+      typeOfBed: "King",
+      numberOfBeds: "1",
+    },
+    occupancy: {
+      "@type": "QuantitativeValue",
+      value: 2,
+    },
+    amenityFeature: [
+      {
+        "@type": "LocationFeatureSpecification",
+        name: "Produits de bain de luxe",
+        value: true,
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        name: "Coin salon spacieux",
+        value: true,
+      },
+    ],
+    image: [
+      "https://purehousemarrakech.com/images/king-suite-honeymoon-riad-marrakech-pure-house.webp",
+    ],
+  };
   return (
     <div className="relative flex flex-col">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(jsonLd),
+        }}
+      />
       <Navbar path="/suites" change={true} />
       <Intro />
       <Ameneties />

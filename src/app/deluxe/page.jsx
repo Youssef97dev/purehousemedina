@@ -47,8 +47,34 @@ export const metadata = {
 };
 
 const page = () => {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "HotelRoom",
+    name: "Luxury Deluxe Room in Marrakech Boutique Hotel",
+    description:
+      "Relax in our spacious Deluxe Rooms featuring king-size beds, traditional Moroccan tadelakt bathrooms, and romantic boutique decor.",
+    url: "https://purehousemarrakech.com/deluxe/",
+    bed: {
+      "@type": "BedDetails",
+      typeOfBed: "deluxe",
+      numberOfBeds: "1",
+    },
+    occupancy: {
+      "@type": "QuantitativeValue",
+      value: 2,
+    },
+    image: [
+      "https://purehousemarrakech.com/images/luxury-deluxe-room-boutique-hotel-marrakech.webp",
+    ],
+  };
   return (
     <div className="relative flex flex-col">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(jsonLd),
+        }}
+      />
       <Navbar path="/fr/deluxe" change={true} />
       <Intro />
       <Ameneties />

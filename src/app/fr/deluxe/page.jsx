@@ -48,8 +48,34 @@ export const metadata = {
 };
 
 const page = () => {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "HotelRoom",
+    name: "Chambre Deluxe dans un Boutique-Hôtel de Luxe à Marrakech",
+    description:
+      "Détendez-vous dans nos spacieuses Chambres Deluxe équipées de lits king-size, de salles de bains traditionnelles en tadelakt marocain et d'une décoration romantique.",
+    url: "https://purehousemarrakech.com/fr/deluxe/",
+    bed: {
+      "@type": "BedDetails",
+      typeOfBed: "deluxe",
+      numberOfBeds: "1",
+    },
+    occupancy: {
+      "@type": "QuantitativeValue",
+      value: 2,
+    },
+    image: [
+      "https://purehousemarrakech.com/images/luxury-deluxe-room-boutique-hotel-marrakech.webp",
+    ],
+  };
   return (
     <div className="relative flex flex-col">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(jsonLd),
+        }}
+      />
       <Navbar path="/deluxe" change={true} />
       <Intro />
       <Ameneties />

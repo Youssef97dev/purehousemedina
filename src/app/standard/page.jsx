@@ -48,8 +48,34 @@ export const metadata = {
 };
 
 const page = () => {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "HotelRoom",
+    name: "Authentic Standard Room in Marrakech Riad",
+    description:
+      "Experience the soul of Morocco in our elegant and quiet Standard Rooms. Perfect for an authentic adults-only stay in the Marrakech Medina.",
+    url: "https://purehousemarrakech.com/standard/",
+    bed: {
+      "@type": "BedDetails",
+      typeOfBed: "Queen",
+      numberOfBeds: "1",
+    },
+    occupancy: {
+      "@type": "QuantitativeValue",
+      value: 2,
+    },
+    image: [
+      "https://purehousemarrakech.com/images/standard-room-authentic-riad-marrakech-medina.webp",
+    ],
+  };
   return (
     <div className="relative flex flex-col">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(jsonLd),
+        }}
+      />
       <Navbar path="/fr/standard" change={true} />
       <Intro />
       <Ameneties />

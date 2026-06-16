@@ -48,8 +48,34 @@ export const metadata = {
 };
 
 const page = () => {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "HotelRoom",
+    name: "Chambre Standard Authentique dans un Riad à Marrakech",
+    description:
+      "Découvrez l'âme du Maroc dans nos Chambres Standards élégantes et calmes. Parfait pour un séjour authentique réservé aux adultes dans la médina de Marrakech.",
+    url: "https://purehousemarrakech.com/fr/standard/",
+    bed: {
+      "@type": "BedDetails",
+      typeOfBed: "Queen",
+      numberOfBeds: "1",
+    },
+    occupancy: {
+      "@type": "QuantitativeValue",
+      value: 2,
+    },
+    image: [
+      "https://purehousemarrakech.com/images/standard-room-authentic-riad-marrakech-medina.webp",
+    ],
+  };
   return (
     <div className="relative flex flex-col">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(jsonLd),
+        }}
+      />
       <Navbar path="/standard" change={true} />
       <Intro />
       <Ameneties />

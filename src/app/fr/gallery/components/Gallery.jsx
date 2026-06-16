@@ -5,9 +5,10 @@ export default function Gallery() {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "ImageGallery",
-    name: "Galerie du Riad de Luxe Pure House Marrakech",
+    name: "Galerie Photos du Riad de Luxe Pure House Marrakech",
     description:
-      "Explorez les espaces magnifiquement conçus du Pure House Marrakech. Découvrez nos chambres boutique réservées aux adultes, notre paisible piscine dans la cour, notre hammam authentique et notre terrasse ensoleillée sur le toit.",
+      "Explorez les espaces magnifiquement conçus du Pure House Marrakech. Découvrez les photos de nos chambres de charme pour adultes, de notre piscine paisible, du hammam authentique et de la terrasse ensoleillée.",
+    url: "https://purehousemarrakech.com/fr/gallery/",
     image: gallery.map((img) => img.src),
   };
 
