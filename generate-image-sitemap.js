@@ -386,6 +386,28 @@ const sitePages = [
       },
     ],
   },
+  {
+    pageUrl: "/adults-only/",
+    lastmod: "2026-06-16",
+    priority: "0.8",
+    images: [
+      {
+        image: "/images/peaceful-rooftop-terrace-pure-house-marrakech.webp",
+        alt: "Sun-drenched peaceful rooftop terrace offering panoramic Medina views and a quiet adults-only escape at Pure House Marrakech.",
+        title: "Peaceful Rooftop Terrace at Pure House Riad Marrakech",
+      },
+      {
+        image: "/images/romantic-couple-getaway-medina-marrakech.webp",
+        alt: "Romantic luxury boutique suite in the heart of the Marrakech Medina, perfectly designed for a tranquil couples getaway at Pure House.",
+        title: "Romantic Couples Getaway Suite in Marrakech Medina",
+      },
+      {
+        image: "/images/adults-only-luxury-riad-marrakech-pool.webp",
+        alt: "Serene courtyard pool and traditional Moroccan architecture at Pure House, an exclusive adults-only luxury riad in Marrakech.",
+        title: "Adults-Only Luxury Riad Pool in Marrakech",
+      },
+    ],
+  },
 ];
 
 // Build the XML structure

@@ -30,7 +30,8 @@ const Intro = () => {
         <div className="w-full md:w-1/2 h-[500px]">
           <Image
             src="/images/peaceful-rooftop-terrace-pure-house-marrakech.webp"
-            alt="Sun-drenched peaceful rooftop terrace offering a quiet escape at Pure House Marrakech"
+            alt="Sun-drenched peaceful rooftop terrace offering panoramic Medina views and a quiet adults-only escape at Pure House Marrakech."
+            title="Peaceful Rooftop Terrace at Pure House Riad Marrakech"
             width={1500}
             height={1500}
             className="w-full h-full object-cover"

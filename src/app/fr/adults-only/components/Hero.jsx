@@ -9,14 +9,16 @@ const Hero = () => {
       <div className="absolute inset-0 w-full h-full">
         <Image
           src="/images/romantic-couple-getaway-medina-marrakech.webp"
-          alt="Chambre de luxe au Riad Pure House Marrakech avec décoration marocaine traditionnelle et atmosphère paisible réservée aux adultes"
+          alt="Suite boutique de luxe romantique au cœur de la médina de Marrakech, parfaitement conçue pour une escapade tranquille en couple au Pure House."
+          title="Suite Romantique pour Escapade en Couple dans la Médina"
           width={1500}
           height={1500}
           className={`w-full h-full object-cover hidden lg:block object-bottom`}
         />
         <Image
           src="/images/adults-only-luxury-riad-marrakech-pool.webp"
-          alt="Suite de charme romantique au cœur de la Médina de Marrakech, conçue pour un calme absolu et un confort total"
+          alt="Piscine sereine dans la cour et architecture marocaine traditionnelle au Pure House, un riad de luxe exclusif réservé aux adultes à Marrakech."
+          title="Piscine de Riad de Luxe pour Adultes à Marrakech"
           width={1500}
           height={1500}
           className={`w-full h-full object-cover block lg:hidden`}
