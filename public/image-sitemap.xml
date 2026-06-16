@@ -449,4 +449,66 @@
       <image:license>https://purehousemarrakech.com/license.html</image:license>
     </image:image>
   </url>
+  <url>
+    <loc>https://purehousemarrakech.com/standard/</loc>
+    <lastmod>2026-06-16</lastmod>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://purehousemarrakech.com/images/standard-room-authentic-riad-marrakech-medina.webp</image:loc>
+      <image:caption>Elegant and cozy standard room featuring authentic Moroccan decor at Pure House, a quiet adults-only riad in the Marrakech Medina. | Pure House Medina Adults Only</image:caption>
+      <image:title>Authentic Standard Room at Pure House Riad Marrakech</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+      <image:license>https://purehousemarrakech.com/license.html</image:license>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://purehousemarrakech.com/deluxe/</loc>
+    <lastmod>2026-06-16</lastmod>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://purehousemarrakech.com/images/luxury-deluxe-room-boutique-hotel-marrakech.webp</image:loc>
+      <image:caption>Spacious luxury deluxe room featuring a plush king bed and traditional tadelakt finishes at the exclusive Pure House boutique hotel. | Pure House Medina Adults Only</image:caption>
+      <image:title>Luxury Deluxe Room in Marrakech Boutique Hotel</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+      <image:license>https://purehousemarrakech.com/license.html</image:license>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://purehousemarrakech.com/suites/</loc>
+    <lastmod>2026-06-16</lastmod>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://purehousemarrakech.com/images/king-suite-honeymoon-riad-marrakech-pure-house.webp</image:loc>
+      <image:caption>Opulent king suite offering ultimate luxury, premium amenities, and a romantic atmosphere perfect for honeymooners at Pure House Marrakech. | Pure House Medina Adults Only</image:caption>
+      <image:title>Ultimate Luxury King Suite for Honeymoons in Marrakech</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+      <image:license>https://purehousemarrakech.com/license.html</image:license>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://purehousemarrakech.com/adults-only/</loc>
+    <lastmod>2026-06-16</lastmod>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://purehousemarrakech.com/images/peaceful-rooftop-terrace-pure-house-marrakech.webp</image:loc>
+      <image:caption>Sun-drenched peaceful rooftop terrace offering panoramic Medina views and a quiet adults-only escape at Pure House Marrakech. | Pure House Medina Adults Only</image:caption>
+      <image:title>Peaceful Rooftop Terrace at Pure House Riad Marrakech</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+      <image:license>https://purehousemarrakech.com/license.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://purehousemarrakech.com/images/romantic-couple-getaway-medina-marrakech.webp</image:loc>
+      <image:caption>Romantic luxury boutique suite in the heart of the Marrakech Medina, perfectly designed for a tranquil couples getaway at Pure House. | Pure House Medina Adults Only</image:caption>
+      <image:title>Romantic Couples Getaway Suite in Marrakech Medina</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+      <image:license>https://purehousemarrakech.com/license.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://purehousemarrakech.com/images/adults-only-luxury-riad-marrakech-pool.webp</image:loc>
+      <image:caption>Serene courtyard pool and traditional Moroccan architecture at Pure House, an exclusive adults-only luxury riad in Marrakech. | Pure House Medina Adults Only</image:caption>
+      <image:title>Adults-Only Luxury Riad Pool in Marrakech</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+      <image:license>https://purehousemarrakech.com/license.html</image:license>
+    </image:image>
+  </url>
 </urlset>
