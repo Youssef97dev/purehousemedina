@@ -5,17 +5,43 @@ import Intro from "./components/Intro";
 import Gallery from "./components/Gallery";
 
 export const metadata = {
-  title: "Galerie Photos | Pure House Marrakech | Riad de Luxe & Charme Médina",
+  title: "Galerie Photos | Riad de Luxe à Marrakech Médina | Pure House Medina",
   description:
-    "Découvrez en images le Pure House Marrakech. Explorez nos suites de luxe, notre piscine intérieure et notre terrasse avec vue sur l'Atlas. Le meilleur de l'hôtellerie de charme au cœur de la Médina. Réservez votre séjour.",
+    "Découvrez en images la beauté du Pure House Marrakech. Explorez les photos de nos suites de luxe pour adultes, notre piscine sereine et notre superbe terrasse sur le toit.",
+  alternates: {
+    canonical: "https://purehousemarrakech.com/fr/gallery/",
+    languages: {
+      "en-US": "https://purehousemarrakech.com/gallery/",
+      "fr-FR": "https://purehousemarrakech.com/fr/gallery/",
+      "x-default": "https://purehousemarrakech.com/gallery/",
+    },
+  },
   openGraph: {
     title:
-      "Pure House Marrakech | Riad de Luxe Réservé aux Adultes dans la Médina",
+      "Galerie Photos | Riad de Luxe à Marrakech Médina | Pure House Medina",
     description:
-      "Évadez-vous au Pure House Marrakech, un riad boutique réservé aux adultes à quelques pas de Jemaa el-Fna. Découvrez une élégance marocaine intime, un patio paisible avec piscine et un spa traditionnel.",
+      "Découvrez en images la beauté du Pure House Marrakech. Explorez les photos de nos suites de luxe pour adultes, notre piscine sereine et notre superbe terrasse sur le toit.",
+    url: "https://purehousemarrakech.com/fr/gallery/",
+    siteName: "Pure House Marrakech",
+    images: [
+      {
+        url: "https://purehousemarrakech.com/images/luxury-riad-marrakech.webp",
+        width: 1200,
+        height: 630,
+        alt: "Galerie photos du riad de luxe Pure House dans la médina de Marrakech",
+      },
+    ],
+    locale: "fr_FR",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Galerie Photos | Riad de Luxe à Marrakech Médina | Pure House",
+    description:
+      "Découvrez en images la beauté du Pure House Marrakech. Explorez les photos de nos suites de luxe pour adultes, notre piscine sereine et notre terrasse sur le toit.",
     images: [
       "https://purehousemarrakech.com/images/luxury-riad-marrakech.webp",
-    ], // Use your best hero image here
+    ],
   },
 };
 

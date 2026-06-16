@@ -3,7 +3,8 @@
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import BookDirect from "./BookDirect";
-import { HeroImagesMobile, HeroImagesDesktop } from "@/data/imageData";
+import heroMobile from "@/data/heroMobile.json";
+import heroDesktop from "@/data/heroDesktop.json";
 
 const Hero = () => {
   const [currentIndexDesktop, setCurrentIndexDesktop] = useState(0);
@@ -13,12 +14,12 @@ const Hero = () => {
   useEffect(() => {
     // Desktop Image Interval
     const desktopInterval = setInterval(() => {
-      setCurrentIndexDesktop((prev) => (prev + 1) % HeroImagesDesktop.length);
+      setCurrentIndexDesktop((prev) => (prev + 1) % heroDesktop.length);
     }, 5000);
 
     // Mobile Image Interval
     const mobileInterval = setInterval(() => {
-      setCurrentIndexMobile((prev) => (prev + 1) % HeroImagesMobile.length);
+      setCurrentIndexMobile((prev) => (prev + 1) % heroMobile.length);
     }, 5000);
 
     // Modal Timer
@@ -47,7 +48,7 @@ const Hero = () => {
 
       {/* --- DESKTOP SLIDER --- */}
       <div className="hidden lg:block w-full h-full">
-        {HeroImagesDesktop.map((image, index) => {
+        {heroDesktop.map((image, index) => {
           const isActive = index === currentIndexDesktop;
 
           return (
@@ -74,7 +75,7 @@ const Hero = () => {
 
       {/* --- MOBILE SLIDER --- */}
       <div className="block lg:hidden w-full h-full">
-        {HeroImagesMobile.map((image, index) => {
+        {heroMobile.map((image, index) => {
           const isActive = index === currentIndexMobile;
 
           return (

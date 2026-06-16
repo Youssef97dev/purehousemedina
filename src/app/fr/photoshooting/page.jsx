@@ -5,16 +5,44 @@ import Intro from "./components/Intro";
 import Shooting from "./components/Shooting";
 
 export const metadata = {
-  title: "Lieu de Tournage & Shooting Photo Marrakech | Riad de Luxe",
+  title:
+    "Lieu de Shooting Photo à Marrakech | Riad de Luxe | Pure House Medina",
   description:
-    "Réservez notre riad pour vos shootings photo et tournages à Marrakech. Un cadre authentique avec lumière naturelle, piscine intérieure et rooftop avec vue Atlas. Idéal pour mode, lifestyle et mariages.",
+    "Réservez le lieu de shooting photo idéal à Marrakech. Notre riad de luxe dans la Médina offre une lumière naturelle, des zelliges traditionnels, une piscine et un rooftop pour la photographie de mode et de mariage.",
+  alternates: {
+    canonical: "https://purehousemarrakech.com/fr/photoshooting/",
+    languages: {
+      "en-US": "https://purehousemarrakech.com/photoshooting/",
+      "fr-FR": "https://purehousemarrakech.com/fr/photoshooting/",
+      "x-default": "https://purehousemarrakech.com/photoshooting/",
+    },
+  },
   openGraph: {
-    title: "Shooting Lifestyle & Glamour | Pure House Marrakech",
+    title:
+      "Lieu de Shooting Photo à Marrakech | Riad de Luxe | Pure House Medina",
     description:
-      "Plongez dans l'expérience Pure House Marrakech. Découvrez notre shooting exclusif capturant l'élégance, la romance et l'ambiance vibrante de notre riad de luxe réservé aux adultes.",
+      "Réservez le lieu de shooting photo idéal à Marrakech. Notre riad de luxe dans la Médina offre une lumière naturelle, des zelliges traditionnels, et un rooftop pour la photographie de mode et de mariage.",
+    url: "https://purehousemarrakech.com/fr/photoshooting/",
+    siteName: "Pure House Marrakech",
     images: [
-      // Choisissez votre meilleure photo lifestyle mettant en scène des personnes/couples
-      "https://purehousemarrakech.com/images/top-riad-marrakech.webp",
+      {
+        url: "https://purehousemarrakech.com/images/luxury-riad-marrakech.webp",
+        width: 1200,
+        height: 630,
+        alt: "Lieu de shooting photo dans un riad de luxe à Marrakech Médina - Pure House Medina",
+      },
+    ],
+    locale: "fr_FR",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title:
+      "Lieu de Shooting Photo à Marrakech | Riad de Luxe | Pure House Medina",
+    description:
+      "Réservez le lieu de shooting photo idéal à Marrakech. Une lumière naturelle exceptionnelle et une architecture traditionnelle pour vos shootings.",
+    images: [
+      "https://purehousemarrakech.com/images/luxury-riad-marrakech.webp",
     ],
   },
 };

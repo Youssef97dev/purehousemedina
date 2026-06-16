@@ -1,0 +1,62 @@
+[
+  {
+    "src": "/images/riad-marrakech-with-private-chef.webp",
+    "class": "object-center",
+    "en": {
+      "alt": "Exclusive culinary experience with a private chef at Pure House Marrakech, a luxury adults-only riad in the Medina.",
+      "title": "Luxury Riad in Marrakech with Private Chef - Pure House"
+    },
+    "fr": {
+      "alt": "Expérience culinaire exclusive avec un chef privé au Pure House Marrakech, un riad de luxe réservé aux adultes dans la Médina.",
+      "title": "Riad de Luxe à Marrakech avec Chef Privé - Pure House"
+    }
+  },
+  {
+    "src": "/images/riad-near-koutoubia-mosque.webp",
+    "class": "object-center",
+    "en": {
+      "alt": "Peaceful and romantic luxury riad ideally located near the iconic Koutoubia Mosque in the heart of Marrakech.",
+      "title": "Adults-Only Riad Near Koutoubia Mosque Marrakech"
+    },
+    "fr": {
+      "alt": "Riad de luxe paisible et romantique idéalement situé près de l'emblématique mosquée Koutoubia au cœur de Marrakech.",
+      "title": "Riad pour Adultes Près de la Mosquée Koutoubia à Marrakech"
+    }
+  },
+  {
+    "src": "/images/best-places-to-stay-in-marrakech.webp",
+    "class": "object-center",
+    "en": {
+      "alt": "Elegant boutique hotel accommodation offering a serene adults-only getaway near the beautiful Majorelle Garden in Marrakech.",
+      "title": "Luxury Accommodation Near Majorelle Garden Marrakech"
+    },
+    "fr": {
+      "alt": "Hébergement de charme élégant offrant une escapade sereine réservée aux adultes près du magnifique Jardin Majorelle à Marrakech.",
+      "title": "Hébergement de Luxe Près du Jardin Majorelle à Marrakech"
+    }
+  },
+  {
+    "src": "/images/boutique-hotel-marrakech.webp",
+    "class": "object-bottom",
+    "en": {
+      "alt": "Stunning architecture and relaxing atmosphere at Pure House, a premier luxury boutique hotel for couples in Marrakech.",
+      "title": "Luxury Boutique Hotel in Marrakech - Pure House"
+    },
+    "fr": {
+      "alt": "Architecture époustouflante et atmosphère relaxante au Pure House, un boutique-hôtel de luxe de premier plan pour les couples à Marrakech.",
+      "title": "Boutique-Hôtel de Luxe à Marrakech - Pure House"
+    }
+  },
+  {
+    "src": "/images/riad-marrakech-medina.webp",
+    "class": "object-bottom",
+    "en": {
+      "alt": "A hidden oasis of luxury and tranquility inside Pure House, a top-rated traditional riad located in the Marrakech Medina.",
+      "title": "Peaceful Luxury Riad in the Marrakech Medina"
+    },
+    "fr": {
+      "alt": "Une oasis cachée de luxe et de tranquillité à l'intérieur du Pure House, un riad traditionnel très bien noté situé dans la médina de Marrakech.",
+      "title": "Riad de Luxe Paisible dans la Médina de Marrakech"
+    }
+  }
+]

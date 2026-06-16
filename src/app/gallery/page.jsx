@@ -5,16 +5,43 @@ import Intro from "./components/Intro";
 import Gallery from "./components/Gallery";
 
 export const metadata = {
-  title: "Gallery | Pure House Marrakech | Luxury Riad & Boutique Stay Medina",
+  title: "Photo Gallery | Luxury Riad in Marrakech Medina | Pure House Medina",
   description:
-    "Explore the visual beauty of Pure House Marrakech. View our luxury suites, central courtyard pool, and rooftop terrace. Discover the finest boutique Riad experience in the heart of the Marrakech Medina. Book your oasis today.",
+    "Explore the visual beauty of Pure House Marrakech. View photos of our adults-only luxury suites, serene courtyard pool, and stunning rooftop terrace in the Medina.",
+  alternates: {
+    canonical: "https://purehousemarrakech.com/gallery/",
+    languages: {
+      "en-US": "https://purehousemarrakech.com/gallery/",
+      "fr-FR": "https://purehousemarrakech.com/fr/gallery/",
+      "x-default": "https://purehousemarrakech.com/gallery/",
+    },
+  },
   openGraph: {
-    title: "Pure House Marrakech | Adults-Only Luxury Riad in the Medina",
+    title:
+      "Photo Gallery | Luxury Riad in Marrakech Medina | Pure House Medina",
     description:
-      "Escape to Pure House Marrakech, an adults-only boutique riad just steps from Jemaa el-Fna. Experience intimate Moroccan elegance, a serene courtyard pool, and a traditional spa.",
+      "Explore the visual beauty of Pure House Marrakech. View photos of our adults-only luxury suites, serene courtyard pool, and stunning rooftop terrace in the Medina.",
+    url: "https://purehousemarrakech.com/gallery/",
+    siteName: "Pure House Marrakech",
+    images: [
+      {
+        url: "https://purehousemarrakech.com/images/luxury-riad-marrakech.webp",
+        width: 1200,
+        height: 630,
+        alt: "Photo gallery of Pure House luxury riad in Marrakech Medina",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Photo Gallery | Luxury Riad in Marrakech Medina | Pure House",
+    description:
+      "Explore the visual beauty of Pure House Marrakech. View photos of our adults-only luxury suites, serene courtyard pool, and stunning rooftop terrace.",
     images: [
       "https://purehousemarrakech.com/images/luxury-riad-marrakech.webp",
-    ], // Use your best hero image here
+    ],
   },
 };
 

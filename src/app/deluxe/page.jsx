@@ -5,9 +5,45 @@ import Intro from "./components/Intro";
 import Ameneties from "./components/Ameneties";
 
 export const metadata = {
-  title: "Deluxe Rooms | Pure House Marrakech | Boutique Comfort",
+  title: "Deluxe Rooms | Luxury Boutique Riad in Marrakech | Pure House Medina",
   description:
-    "Discover our Deluxe Rooms in the Marrakech Medina. Featuring traditional Tadelakt bathrooms, king-size comfort, and authentic Moroccan decor for a perfect getaway.",
+    "Relax in our Deluxe Rooms at Pure House, a luxury adults-only riad in the Marrakech Medina. Enjoy king-size beds, traditional tadelakt bathrooms, and romantic Moroccan decor.",
+  alternates: {
+    canonical: "https://purehousemarrakech.com/deluxe/",
+    languages: {
+      "en-US": "https://purehousemarrakech.com/deluxe/",
+      "fr-FR": "https://purehousemarrakech.com/fr/deluxe/",
+      "x-default": "https://purehousemarrakech.com/deluxe/",
+    },
+  },
+  openGraph: {
+    title:
+      "Deluxe Rooms | Luxury Boutique Riad in Marrakech | Pure House Medina",
+    description:
+      "Relax in our Deluxe Rooms at Pure House, a luxury adults-only riad in the Marrakech Medina. Enjoy king-size beds, traditional tadelakt bathrooms, and romantic Moroccan decor.",
+    url: "https://purehousemarrakech.com/deluxe/",
+    siteName: "Pure House Marrakech",
+    images: [
+      {
+        url: "https://purehousemarrakech.com/images/luxury-deluxe-room-boutique-hotel-marrakech.webp",
+        width: 1200,
+        height: 630,
+        alt: "Spacious luxury deluxe room featuring a plush king bed and traditional tadelakt finishes at the exclusive Pure House boutique hotel.",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title:
+      "Deluxe Rooms | Luxury Boutique Riad in Marrakech | Pure House Medina",
+    description:
+      "Relax in our Deluxe Rooms at Pure House. Enjoy king-size beds, traditional tadelakt bathrooms, and romantic Moroccan decor in the Medina.",
+    images: [
+      "https://purehousemarrakech.com/images/luxury-deluxe-room-boutique-hotel-marrakech.webp",
+    ],
+  },
 };
 
 const page = () => {

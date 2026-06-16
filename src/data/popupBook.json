@@ -1,0 +1,74 @@
+[
+  {
+    "src": "/images/traditional-moroccan-riad-experience.webp",
+    "class": "object-center",
+    "en": {
+      "alt": "Book direct for an authentic and traditional Moroccan riad experience at Pure House, a luxury adults-only retreat.",
+      "title": "Traditional Moroccan Riad Experience at Pure House"
+    },
+    "fr": {
+      "alt": "Réservez en direct pour une expérience de riad marocain authentique et traditionnelle au Pure House, une retraite de luxe pour adultes.",
+      "title": "Expérience de Riad Marocain Traditionnel au Pure House"
+    }
+  },
+  {
+    "src": "/images/riad-near-jemaa-el-fna.webp",
+    "class": "object-center",
+    "en": {
+      "alt": "Stay at a peaceful luxury riad perfectly located near Jemaa el-Fna square, offering a quiet oasis in the bustling Marrakech Medina.",
+      "title": "Peaceful Luxury Riad Near Jemaa el-Fna"
+    },
+    "fr": {
+      "alt": "Séjournez dans un riad de luxe paisible idéalement situé près de la place Jemaa el-Fna, offrant une oasis de calme dans la médina animée de Marrakech.",
+      "title": "Riad de Luxe Paisible Près de Jemaa el-Fna"
+    }
+  },
+  {
+    "src": "/images/hotels-in-marrakech.webp",
+    "class": "object-center",
+    "en": {
+      "alt": "Discover one of the best boutique hotels in Marrakech, offering exclusive direct booking benefits for a luxurious romantic stay.",
+      "title": "Best Luxury Boutique Hotel in Marrakech"
+    },
+    "fr": {
+      "alt": "Découvrez l'un des meilleurs boutique-hôtels de Marrakech, offrant des avantages exclusifs de réservation directe pour un séjour romantique luxueux.",
+      "title": "Meilleur Boutique-Hôtel de Luxe à Marrakech"
+    }
+  },
+  {
+    "src": "/images/romantic-riad-for-couples-marrakech.webp",
+    "class": "object-center",
+    "en": {
+      "alt": "The perfect romantic riad for couples in Marrakech, designed specifically for unforgettable honeymoons and luxury adults-only escapes.",
+      "title": "Romantic Riad for Couples in Marrakech"
+    },
+    "fr": {
+      "alt": "Le riad romantique parfait pour les couples à Marrakech, conçu spécifiquement pour des lunes de miel inoubliables et des escapades de luxe entre adultes.",
+      "title": "Riad Romantique pour Couples à Marrakech"
+    }
+  },
+  {
+    "src": "/images/pure-house-marrakech-riad-medina.webp",
+    "class": "object-center",
+    "en": {
+      "alt": "Pure House Marrakech, a beautifully restored luxury riad in the Medina featuring stunning architecture and premium Moroccan hospitality.",
+      "title": "Pure House Luxury Riad in Marrakech Medina"
+    },
+    "fr": {
+      "alt": "Pure House Marrakech, un riad de luxe magnifiquement restauré dans la Médina, offrant une architecture époustouflante et une hospitalité marocaine haut de gamme.",
+      "title": "Riad de Luxe Pure House dans la Médina de Marrakech"
+    }
+  },
+  {
+    "src": "/images/exclusive-use-riad-marrakech.webp",
+    "class": "object-center",
+    "en": {
+      "alt": "Rent our luxury boutique hotel for exclusive use in Marrakech, the ideal private villa experience for luxury retreats in Morocco.",
+      "title": "Exclusive Use Luxury Riad in Marrakech"
+    },
+    "fr": {
+      "alt": "Louez notre boutique-hôtel de luxe en exclusivité à Marrakech, l'expérience de villa privée idéale pour des retraites de luxe au Maroc.",
+      "title": "Location Exclusive de Riad de Luxe à Marrakech"
+    }
+  }
+]

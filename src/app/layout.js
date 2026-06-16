@@ -42,8 +42,9 @@ export const metadata = {
   alternates: {
     canonical: "https://purehousemarrakech.com/",
     languages: {
-      "en-US": "/",
-      "fr-FR": "/fr",
+      "en-US": "https://purehousemarrakech.com/",
+      "fr-FR": "https://purehousemarrakech.com/fr/",
+      "x-default": "https://purehousemarrakech.com/",
     },
   },
   metadataBase: new URL("https://purehousemarrakech.com/"),

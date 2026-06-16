@@ -6,7 +6,7 @@ import Link from "next/link";
 import { IoCloseSharp } from "react-icons/io5";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
-import { HomeBookDirect } from "@/data/imageData";
+import popupBook from "@/data/popupBook.json";
 
 const BookDirect = ({ isOpen, onClose }) => {
   if (!isOpen) return null;
@@ -38,7 +38,7 @@ const BookDirect = ({ isOpen, onClose }) => {
 
         {/* Image Carousel */}
         <Swiper modules={[Navigation]} navigation className="w-full">
-          {HomeBookDirect.map((image, index) => (
+          {popupBook.map((image, index) => (
             <SwiperSlide key={image.src}>
               <div className="relative w-full h-[35vh] lg:h-[40vh]">
                 <Image

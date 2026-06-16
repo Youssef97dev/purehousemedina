@@ -350,6 +350,42 @@ const sitePages = [
       },
     ],
   },
+  {
+    pageUrl: "/standard/",
+    lastmod: "2026-06-16",
+    priority: "0.8",
+    images: [
+      {
+        image: "/images/standard-room-authentic-riad-marrakech-medina.webp",
+        alt: "Elegant and cozy standard room featuring authentic Moroccan decor at Pure House, a quiet adults-only riad in the Marrakech Medina.",
+        title: "Authentic Standard Room at Pure House Riad Marrakech",
+      },
+    ],
+  },
+  {
+    pageUrl: "/deluxe/",
+    lastmod: "2026-06-16",
+    priority: "0.8",
+    images: [
+      {
+        image: "/images/luxury-deluxe-room-boutique-hotel-marrakech.webp",
+        alt: "Spacious luxury deluxe room featuring a plush king bed and traditional tadelakt finishes at the exclusive Pure House boutique hotel.",
+        title: "Luxury Deluxe Room in Marrakech Boutique Hotel",
+      },
+    ],
+  },
+  {
+    pageUrl: "/suites/",
+    lastmod: "2026-06-16",
+    priority: "0.8",
+    images: [
+      {
+        image: "/images/king-suite-honeymoon-riad-marrakech-pure-house.webp",
+        alt: "Opulent king suite offering ultimate luxury, premium amenities, and a romantic atmosphere perfect for honeymooners at Pure House Marrakech.",
+        title: "Ultimate Luxury King Suite for Honeymoons in Marrakech",
+      },
+    ],
+  },
 ];
 
 // Build the XML structure
