@@ -408,6 +408,33 @@ const sitePages = [
       },
     ],
   },
+  {
+    pageUrl: "/blog/best-riads-in-marrakech/",
+    lastmod: "2026-06-19",
+    priority: "0.9",
+    images: [
+      {
+        image: "/images/best-riads-marrakech-medina.webp",
+        alt: "A wide-angle look inside a tranquil luxury riad Marrakech, offering a private oasis away from the busy Medina streets.",
+        title: "Welcome to Pure House: A Premier Marrakech Riad",
+      },
+      {
+        image: "/images/best-luxury-riads-marrakech-courtyard.webp",
+        alt: "A tranquil interior courtyard featuring a central plunge pool and traditional architecture inside one of the best riads in Marrakech.",
+        title: "Discover the Best Luxury Riads in Marrakech",
+      },
+      {
+        image: "/images/riad-marrakech-medina-peaceful-sanctuary.webp",
+        alt: "A peaceful and quiet riad Marrakech Medina retreat located just steps away from the bustling Jemaa el-Fnaa and local souks.",
+        title: "Find Your Silent Sanctuary in the Marrakech Medina",
+      },
+      {
+        image: "/images/pure-house-top-luxury-riad-marrakech.webp",
+        alt: "High-end finishes and authentic artisanal Moroccan craftsmanship inside a luxury riad Marrakech suite at Pure House.",
+        title: "Pure House Marrakech: A Premium Luxury Riad Experience",
+      },
+    ],
+  },
 ];
 
 // Build the XML structure

@@ -511,4 +511,37 @@
       <image:license>https://purehousemarrakech.com/license.html</image:license>
     </image:image>
   </url>
+  <url>
+    <loc>https://purehousemarrakech.com/blog/best-riads-in-marrakech/</loc>
+    <lastmod>2026-06-19</lastmod>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://purehousemarrakech.com/images/best-riads-marrakech-medina.webp</image:loc>
+      <image:caption>A wide-angle look inside a tranquil luxury riad Marrakech, offering a private oasis away from the busy Medina streets. | Pure House Medina Adults Only</image:caption>
+      <image:title>Welcome to Pure House: A Premier Marrakech Riad</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+      <image:license>https://purehousemarrakech.com/license.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://purehousemarrakech.com/images/best-luxury-riads-marrakech-courtyard.webp</image:loc>
+      <image:caption>A tranquil interior courtyard featuring a central plunge pool and traditional architecture inside one of the best riads in Marrakech. | Pure House Medina Adults Only</image:caption>
+      <image:title>Discover the Best Luxury Riads in Marrakech</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+      <image:license>https://purehousemarrakech.com/license.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://purehousemarrakech.com/images/riad-marrakech-medina-peaceful-sanctuary.webp</image:loc>
+      <image:caption>A peaceful and quiet riad Marrakech Medina retreat located just steps away from the bustling Jemaa el-Fnaa and local souks. | Pure House Medina Adults Only</image:caption>
+      <image:title>Find Your Silent Sanctuary in the Marrakech Medina</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+      <image:license>https://purehousemarrakech.com/license.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://purehousemarrakech.com/images/pure-house-top-luxury-riad-marrakech.webp</image:loc>
+      <image:caption>High-end finishes and authentic artisanal Moroccan craftsmanship inside a luxury riad Marrakech suite at Pure House. | Pure House Medina Adults Only</image:caption>
+      <image:title>Pure House Marrakech: A Premium Luxury Riad Experience</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+      <image:license>https://purehousemarrakech.com/license.html</image:license>
+    </image:image>
+  </url>
 </urlset>
