@@ -2,8 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://purehousemarrakech.com/gallery/</loc>
-    <lastmod>2026-06-02</lastmod>
+    <lastmod>2026-07-03</lastmod>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://purehousemarrakech.com/images/where-to-stay-in-marrakech-adults-only.webp</image:loc>
+      <image:caption>Wondering where to stay in Marrakech? Pure House offers an exclusive, peaceful adults-only luxury riad experience inside the historic Medina. | Pure House Medina Adults Only</image:caption>
+      <image:title>Where to Stay in Marrakech - Best Adults-Only Luxury Riad</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+      <image:license>https://purehousemarrakech.com/license.html</image:license>
+    </image:image>
     <image:image>
       <image:loc>https://purehousemarrakech.com/images/romantic-dining-pure-house-riad-marrakech.webp</image:loc>
       <image:caption>Romantic dining table setup offering authentic Moroccan cuisine at Pure House, a luxury adults-only riad in the Marrakech Medina | Pure House Medina Adults Only</image:caption>

@@ -19,9 +19,14 @@ const sitePages = [
   // --- ENGLISH PAGES ---
   {
     pageUrl: "/gallery/",
-    lastmod: "2026-06-02",
+    lastmod: "2026-07-03",
     priority: "1.0",
     images: [
+      {
+        image: "/images/where-to-stay-in-marrakech-adults-only.webp",
+        alt: "Wondering where to stay in Marrakech? Pure House offers an exclusive, peaceful adults-only luxury riad experience inside the historic Medina.",
+        title: "Where to Stay in Marrakech - Best Adults-Only Luxury Riad",
+      },
       {
         image: "/images/romantic-dining-pure-house-riad-marrakech.webp",
         alt: "Romantic dining table setup offering authentic Moroccan cuisine at Pure House, a luxury adults-only riad in the Marrakech Medina",
