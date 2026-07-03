@@ -28,10 +28,10 @@ const Footer = ({ path }) => {
           </span>
           <span>+212 6 82 22 52 35</span>
           <div className="w-full flex justify-center items-center gap-4 lg:hidden text-[14px] font-light">
-            <Link rel="alternate" hreflang="fr" href={`${path}`}>
+            <Link rel="alternate" hrefLang="fr" href={`${path}`}>
               {"FR"}
             </Link>
-            <Link rel="alternate" hreflang="en" href="#">
+            <Link rel="alternate" hrefLang="en" href="#">
               {"EN"}
             </Link>
           </div>

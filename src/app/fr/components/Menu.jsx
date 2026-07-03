@@ -52,12 +52,12 @@ const Menu = ({ setIsOpen, path }) => {
             {isDropdownOpen && (
               <ul className="absolute rounded top-8 -left-12 bg-riad_background mt-2 py-1 w-28 shadow-lg flex justify-center items-center">
                 <li className="px-4 py-2 rounded-lg cursor-pointer hover:bg-riad_secondary transition-all duration-200 ease-in-out font-light text-riad_primary">
-                  <Link rel="alternate" hreflang="en" href={`${path}`}>
+                  <Link rel="alternate" hrefLang="en" href={`${path}`}>
                     {"EN"}
                   </Link>
                 </li>
                 <li className="px-4 py-2 rounded-lg cursor-pointer hover:bg-riad_secondary transition-all duration-200 ease-in-out font-light text-riad_primary">
-                  <Link rel="alternate" hreflang="fr" href="#">
+                  <Link rel="alternate" hrefLang="fr" href="#">
                     {"FR"}
                   </Link>
                 </li>
