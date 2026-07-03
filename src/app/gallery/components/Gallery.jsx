@@ -17,7 +17,7 @@ export default function Gallery({ images, currentPage, totalImages }) {
             <figure key={index} className="flex flex-col">
               <div className="relative w-full h-[65vh]">
                 <Image
-                  src={image.image}
+                  src={image.src}
                   alt={image.alt.en}
                   title={image.alt.en}
                   fill
