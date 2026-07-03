@@ -47,13 +47,6 @@
       <image:license>https://purehousemarrakech.com/license.html</image:license>
     </image:image>
     <image:image>
-      <image:loc>https://purehousemarrakech.com/images/peaceful-lounge-adults-only-riad-marrakech.webp</image:loc>
-      <image:caption>Cozy and peaceful lounge chair surrounded by authentic Moroccan decor, perfect for quiet relaxation in our child-free boutique hotel | Pure House Medina Adults Only</image:caption>
-      <image:title>Peaceful Lounge Area in Marrakech Boutique Hotel</image:title>
-      <image:geo_location>Marrakech, Morocco</image:geo_location>
-      <image:license>https://purehousemarrakech.com/license.html</image:license>
-    </image:image>
-    <image:image>
       <image:loc>https://purehousemarrakech.com/images/traditional-carved-doors-riad-marrakech-pure-house.webp</image:loc>
       <image:caption>Intricately carved traditional Moroccan wooden doors leading to a private luxury guest suite at Pure House Marrakech | Pure House Medina Adults Only</image:caption>
       <image:title>Traditional Carved Wooden Doors in Marrakech Riad</image:title>
@@ -71,13 +64,6 @@
       <image:loc>https://purehousemarrakech.com/images/tadelakt-bathroom-luxury-riad-marrakech.webp</image:loc>
       <image:caption>Minimalist tadelakt bathroom with a copper soaking tub inside a luxury riad suite in Marrakech | Pure House Medina Adults Only</image:caption>
       <image:title>Traditional Tadelakt Bathroom in Luxury Marrakech Riad</image:title>
-      <image:geo_location>Marrakech, Morocco</image:geo_location>
-      <image:license>https://purehousemarrakech.com/license.html</image:license>
-    </image:image>
-    <image:image>
-      <image:loc>https://purehousemarrakech.com/images/traditional-moroccan-breakfast-luxury-riad-poolside.webp</image:loc>
-      <image:caption>A lavish traditional Moroccan breakfast spread with fresh pastries, mint tea, and fruit served poolside at Pure House Marrakech | Pure House Medina Adults Only</image:caption>
-      <image:title>Moroccan Breakfast by the Pool at Pure House Riad</image:title>
       <image:geo_location>Marrakech, Morocco</image:geo_location>
       <image:license>https://purehousemarrakech.com/license.html</image:license>
     </image:image>
@@ -102,6 +88,11 @@
       <image:geo_location>Marrakech, Morocco</image:geo_location>
       <image:license>https://purehousemarrakech.com/license.html</image:license>
     </image:image>
+  </url>
+  <url>
+    <loc>https://purehousemarrakech.com/gallery/page/2/</loc>
+    <lastmod>2026-07-03</lastmod>
+    <priority>0.9</priority>
     <image:image>
       <image:loc>https://purehousemarrakech.com/images/quiet-oasis-marrakech-center-reading-nook.webp</image:loc>
       <image:caption>A comfortable reading nook with plush cushions and Moroccan textiles tucked away in a quiet corner of a boutique riad | Pure House Medina Adults Only</image:caption>
@@ -186,6 +177,11 @@
       <image:geo_location>Marrakech, Morocco</image:geo_location>
       <image:license>https://purehousemarrakech.com/license.html</image:license>
     </image:image>
+  </url>
+  <url>
+    <loc>https://purehousemarrakech.com/gallery/page/3/</loc>
+    <lastmod>2026-07-03</lastmod>
+    <priority>0.9</priority>
     <image:image>
       <image:loc>https://purehousemarrakech.com/images/wellness-products-pure-house-bathroom.webp</image:loc>
       <image:caption>Clean, modern ensuite bathroom with traditional Moroccan tadelakt finishes and luxury wellness products in a boutique riad | Pure House Medina Adults Only</image:caption>
@@ -250,6 +246,13 @@
       <image:license>https://purehousemarrakech.com/license.html</image:license>
     </image:image>
     <image:image>
+      <image:loc>https://purehousemarrakech.com/images/peaceful-lounge-adults-only-riad-marrakech.webp</image:loc>
+      <image:caption>Cozy and peaceful lounge chair surrounded by authentic Moroccan decor, perfect for quiet relaxation in our child-free boutique hotel | Pure House Medina Adults Only</image:caption>
+      <image:title>Peaceful Lounge Area in Marrakech Boutique Hotel</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+      <image:license>https://purehousemarrakech.com/license.html</image:license>
+    </image:image>
+    <image:image>
       <image:loc>https://purehousemarrakech.com/images/pure-house-marrakech-room-amenities.webp</image:loc>
       <image:caption>Warmly lit boutique hotel room at Pure House Marrakech, focusing on premium room amenities, ultimate comfort, and romantic aesthetics | Pure House Medina Adults Only</image:caption>
       <image:title>Premium Room Amenities in Marrakech Luxury Riad</image:title>
@@ -263,6 +266,11 @@
       <image:geo_location>Marrakech, Morocco</image:geo_location>
       <image:license>https://purehousemarrakech.com/license.html</image:license>
     </image:image>
+  </url>
+  <url>
+    <loc>https://purehousemarrakech.com/gallery/page/4/</loc>
+    <lastmod>2026-07-03</lastmod>
+    <priority>0.9</priority>
     <image:image>
       <image:loc>https://purehousemarrakech.com/images/chic-moroccan-lounge-pure-house-marrakech.webp</image:loc>
       <image:caption>Spacious chic Moroccan lounge in a luxury suite at Pure House, combining traditional craftsmanship with modern romantic comfort | Pure House Medina Adults Only</image:caption>
@@ -337,6 +345,13 @@
       <image:loc>https://purehousemarrakech.com/images/pure-house-marrakech-hospitality-service.webp</image:loc>
       <image:caption>Elegant dining setting at Pure House Marrakech, offering authentic Moroccan cuisine, mint tea, and premium hospitality in a quiet atmosphere | Pure House Medina Adults Only</image:caption>
       <image:title>Authentic Moroccan Hospitality and Dining Service</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+      <image:license>https://purehousemarrakech.com/license.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://purehousemarrakech.com/images/traditional-moroccan-breakfast-luxury-riad-poolside.webp</image:loc>
+      <image:caption>A lavish traditional Moroccan breakfast spread with fresh pastries, mint tea, and fruit served poolside at Pure House Marrakech | Pure House Medina Adults Only</image:caption>
+      <image:title>Moroccan Breakfast by the Pool at Pure House Riad</image:title>
       <image:geo_location>Marrakech, Morocco</image:geo_location>
       <image:license>https://purehousemarrakech.com/license.html</image:license>
     </image:image>

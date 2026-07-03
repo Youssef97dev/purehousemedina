@@ -53,11 +53,6 @@ const sitePages = [
         title: "Traditional Moroccan Interior Design at Pure House",
       },
       {
-        image: "/images/peaceful-lounge-adults-only-riad-marrakech.webp",
-        alt: "Cozy and peaceful lounge chair surrounded by authentic Moroccan decor, perfect for quiet relaxation in our child-free boutique hotel",
-        title: "Peaceful Lounge Area in Marrakech Boutique Hotel",
-      },
-      {
         image:
           "/images/traditional-carved-doors-riad-marrakech-pure-house.webp",
         alt: "Intricately carved traditional Moroccan wooden doors leading to a private luxury guest suite at Pure House Marrakech",
@@ -74,12 +69,6 @@ const sitePages = [
         title: "Traditional Tadelakt Bathroom in Luxury Marrakech Riad",
       },
       {
-        image:
-          "/images/traditional-moroccan-breakfast-luxury-riad-poolside.webp",
-        alt: "A lavish traditional Moroccan breakfast spread with fresh pastries, mint tea, and fruit served poolside at Pure House Marrakech",
-        title: "Moroccan Breakfast by the Pool at Pure House Riad",
-      },
-      {
         image: "/images/traditional-moroccan-riad-carved-door-entrance.webp",
         alt: "Massive, intricately carved traditional wooden door serving as the grand entrance to a luxury riad in the Marrakech Medina",
         title: "Traditional Carved Door Entrance to Marrakech Riad",
@@ -94,6 +83,13 @@ const sitePages = [
         alt: "Lush green courtyard featuring a private pool at Pure House Marrakech, a luxury riad in the heart of the Medina",
         title: "Luxury Riad Marrakech with Private Pool - Pure House Medina",
       },
+    ],
+  },
+  {
+    pageUrl: "/gallery/page/2/",
+    lastmod: "2026-07-03",
+    priority: "0.9",
+    images: [
       {
         image: "/images/quiet-oasis-marrakech-center-reading-nook.webp",
         alt: "A comfortable reading nook with plush cushions and Moroccan textiles tucked away in a quiet corner of a boutique riad",
@@ -154,6 +150,13 @@ const sitePages = [
         alt: "Sophisticated guest suite with warm lighting and elegant seating, perfect for a romantic adults-only escape in Marrakech",
         title: "Romantic Suite for Couples in Marrakech Boutique Hotel",
       },
+    ],
+  },
+  {
+    pageUrl: "/gallery/page/3/",
+    lastmod: "2026-07-03",
+    priority: "0.9",
+    images: [
       {
         image: "/images/wellness-products-pure-house-bathroom.webp",
         alt: "Clean, modern ensuite bathroom with traditional Moroccan tadelakt finishes and luxury wellness products in a boutique riad",
@@ -200,6 +203,11 @@ const sitePages = [
         title: "Quiet Reading Corner with Authentic Moroccan Decor",
       },
       {
+        image: "/images/peaceful-lounge-adults-only-riad-marrakech.webp",
+        alt: "Cozy and peaceful lounge chair surrounded by authentic Moroccan decor, perfect for quiet relaxation in our child-free boutique hotel",
+        title: "Peaceful Lounge Area in Marrakech Boutique Hotel",
+      },
+      {
         image: "/images/pure-house-marrakech-room-amenities.webp",
         alt: "Warmly lit boutique hotel room at Pure House Marrakech, focusing on premium room amenities, ultimate comfort, and romantic aesthetics",
         title: "Premium Room Amenities in Marrakech Luxury Riad",
@@ -209,6 +217,13 @@ const sitePages = [
         alt: "Premium linens and comfortable bedding in a cozy, quiet adults-only suite located in the heart of the Marrakech Medina",
         title: "Cozy Suite with Premium Bedding in Medina Riad",
       },
+    ],
+  },
+  {
+    pageUrl: "/gallery/page/4/",
+    lastmod: "2026-07-03",
+    priority: "0.9",
+    images: [
       {
         image: "/images/chic-moroccan-lounge-pure-house-marrakech.webp",
         alt: "Spacious chic Moroccan lounge in a luxury suite at Pure House, combining traditional craftsmanship with modern romantic comfort",
@@ -263,6 +278,12 @@ const sitePages = [
         image: "/images/pure-house-marrakech-hospitality-service.webp",
         alt: "Elegant dining setting at Pure House Marrakech, offering authentic Moroccan cuisine, mint tea, and premium hospitality in a quiet atmosphere",
         title: "Authentic Moroccan Hospitality and Dining Service",
+      },
+      {
+        image:
+          "/images/traditional-moroccan-breakfast-luxury-riad-poolside.webp",
+        alt: "A lavish traditional Moroccan breakfast spread with fresh pastries, mint tea, and fruit served poolside at Pure House Marrakech",
+        title: "Moroccan Breakfast by the Pool at Pure House Riad",
       },
     ],
   },
