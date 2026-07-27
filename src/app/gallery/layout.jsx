@@ -6,7 +6,7 @@ export default function GalleryLayout({ children }) {
   return (
     <div className="flex flex-col">
       {/* GLOBAL HEADER */}
-      <Navbar path="/fr/gallery" />
+      <Navbar change={true} path="/fr/gallery" />
       <Intro />
 
       {/* MAIN CONTENT */}

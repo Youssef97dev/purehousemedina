@@ -1,5 +1,44 @@
 [
   {
+    "src": "/images/pure-house-marrakech-luxury-riad-courtyard.webp",
+    "alt": {
+      "en": "Elegant courtyard at Pure House Marrakech Riad featuring authentic Moroccan architecture, handcrafted details and a peaceful luxury atmosphere in the Medina of Marrakech.",
+      "fr": "Cour élégante du Pure House Marrakech Riad avec une architecture marocaine authentique, des détails artisanaux et une ambiance paisible au cœur de la médina de Marrakech.",
+      "es": ""
+    },
+    "title": {
+      "en": "Luxury Courtyard at Pure House Marrakech Riad",
+      "fr": "Cour de luxe du Pure House Marrakech Riad",
+      "es": ""
+    }
+  },
+  {
+    "src": "/images/pure-house-marrakech-luxury-riad-suite.webp",
+    "alt": {
+      "en": "Luxury suite at Pure House Marrakech Riad combining traditional Moroccan craftsmanship, elegant décor and modern comfort for an authentic stay in Marrakech.",
+      "fr": "Suite de luxe du Pure House Marrakech Riad alliant artisanat marocain traditionnel, décoration élégante et confort moderne pour un séjour authentique à Marrakech.",
+      "es": ""
+    },
+    "title": {
+      "en": "Luxury Suite at Pure House Marrakech Riad",
+      "fr": "Suite de luxe du Pure House Marrakech Riad",
+      "es": ""
+    }
+  },
+  {
+    "src": "/images/pure-house-marrakech-rooftop-terrace-medina.webp",
+    "alt": {
+      "en": "Rooftop terrace at Pure House Marrakech Riad with panoramic views over the Medina, traditional Moroccan style and an exclusive luxury experience.",
+      "fr": "Terrasse sur le toit du Pure House Marrakech Riad avec une vue panoramique sur la médina, un style marocain traditionnel et une expérience haut de gamme.",
+      "es": ""
+    },
+    "title": {
+      "en": "Rooftop Terrace at Pure House Marrakech Riad",
+      "fr": "Terrasse panoramique du Pure House Marrakech Riad",
+      "es": ""
+    }
+  },
+  {
     "src": "/images/where-to-stay-in-marrakech-adults-only.webp",
     "alt": {
       "en": "Wondering where to stay in Marrakech? Pure House offers an exclusive, peaceful adults-only luxury riad experience inside the historic Medina.",
