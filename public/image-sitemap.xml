@@ -26,30 +26,9 @@
       <image:license>https://purehousemarrakech.com/license.html</image:license>
     </image:image>
     <image:image>
-      <image:loc>https://purehousemarrakech.com/images/where-to-stay-in-marrakech-adults-only.webp</image:loc>
-      <image:caption>Wondering where to stay in Marrakech? Pure House offers an exclusive, peaceful adults-only luxury riad experience inside the historic Medina. | Pure House Medina Adults Only</image:caption>
-      <image:title>Where to Stay in Marrakech - Best Adults-Only Luxury Riad</image:title>
-      <image:geo_location>Marrakech, Morocco</image:geo_location>
-      <image:license>https://purehousemarrakech.com/license.html</image:license>
-    </image:image>
-    <image:image>
       <image:loc>https://purehousemarrakech.com/images/romantic-dining-pure-house-riad-marrakech.webp</image:loc>
       <image:caption>Romantic dining table setup offering authentic Moroccan cuisine at Pure House, a luxury adults-only riad in the Marrakech Medina | Pure House Medina Adults Only</image:caption>
       <image:title>Authentic Moroccan Dining at Pure House Marrakech</image:title>
-      <image:geo_location>Marrakech, Morocco</image:geo_location>
-      <image:license>https://purehousemarrakech.com/license.html</image:license>
-    </image:image>
-    <image:image>
-      <image:loc>https://purehousemarrakech.com/images/luxury-adults-only-suite-marrakech-riad.webp</image:loc>
-      <image:caption>Elegant luxury suite with traditional Moroccan decor and premium bedding at Pure House, the premier adults-only boutique hotel in Marrakech | Pure House Medina Adults Only</image:caption>
-      <image:title>Luxury Adults-Only Suite in Marrakech Medina</image:title>
-      <image:geo_location>Marrakech, Morocco</image:geo_location>
-      <image:license>https://purehousemarrakech.com/license.html</image:license>
-    </image:image>
-    <image:image>
-      <image:loc>https://purehousemarrakech.com/images/rooftop-terrace-lounge-riad-marrakech.webp</image:loc>
-      <image:caption>Peaceful rooftop terrace lounge with comfortable seating at Pure House, offering a quiet, sun-drenched escape in the heart of Marrakech | Pure House Medina Adults Only</image:caption>
-      <image:title>Relaxing Rooftop Terrace at Pure House Marrakech</image:title>
       <image:geo_location>Marrakech, Morocco</image:geo_location>
       <image:license>https://purehousemarrakech.com/license.html</image:license>
     </image:image>
@@ -88,11 +67,6 @@
       <image:geo_location>Marrakech, Morocco</image:geo_location>
       <image:license>https://purehousemarrakech.com/license.html</image:license>
     </image:image>
-  </url>
-  <url>
-    <loc>https://purehousemarrakech.com/gallery/page/2/</loc>
-    <lastmod>2026-07-03</lastmod>
-    <priority>0.9</priority>
     <image:image>
       <image:loc>https://purehousemarrakech.com/images/traditional-moroccan-riad-carved-door-entrance.webp</image:loc>
       <image:caption>Massive, intricately carved traditional wooden door serving as the grand entrance to a luxury riad in the Marrakech Medina | Pure House Medina Adults Only</image:caption>
@@ -114,13 +88,11 @@
       <image:geo_location>Marrakech, Morocco</image:geo_location>
       <image:license>https://purehousemarrakech.com/license.html</image:license>
     </image:image>
-    <image:image>
-      <image:loc>https://purehousemarrakech.com/images/quiet-oasis-marrakech-center-reading-nook.webp</image:loc>
-      <image:caption>A comfortable reading nook with plush cushions and Moroccan textiles tucked away in a quiet corner of a boutique riad | Pure House Medina Adults Only</image:caption>
-      <image:title>Peaceful Reading Corner in Boutique Hotel Marrakech</image:title>
-      <image:geo_location>Marrakech, Morocco</image:geo_location>
-      <image:license>https://purehousemarrakech.com/license.html</image:license>
-    </image:image>
+  </url>
+  <url>
+    <loc>https://purehousemarrakech.com/gallery/page/2/</loc>
+    <lastmod>2026-07-03</lastmod>
+    <priority>0.9</priority>
     <image:image>
       <image:loc>https://purehousemarrakech.com/images/luxury-zellige-tilework-moroccan-riad-pure-house.webp</image:loc>
       <image:caption>Close up of intricate and colorful traditional luxury zellige tilework adorning the walls of Pure House boutique hotel in Morocco | Pure House Medina Adults Only</image:caption>
@@ -132,13 +104,6 @@
       <image:loc>https://purehousemarrakech.com/images/moroccan-luxury-experience-mint-tea-pouring.webp</image:loc>
       <image:caption>A staff member pouring traditional Moroccan mint tea from a silver teapot at the luxury Pure House riad | Pure House Medina Adults Only</image:caption>
       <image:title>Traditional Mint Tea Service in Marrakech Riad</image:title>
-      <image:geo_location>Marrakech, Morocco</image:geo_location>
-      <image:license>https://purehousemarrakech.com/license.html</image:license>
-    </image:image>
-    <image:image>
-      <image:loc>https://purehousemarrakech.com/images/private-plunge-pool-medina-luxury-suite.webp</image:loc>
-      <image:caption>A luxury riad suite offering direct access to a private plunge pool on a private terrace in the Marrakech Medina | Pure House Medina Adults Only</image:caption>
-      <image:title>Luxury Suite with Private Plunge Pool in Marrakech</image:title>
       <image:geo_location>Marrakech, Morocco</image:geo_location>
       <image:license>https://purehousemarrakech.com/license.html</image:license>
     </image:image>
@@ -177,11 +142,6 @@
       <image:geo_location>Marrakech, Morocco</image:geo_location>
       <image:license>https://purehousemarrakech.com/license.html</image:license>
     </image:image>
-  </url>
-  <url>
-    <loc>https://purehousemarrakech.com/gallery/page/3/</loc>
-    <lastmod>2026-07-03</lastmod>
-    <priority>0.9</priority>
     <image:image>
       <image:loc>https://purehousemarrakech.com/images/rooftop-riad-marrakech-atlas-mountain-views.webp</image:loc>
       <image:caption>Sunny rooftop terrace at Pure House riad in Marrakech offering panoramic views of the Medina and Atlas Mountains | Pure House Medina Adults Only</image:caption>
@@ -193,13 +153,6 @@
       <image:loc>https://purehousemarrakech.com/images/pure-house-marrakech-terrace-sunset.webp</image:loc>
       <image:caption>Interior patio and plunge pool at Pure House Marrakech, a luxury adults-only riad offering a romantic sanctuary in the Medina | Pure House Medina Adults Only</image:caption>
       <image:title>Luxury Adults-Only Riad Patio - Pure House Marrakech</image:title>
-      <image:geo_location>Marrakech, Morocco</image:geo_location>
-      <image:license>https://purehousemarrakech.com/license.html</image:license>
-    </image:image>
-    <image:image>
-      <image:loc>https://purehousemarrakech.com/images/pure-house-marrakech-candlelight-dinner.webp</image:loc>
-      <image:caption>Sophisticated guest suite with warm lighting and elegant seating, perfect for a romantic adults-only escape in Marrakech | Pure House Medina Adults Only</image:caption>
-      <image:title>Romantic Suite for Couples in Marrakech Boutique Hotel</image:title>
       <image:geo_location>Marrakech, Morocco</image:geo_location>
       <image:license>https://purehousemarrakech.com/license.html</image:license>
     </image:image>
@@ -224,6 +177,11 @@
       <image:geo_location>Marrakech, Morocco</image:geo_location>
       <image:license>https://purehousemarrakech.com/license.html</image:license>
     </image:image>
+  </url>
+  <url>
+    <loc>https://purehousemarrakech.com/gallery/page/3/</loc>
+    <lastmod>2026-07-03</lastmod>
+    <priority>0.9</priority>
     <image:image>
       <image:loc>https://purehousemarrakech.com/images/aerial-view-pure-house-marrakech-medina.webp</image:loc>
       <image:caption>Aerial view of Pure House Marrakech, showcasing the traditional architecture of an exclusive adults-only riad hidden within the Medina | Pure House Medina Adults Only</image:caption>
@@ -266,11 +224,6 @@
       <image:geo_location>Marrakech, Morocco</image:geo_location>
       <image:license>https://purehousemarrakech.com/license.html</image:license>
     </image:image>
-  </url>
-  <url>
-    <loc>https://purehousemarrakech.com/gallery/page/4/</loc>
-    <lastmod>2026-07-03</lastmod>
-    <priority>0.9</priority>
     <image:image>
       <image:loc>https://purehousemarrakech.com/images/peaceful-lounge-adults-only-riad-marrakech.webp</image:loc>
       <image:caption>Cozy and peaceful lounge chair surrounded by authentic Moroccan decor, perfect for quiet relaxation in our child-free boutique hotel | Pure House Medina Adults Only</image:caption>
@@ -313,6 +266,11 @@
       <image:geo_location>Marrakech, Morocco</image:geo_location>
       <image:license>https://purehousemarrakech.com/license.html</image:license>
     </image:image>
+  </url>
+  <url>
+    <loc>https://purehousemarrakech.com/gallery/page/4/</loc>
+    <lastmod>2026-07-03</lastmod>
+    <priority>0.9</priority>
     <image:image>
       <image:loc>https://purehousemarrakech.com/images/pure-house-marrakech-bathroom-design.webp</image:loc>
       <image:caption>Luxury walk-in shower featuring high-end wellness amenities, minimalist design, and traditional Moroccan tadelakt walls | Pure House Medina Adults Only</image:caption>
@@ -355,11 +313,6 @@
       <image:geo_location>Marrakech, Morocco</image:geo_location>
       <image:license>https://purehousemarrakech.com/license.html</image:license>
     </image:image>
-  </url>
-  <url>
-    <loc>https://purehousemarrakech.com/gallery/page/5/</loc>
-    <lastmod>2026-07-03</lastmod>
-    <priority>0.9</priority>
     <image:image>
       <image:loc>https://purehousemarrakech.com/images/boutique-hotel-marrakech.webp</image:loc>
       <image:caption>Serene courtyard swimming pool area surrounded by traditional arches at Pure House, a sophisticated haven for adults only | Pure House Medina Adults Only</image:caption>
