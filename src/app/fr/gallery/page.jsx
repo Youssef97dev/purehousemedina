@@ -1,8 +1,5 @@
 import React from "react";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
-import Intro from "./components/Intro";
-import Gallery from "./components/Gallery";
+import Container from "./components/Container";
 
 export const metadata = {
   title: "Galerie Photos | Riad de Luxe à Marrakech Médina | Pure House Medina",
@@ -46,14 +43,7 @@ export const metadata = {
 };
 
 const page = () => {
-  return (
-    <div className="relative flex flex-col">
-      <Navbar path="/gallery" change={true} />
-      <Intro />
-      <Gallery />
-      <Footer path="/gallery" />
-    </div>
-  );
+  return <Container />;
 };
 
 export default page;
