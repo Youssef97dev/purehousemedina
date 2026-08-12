@@ -9,6 +9,10 @@
     "fr": {
       "alt": "Découvrez une élégance inégalée au Pure House, un riad de luxe réservé aux adultes offrant un sanctuaire romantique et paisible au cœur de Marrakech.",
       "title": "Riad de Luxe pour Adultes à Marrakech - Pure House"
+    },
+    "es": {
+      "alt": "Descubre la elegancia incomparable de Pure House, un riad de lujo exclusivo para adultos que ofrece un refugio romántico y tranquilo en el corazón de Marrakech.",
+      "title": "Riad de Lujo Solo para Adultos en Marrakech - Pure House"
     }
   },
   {
@@ -21,6 +25,10 @@
     "fr": {
       "alt": "Découvrez le meilleur boutique-hôtel de Marrakech, avec ses cours sereines et ses hébergements de luxe exclusifs conçus spécifiquement pour les couples.",
       "title": "Meilleur Boutique-Hôtel de Luxe pour Couples à Marrakech"
+    },
+    "es": {
+      "alt": "Descubre uno de los mejores hoteles boutique de lujo en Marrakech, con patios tranquilos y un alojamiento exclusivo diseñado especialmente para parejas.",
+      "title": "Hotel Boutique de Lujo para Parejas en Marrakech"
     }
   },
   {
@@ -33,6 +41,10 @@
     "fr": {
       "alt": "Classé parmi les meilleurs riads de Marrakech, Pure House offre une oasis cachée et sans enfants, parfaite pour une lune de miel romantique inoubliable.",
       "title": "Riad Romantique pour Lune de Miel le Mieux Noté à Marrakech"
+    },
+    "es": {
+      "alt": "Considerado uno de los mejores riads de Marrakech, Pure House ofrece un oasis privado y exclusivo para adultos, ideal para una luna de miel romántica e inolvidable.",
+      "title": "Riad Romántico para Lunas de Miel en Marrakech - Pure House"
     }
   },
   {
@@ -45,6 +57,10 @@
     "fr": {
       "alt": "Plongez dans une expérience de riad marocain traditionnel authentique, mêlant l'architecture historique de la Médina au luxe moderne et au confort tranquille.",
       "title": "Expérience Traditionnelle de Riad Marocain de Luxe"
+    },
+    "es": {
+      "alt": "Sumérgete en una auténtica experiencia en un riad marroquí tradicional, combinando la arquitectura histórica de la Medina con el lujo moderno y el confort tranquilo.",
+      "title": "Experiencia de Lujo en un Riad Marroquí Tradicional"
     }
   }
 ]
