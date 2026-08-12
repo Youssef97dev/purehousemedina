@@ -50,7 +50,7 @@ const Loader = () => {
           __html: JSON.stringify(jsonLd),
         }}
       />
-      <Navbar path={"/"} />
+      <Navbar path={"/"} second_path={"/es"} />
       <Hero />
       <About />
       <Categories />
@@ -58,7 +58,7 @@ const Loader = () => {
       <Features />
       <Map />
       <div className="w-[80%] lg:w-full h-[1px] bg-riad_secondary mx-auto"></div>
-      <Footer path={"/"} />
+      <Footer path={"/"} second_path={"/es"} />
 
       <div className="fixed bottom-7 right-6 text-riad_primary z-50">
         <ButtonWtsp />

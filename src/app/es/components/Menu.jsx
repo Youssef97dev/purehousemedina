@@ -18,7 +18,7 @@ const Menu = ({ setIsOpen, path, second_path }) => {
           <IoIosClose size={35} />
         </div>
         <div className="w-full flex justify-center items-center pb-2">
-          <Link href="/fr">
+          <Link href="/es">
             <Image
               src="/riad/riad-logo-black.png"
               width={300}
@@ -34,7 +34,7 @@ const Menu = ({ setIsOpen, path, second_path }) => {
               href="https://pure-house-marrakech.hotelrunner.com/bv3/search"
               className={`tracking-[0.1em] lg:tracking-[0.2em] font-light text-[10px] lg:text-[12px] leading-[28px] lg:leading-[34px] py-1 px-4 text-riad_background bg-riad_secondary hover:bg-riad_primary`}
             >
-              Réserver
+              Reservar
             </Link>
           </div>
           <div
@@ -57,12 +57,12 @@ const Menu = ({ setIsOpen, path, second_path }) => {
                   </Link>
                 </li>
                 <li className="px-2 py-2 rounded-lg cursor-pointer hover:bg-riad_secondary transition-all duration-200 ease-in-out font-light text-riad_primary">
-                  <Link rel="alternate" hrefLang="fr" href="#">
+                  <Link rel="alternate" hrefLang="fr" href={`${second_path}`}>
                     {"FR"}
                   </Link>
                 </li>
                 <li className="px-2 py-2 rounded-lg cursor-pointer hover:bg-riad_secondary transition-all duration-200 ease-in-out font-light text-riad_primary">
-                  <Link rel="alternate" hrefLang="es" href={`${second_path}`}>
+                  <Link rel="alternate" hrefLang="es" href="#">
                     {"ES"}
                   </Link>
                 </li>

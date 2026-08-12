@@ -6,7 +6,7 @@ import { RiArrowDownSLine } from "react-icons/ri";
 import { MdLanguage } from "react-icons/md";
 import Image from "next/image";
 
-const Menu = ({ setIsOpen, path }) => {
+const Menu = ({ setIsOpen, path, second_path }) => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   return (
     <div className="w-full flex flex-col justify-center items-center ">
@@ -51,14 +51,19 @@ const Menu = ({ setIsOpen, path }) => {
             </button>
             {isDropdownOpen && (
               <ul className="absolute rounded top-8 -left-12 bg-riad_background mt-2 py-1 w-28 shadow-lg flex justify-center items-center">
-                <li className="px-4 py-2 rounded-lg cursor-pointer hover:bg-riad_secondary transition-all duration-200 ease-in-out font-light text-riad_primary">
+                <li className="px-2 py-2 rounded-lg cursor-pointer hover:bg-riad_secondary transition-all duration-200 ease-in-out font-light text-riad_primary">
                   <Link rel="alternate" hrefLang="en" href="#">
                     {"EN"}
                   </Link>
                 </li>
-                <li className="px-4 py-2 rounded-lg cursor-pointer hover:bg-riad_secondary transition-all duration-200 ease-in-out font-light text-riad_primary">
+                <li className="px-2 py-2 rounded-lg cursor-pointer hover:bg-riad_secondary transition-all duration-200 ease-in-out font-light text-riad_primary">
                   <Link rel="alternate" hrefLang="fr" href={`${path}`}>
                     {"FR"}
+                  </Link>
+                </li>
+                <li className="px-2 py-2 rounded-lg cursor-pointer hover:bg-riad_secondary transition-all duration-200 ease-in-out font-light text-riad_primary">
+                  <Link rel="alternate" hrefLang="es" href={`${second_path}`}>
+                    {"ES"}
                   </Link>
                 </li>
               </ul>

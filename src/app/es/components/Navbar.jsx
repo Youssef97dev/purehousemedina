@@ -56,7 +56,7 @@ const Navbar = ({ path, second_path, change = false }) => {
             ></div>
           </div>
           <div className="w-[50%] lg:w-[60%] flex justify-center items-center pb-2">
-            <Link href="/">
+            <Link href="/es">
               <Image
                 src={
                   scrolled || change
@@ -80,7 +80,7 @@ const Navbar = ({ path, second_path, change = false }) => {
                     : "text-riad_primary bg-riad_background hover:bg-riad_primary hover:text-riad_background"
                 }`}
               >
-                Reserve
+                Reservar
               </Link>
             </div>
             <div
@@ -100,17 +100,17 @@ const Navbar = ({ path, second_path, change = false }) => {
               {isDropdownOpen && (
                 <ul className="absolute rounded top-8 -left-12 bg-riad_background mt-2 py-1 w-28 shadow-lg flex justify-center items-center">
                   <li className="px-2 py-2 rounded-lg cursor-pointer hover:bg-riad_secondary transition-all duration-200 ease-in-out font-light text-riad_primary">
-                    <Link rel="alternate" hrefLang="en" href="#">
+                    <Link rel="alternate" hrefLang="en" href={`${path}`}>
                       {"EN"}
                     </Link>
                   </li>
                   <li className="px-2 py-2 rounded-lg cursor-pointer hover:bg-riad_secondary transition-all duration-200 ease-in-out font-light text-riad_primary">
-                    <Link rel="alternate" hrefLang="fr" href={`${path}`}>
+                    <Link rel="alternate" hrefLang="fr" href={`${second_path}`}>
                       {"FR"}
                     </Link>
                   </li>
                   <li className="px-2 py-2 rounded-lg cursor-pointer hover:bg-riad_secondary transition-all duration-200 ease-in-out font-light text-riad_primary">
-                    <Link rel="alternate" hrefLang="es" href={`${second_path}`}>
+                    <Link rel="alternate" hrefLang="es" href={`#`}>
                       {"ES"}
                     </Link>
                   </li>
@@ -139,29 +139,29 @@ const Navbar = ({ path, second_path, change = false }) => {
                   {/* Pure House Medina */}
                   <div className="border-r border-riad_secondary">
                     <h3 className="mb-4 text-riad_primary cursor-pointer ttext-[16px] leading-[28px]">
-                      {"Pure House Medina"}{" "}
+                      {"Pure House Riad Medina"}{" "}
                       <span className="text-[12px]">{"▼"}</span>
                     </h3>
                     <ul className="space-y-2 text-[12px] text-riad_secondary">
                       <li>
                         <Link
-                          href="/standard"
+                          href="/es/estandar"
                           className="hover:text-riad_primary transition-all duration-200 ease-in-out"
                         >
-                          Standard Rooms
+                          Habitaciones Estándar
                         </Link>
                       </li>
                       <li>
                         <Link
-                          href="/deluxe"
+                          href="/es/deluxe"
                           className="hover:text-riad_primary transition-all duration-200 ease-in-out"
                         >
-                          Deluxe Rooms
+                          Habitaciones Deluxe
                         </Link>
                       </li>
                       <li>
                         <Link
-                          href="/suites"
+                          href="/es/suites"
                           className="hover:text-riad_primary transition-all duration-200 ease-in-out"
                         >
                           Suites
@@ -169,26 +169,26 @@ const Navbar = ({ path, second_path, change = false }) => {
                       </li>
                       <li>
                         <Link
-                          href="/photoshooting"
+                          href="/es/sesiones-fotograficas"
                           className="hover:text-riad_primary transition-all duration-200 ease-in-out"
                         >
-                          Photoshooting
+                          Sesión fotográfica
                         </Link>
                       </li>
                       <li>
                         <Link
-                          href="/adults-only"
+                          href="/es/solo-adultos"
                           className="hover:text-riad_primary transition-all duration-200 ease-in-out"
                         >
-                          Adults Only
+                          Solo para adultos
                         </Link>
                       </li>
                       <li>
                         <Link
-                          href="/gallery"
+                          href="/es/galeria"
                           className="hover:text-riad_primary transition-all duration-200 ease-in-out"
                         >
-                          Gallery
+                          Gleria
                         </Link>
                       </li>
                     </ul>
@@ -206,7 +206,7 @@ const Navbar = ({ path, second_path, change = false }) => {
                           href="https://purefarmhouse.com/"
                           className="hover:text-riad_primary transition-all duration-200 ease-in-out"
                         >
-                          Home
+                          Inicio
                         </Link>
                       </li>
                       <li>
@@ -214,7 +214,7 @@ const Navbar = ({ path, second_path, change = false }) => {
                           href="https://purefarmhouse.com/contact/"
                           className="hover:text-riad_primary transition-all duration-200 ease-in-out"
                         >
-                          Contact
+                          Contacto
                         </Link>
                       </li>
                     </ul>
@@ -229,64 +229,30 @@ const Navbar = ({ path, second_path, change = false }) => {
                     <ul className="space-y-2 text-[12px] text-riad_secondary">
                       <li>
                         <Link
-                          href="https://purehouseonthelake.com/"
+                          href="https://purehouseonthelake.com/es/"
                           className="hover:text-riad_primary transition-all duration-200 ease-in-out"
                         >
-                          Home
+                          Inicio
                         </Link>
                       </li>
                       <li>
                         <Link
-                          href="https://purehouseonthelake.com/events/"
+                          href="https://purehouseonthelake.com/es/eventos/"
                           className="hover:text-riad_primary transition-all duration-200 ease-in-out"
                         >
-                          Events
+                          Eventos
                         </Link>
                       </li>
                       <li>
                         <Link
-                          href="https://purehouseonthelake.com/photoshooting/"
+                          href="https://purehouseonthelake.com/es/solo-adultos"
                           className="hover:text-riad_primary transition-all duration-200 ease-in-out"
                         >
-                          Photoshooting
+                          Solo para adultos
                         </Link>
                       </li>
                     </ul>
                   </div>
-
-                  {/* Pure House Ibiza */}
-                  {/*<div className="border-r border-riad_secondary">
-                    <h3 className="mb-4 text-riad_primary cursor-pointer text-[16px] leading-[28px]">
-                      {"Pure House Ibiza"}{" "}
-                      <span className="text-[12px]">{"▼"}</span>
-                    </h3>
-                    <ul className="space-y-2 text-[12px] text-riad_secondary">
-                      <li>
-                        <Link
-                          href="#"
-                          className="hover:text-riad_primary transition-all duration-200 ease-in-out"
-                        >
-                          Link 1
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          href="#"
-                          className="hover:text-riad_primary transition-all duration-200 ease-in-out"
-                        >
-                          Link 2
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          href="#"
-                          className="hover:text-riad_primary transition-all duration-200 ease-in-out"
-                        >
-                          Link 1
-                        </Link>
-                      </li>
-                    </ul>
-                  </div>*/}
                 </div>
               </div>
             </div>

@@ -1,6 +1,6 @@
-import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import Image from "next/image";
 import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 
@@ -8,6 +8,7 @@ const Footer = ({ path, second_path }) => {
   return (
     <footer className="bg-riad_background text-riad_primary px-6 py-8">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center md:items-center space-y-4 md:space-y-0">
+        {/* Left Section */}
         <Image
           src="/riad/riad-logo-gray.png"
           alt="logo pure house riad medina"
@@ -16,7 +17,6 @@ const Footer = ({ path, second_path }) => {
           className="object-cover w-40"
         />
 
-        {/* Left Section */}
         <div className="flex flex-col justify-center items-center md:items-start space-y-2 text-[12px] text-riad_primary">
           <span>
             <Link
@@ -28,13 +28,13 @@ const Footer = ({ path, second_path }) => {
           </span>
           <span>+212 6 82 22 52 35</span>
           <div className="w-full flex justify-center items-center gap-4 lg:hidden text-[14px] font-light">
-            <Link rel="alternate" hrefLang="fr" href={`${path}`}>
+            <Link rel="alternate" hrefLang="fr" href={`${second_path}`}>
               {"FR"}
             </Link>
-            <Link rel="alternate" hrefLang="en" href="#">
+            <Link rel="alternate" hrefLang="en" href={`${path}`}>
               {"EN"}
             </Link>
-            <Link rel="alternate" hrefLang="es" href={`${second_path}`}>
+            <Link rel="alternate" hrefLang="es" href="#">
               {"ES"}
             </Link>
           </div>
@@ -53,7 +53,7 @@ const Footer = ({ path, second_path }) => {
         {/* Right Section */}
         <div className="flex space-x-4 mt-4 md:mt-0 text-riad_primary">
           <Link
-            href="https://www.instagram.com/pure_house_marrakech"
+            href="https://www.instagram.com/pure_house_marrakech/"
             className="hover:text-riad_secondary"
           >
             <FaInstagram />

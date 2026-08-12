@@ -4,7 +4,7 @@ import Image from "next/image";
 import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 
-const Footer = ({ path }) => {
+const Footer = ({ path, second_path }) => {
   return (
     <footer className="bg-riad_background text-riad_primary px-6 py-8">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center md:items-center space-y-4 md:space-y-0">
@@ -33,6 +33,9 @@ const Footer = ({ path }) => {
             </Link>
             <Link rel="alternate" hrefLang="en" href={`${path}`}>
               {"EN"}
+            </Link>
+            <Link rel="alternate" hrefLang="es" href={`${second_path}`}>
+              {"ES"}
             </Link>
           </div>
         </div>
