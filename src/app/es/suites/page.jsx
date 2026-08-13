@@ -58,6 +58,85 @@ export const metadata = {
 };
 
 const page = () => {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "HotelRoom",
+    "@id": "https://purehousemarrakech.com/es/suites#hotelroom",
+
+    name: "Suite de Lujo en Marrakech - Pure House",
+
+    description:
+      "Suite de lujo espaciosa y elegante para dos personas en Pure House Marrakech, un riad boutique solo para adultos en la Medina. Combina la artesanía marroquí tradicional con un diseño contemporáneo, ropa de cama de alta calidad, baño privado y confort moderno.",
+
+    url: "https://purehousemarrakech.com/es/suites/",
+
+    inLanguage: "es",
+
+    occupancy: {
+      "@type": "QuantitativeValue",
+      maxValue: 2,
+    },
+
+    bed: {
+      "@type": "BedDetails",
+      typeOfBed: "King Size",
+    },
+
+    amenityFeature: [
+      {
+        "@type": "LocationFeatureSpecification",
+        name: "Baño privado con ducha",
+        value: true,
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        name: "Wi-Fi",
+        value: true,
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        name: "Aire acondicionado con control individual",
+        value: true,
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        name: "Secador de pelo",
+        value: true,
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        name: "Caja fuerte en la habitación",
+        value: true,
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        name: "Smart TV con servicios de streaming",
+        value: true,
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        name: "Smartphone local gratuito",
+        value: true,
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        name: "Ropa de cama de alta calidad",
+        value: true,
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        name: "No se permite fumar",
+        value: true,
+      },
+    ],
+
+    containedInPlace: {
+      "@type": "Hotel",
+      "@id": "https://purehousemarrakech.com/es/#hotel",
+      name: "Pure House Marrakech",
+      url: "https://purehousemarrakech.com/es/",
+    },
+  };
   return (
     <div className="relative flex flex-col">
       <script
