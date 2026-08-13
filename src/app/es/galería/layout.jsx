@@ -1,19 +1,19 @@
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 import Intro from "./components/Intro";
 
 export default function GalleryLayout({ children }) {
   return (
     <div className="flex flex-col">
       {/* GLOBAL HEADER */}
-      <Navbar change={true} path="/fr/gallery" />
+      <Navbar path="/gallery" second_path="/fr/gallery" change={true} />
       <Intro />
 
       {/* MAIN CONTENT */}
       <main>{children}</main>
 
       {/* GLOBAL FOOTER */}
-      <Footer path="/fr/gallery" />
+      <Footer path="/gallery" second_path="/fr/gallery" />
 
       {/* FLOAT BUTTON 
       <div className="fixed bottom-7 right-6 z-50">
