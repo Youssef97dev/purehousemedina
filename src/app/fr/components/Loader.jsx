@@ -7,6 +7,7 @@ import Features from "./Features";
 import Map from "./Map";
 import Footer from "./Footer";
 import ButtonWtsp from "@/components/ButtonWtsp";
+import GoogleReviews from "@/components/GoogleReviews";
 
 const Loader = () => {
   const jsonLd = {
@@ -56,6 +57,12 @@ const Loader = () => {
       <Categories />
       <Info />
       <Features />
+      <GoogleReviews
+        title="Ce que disent nos clients"
+        subtitle="Avis de nos clients"
+        text_="Avis Google"
+        link_="Voir tous les avis sur Google"
+      />
       <Map />
       <div className="w-[80%] lg:w-full h-[1px] bg-riad_secondary mx-auto"></div>
       <Footer path={"/"} second_path={"/es"} />
