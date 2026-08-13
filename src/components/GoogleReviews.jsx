@@ -61,14 +61,6 @@ const reviews = [
 ];
 
 const Stars = () => {
-  const truncateText = (text, maxLength = 180) => {
-    if (text.length <= maxLength) {
-      return text;
-    }
-
-    return text.slice(0, maxLength).trimEnd() + "...";
-  };
-
   return (
     <div className="flex gap-1 text-[13px] text-[#b49763]">
       {[1, 2, 3, 4, 5].map((star) => (
@@ -79,6 +71,13 @@ const Stars = () => {
 };
 
 export default function GoogleReviews({ title, subtitle, text_, link_ }) {
+  const truncateText = (text, maxLength = 180) => {
+    if (text.length <= maxLength) {
+      return text;
+    }
+
+    return text.slice(0, maxLength).trimEnd() + "...";
+  };
   return (
     <section className="bg-[#f8f6f2] py-5 md:py-28">
       <div className="mx-auto max-w-7xl px-6">
