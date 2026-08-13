@@ -32,11 +32,11 @@ const Loader = () => {
           __html: JSON.stringify(jsonLd),
         }}
       />
-      <Navbar path={"/adults-only"} />
+      <Navbar path={"/adults-only"} second_path={"/es/solo-adultos"} />
       <Hero />
       <Intro />
       <Experience />
-      <Footer />
+      <Footer path={"/adults-only"} second_path={"/es/solo-adultos"} />
       <div className="fixed bottom-7 right-6 text-riad_primary z-50">
         <ButtonWtsp />
       </div>

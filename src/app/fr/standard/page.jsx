@@ -77,10 +77,10 @@ const page = () => {
           __html: JSON.stringify(jsonLd),
         }}
       />
-      <Navbar path="/standard" change={true} />
+      <Navbar path="/standard" second_path={"/es/estandar"} change={true} />
       <Intro />
       <Ameneties />
-      <Footer path="/standard" />
+      <Footer path="/standard" second_path={"/es/estandar"} />
     </div>
   );
 };

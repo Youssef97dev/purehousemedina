@@ -7,10 +7,10 @@ import Gallery from "./Gallery";
 const Loader = () => {
   return (
     <div className="relative">
-      <Navbar path="/booking" change={true} />
+      <Navbar path="/booking" second_path={"/es/reservas"} change={true} />
       <Intro />
       <Gallery />
-      <Footer path="/booking" />
+      <Footer path="/booking" second_path={"/es/reservas"} />
     </div>
   );
 };

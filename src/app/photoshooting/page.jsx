@@ -50,10 +50,17 @@ export const metadata = {
 const page = () => {
   return (
     <div className="relative flex flex-col">
-      <Navbar path="/fr/photoshooting" change={true} />
+      <Navbar
+        path="/fr/photoshooting"
+        second_path={"/es/sesiones-fotograficas"}
+        change={true}
+      />
       <Intro />
       <Shooting />
-      <Footer path="/fr/photoshooting" />
+      <Footer
+        path="/fr/photoshooting"
+        second_path={"/es/sesiones-fotograficas"}
+      />
     </div>
   );
 };
