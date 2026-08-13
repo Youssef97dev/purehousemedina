@@ -10,6 +10,7 @@ export const metadata = {
     languages: {
       "en-US": "https://purehousemarrakech.com/booking/",
       "fr-FR": "https://purehousemarrakech.com/fr/booking/",
+      "es-ES": "https://purehousemarrakech.com/es/reservas/",
       "x-default": "https://purehousemarrakech.com/booking/",
     },
   },

@@ -14,6 +14,7 @@ export const metadata = {
     languages: {
       "en-US": "https://purehousemarrakech.com/photoshooting/",
       "fr-FR": "https://purehousemarrakech.com/fr/photoshooting/",
+      "es-ES": "https://purehousemarrakech.com/es/sesiones-fotograficas/",
       "x-default": "https://purehousemarrakech.com/photoshooting/",
     },
   },

@@ -14,6 +14,7 @@ export const metadata = {
     languages: {
       "en-US": "https://purehousemarrakech.com/standard/",
       "fr-FR": "https://purehousemarrakech.com/fr/standard/",
+      "es-ES": "https://purehousemarrakech.com/es/estandar/",
       "x-default": "https://purehousemarrakech.com/standard/",
     },
   },

@@ -10,6 +10,7 @@ export const metadata = {
     languages: {
       "en-US": "https://purehousemarrakech.com/adults-only/",
       "fr-FR": "https://purehousemarrakech.com/fr/adults-only/",
+      "es-ES": "https://purehousemarrakech.com/es/solo-adultos/",
       "x-default": "https://purehousemarrakech.com/adults-only/",
     },
   },

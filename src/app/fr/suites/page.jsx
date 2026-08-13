@@ -14,6 +14,7 @@ export const metadata = {
     languages: {
       "en-US": "https://purehousemarrakech.com/suites/",
       "fr-FR": "https://purehousemarrakech.com/fr/suites/",
+      "es-ES": "https://purehousemarrakech.com/es/suites/",
       "x-default": "https://purehousemarrakech.com/suites/",
     },
   },

@@ -13,6 +13,7 @@ export const metadata = {
     languages: {
       "en-US": "https://purehousemarrakech.com/deluxe/",
       "fr-FR": "https://purehousemarrakech.com/fr/deluxe/",
+      "es-ES": "https://purehousemarrakech.com/es/deluxe/",
       "x-default": "https://purehousemarrakech.com/deluxe/",
     },
   },

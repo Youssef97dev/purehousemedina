@@ -9,6 +9,7 @@ export const metadata = {
     languages: {
       "en-US": "https://purehousemarrakech.com/gallery/",
       "fr-FR": "https://purehousemarrakech.com/fr/gallery/",
+      "es-ES": "https://purehousemarrakech.com/es/galería/",
       "x-default": "https://purehousemarrakech.com/gallery/",
     },
   },
