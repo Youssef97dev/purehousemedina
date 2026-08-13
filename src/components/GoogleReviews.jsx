@@ -61,6 +61,14 @@ const reviews = [
 ];
 
 const Stars = () => {
+  const truncateText = (text, maxLength = 180) => {
+    if (text.length <= maxLength) {
+      return text;
+    }
+
+    return text.slice(0, maxLength).trimEnd() + "...";
+  };
+
   return (
     <div className="flex gap-1 text-[13px] text-[#b49763]">
       {[1, 2, 3, 4, 5].map((star) => (
@@ -127,7 +135,7 @@ export default function GoogleReviews({ title, subtitle, text_, link_ }) {
                     <Stars />
 
                     <p className="mt-7 font-serif text-[17px] leading-8 text-neutral-700">
-                      “{review.text}”
+                      “{truncateText(review.text, 180)}”
                     </p>
                   </div>
 
