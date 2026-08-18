@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import BookDirect from "./BookDirect";
+import HotelRunnerSearch from "./HotelRunnerSearch";
 import heroMobile from "@/data/heroMobile.json";
 import heroDesktop from "@/data/heroDesktop.json";
 
@@ -105,6 +106,10 @@ const Hero = () => {
       {/* Overlay (Optional: uncomment if you need text readability over images) */}
       {/* <div className="absolute inset-0 bg-black/30 z-20 pointer-events-none"></div> */}
 
+      {/* HotelRunner */}
+      <div className="absolute bottom-24 left-1/2 z-30 w-full max-w-6xl -translate-x-1/2 px-4">
+        <HotelRunnerSearch />
+      </div>
       {/* --- SCROLL DOWN ARROW --- */}
       <div className="absolute bottom-16 left-1/2 transform -translate-x-1/2 text-white z-30">
         <a
