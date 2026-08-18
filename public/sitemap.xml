@@ -86,34 +86,6 @@
   </url>
 
   <url>
-    <loc>https://purehousemarrakech.com/booking/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://purehousemarrakech.com/booking/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://purehousemarrakech.com/fr/booking/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://purehousemarrakech.com/es/reservas/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://purehousemarrakech.com/booking/" />
-    <lastmod>2026-08-13</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://purehousemarrakech.com/fr/booking/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://purehousemarrakech.com/booking/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://purehousemarrakech.com/fr/booking/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://purehousemarrakech.com/es/reservas/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://purehousemarrakech.com/booking/" />
-    <lastmod>2026-08-13</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://purehousemarrakech.com/es/reservas/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://purehousemarrakech.com/booking/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://purehousemarrakech.com/fr/booking/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://purehousemarrakech.com/es/reservas/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://purehousemarrakech.com/booking/" />
-    <lastmod>2026-08-13</lastmod>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
     <loc>https://purehousemarrakech.com/deluxe/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://purehousemarrakech.com/deluxe/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://purehousemarrakech.com/fr/deluxe/" />

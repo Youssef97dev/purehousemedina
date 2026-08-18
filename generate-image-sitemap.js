@@ -273,8 +273,8 @@ const sitePages = [
     ],
   },
   {
-    pageUrl: "/shooting/",
-    lastmod: "2026-06-02",
+    pageUrl: "/photoshooting/",
+    lastmod: "2026-08-18",
     priority: "0.9",
     images: [
       {
