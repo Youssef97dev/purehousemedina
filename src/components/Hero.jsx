@@ -107,7 +107,7 @@ const Hero = () => {
       {/* <div className="absolute inset-0 bg-black/30 z-20 pointer-events-none"></div> */}
 
       {/* HotelRunner */}
-      <div className="absolute bottom-64 left-1/2 z-40 w-full max-w-6xl -translate-x-1/2 px-4">
+      <div className="absolute top-10 left-1/2 z-40 w-full max-w-6xl -translate-x-1/2 px-4">
         <HotelRunnerSearch />
       </div>
       {/* --- SCROLL DOWN ARROW --- */}
