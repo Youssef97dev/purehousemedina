@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import Intro from "./components/Intro";
 import Ameneties from "./components/Ameneties";
 import RoomBookingCTA from "@/components/RoomBookingCTA";
+import WhyBookDirect from "@/components/WhyBookDirect";
 
 export const metadata = {
   title:
@@ -49,6 +50,39 @@ export const metadata = {
   },
 };
 
+const benefits = [
+  {
+    title: "Transfert aéroport offert",
+    description:
+      "Profitez d’un transfert aéroport offert et d’un accompagnement personnalisé jusqu’au riad.",
+  },
+  {
+    title: "Départ tardif",
+    description:
+      "Profitez d’un départ plus tardif, sous réserve de disponibilité.",
+  },
+  {
+    title: "Paiement sécurisé",
+    description:
+      "Votre paiement est traité de manière sécurisée via notre système de réservation.",
+  },
+  {
+    title: "Confirmation instantanée",
+    description:
+      "Recevez directement votre confirmation de réservation par email.",
+  },
+  {
+    title: "Assistance personnalisée",
+    description:
+      "Échangez directement avec Sara et notre équipe avant et pendant votre séjour.",
+  },
+  {
+    title: "Assistance WhatsApp",
+    description:
+      "Une question ? Contactez directement notre équipe sur WhatsApp.",
+  },
+];
+
 const page = () => {
   const jsonLd = {
     "@context": "https://schema.org",
@@ -86,6 +120,12 @@ const page = () => {
         text="Vérifiez vos dates pour connaître le meilleur tarif disponible."
         btn="Vérifier les disponibilités"
         night="nuit"
+      />
+      <WhyBookDirect
+        title="Réservez en direct"
+        subtitle="Pourquoi réserver en direct avec nous ?"
+        text="Profitez d’une expérience plus personnalisée en réservant directement avec Pure House Marrakech."
+        benefits={benefits}
       />
       <Ameneties />
       <Footer path="/standard" second_path={"/es/estandar"} />

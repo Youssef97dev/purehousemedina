@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import Intro from "./components/Intro";
 import Ameneties from "./components/Ameneties";
 import RoomBookingCTA from "@/components/RoomBookingCTA";
+import WhyBookDirect from "@/components/WhyBookDirect";
 
 export const metadata = {
   title: "Deluxe Rooms | Luxury Boutique Riad in Marrakech | Pure House Medina",
@@ -47,6 +48,35 @@ export const metadata = {
     ],
   },
 };
+const benefits = [
+  {
+    title: "Complimentary Airport Transfer",
+    description:
+      "Enjoy a complimentary airport transfer and personal escort to the riad.",
+  },
+  {
+    title: "Late Checkout",
+    description: "Enjoy a later departure time, subject to availability.",
+  },
+  {
+    title: "Secure Payment",
+    description:
+      "Your payment is processed securely through our booking system.",
+  },
+  {
+    title: "Instant Confirmation",
+    description: "Receive your booking confirmation directly by email.",
+  },
+  {
+    title: "Personal Assistance",
+    description:
+      "Speak directly with Sara and our team before and during your stay.",
+  },
+  {
+    title: "WhatsApp Assistance",
+    description: "Have a question? Contact our team directly on WhatsApp.",
+  },
+];
 
 const page = () => {
   const jsonLd = {
@@ -85,6 +115,13 @@ const page = () => {
         text="Check your dates for the best available rate."
         btn="Check Availability"
         night="night"
+      />
+      <WhyBookDirect
+        title="Book Direct"
+        subtitle="Why book direct with us"
+        text="Enjoy a more personal experience when you book directly with
+            Pure House Marrakech."
+        benefits={benefits}
       />
       <Ameneties />
       <Footer path="/fr/deluxe" second_path={"/es/deluxe"} />
