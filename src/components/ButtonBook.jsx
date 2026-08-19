@@ -1,44 +1,39 @@
 "use client";
 
-import Script from "next/script";
+import Link from "next/link";
 
-export default function ButtonBook() {
+const ButtonBook = ({ text }) => {
   return (
-    <>
-      <style>{`
-        @import url(https://d2uyahi4tkntqv.cloudfront.net/assets/booking_button.css?v=1.0.0);
-      `}</style>
-
-      <div
-        id="hr_booking_button"
+    <div className="fixed right-4 top-52 z-[9999] -translate-y-1/2 lg:hidden">
+      <Link
+        href="https://pure-house-marrakech.hotelrunner.com/bv3/search"
         className="
-          fixed
-          bottom-0
-          left-0
-          right-0
-          z-[9999]
-          block
-          lg:hidden
-          bg-white/95
-          backdrop-blur-md
-          border-t
-          border-black/10
-          px-4
-          pt-3
-          pb-[calc(0.75rem+env(safe-area-inset-bottom))]
-          shadow-[0_-4px_20px_rgba(0,0,0,0.12)]
+          flex
+          -rotate-90
+          origin-right
+          items-center
+          justify-center
+          rounded-t-md
+          bg-riad_primary
+          px-6
+          py-3
+          text-xs
+          font-medium
+          uppercase
+          tracking-[0.2em]
+          text-white
+          shadow-lg
+          transition-all
+          duration-300
+          hover:bg-riad_background
+          hover:text-riad_primary
+          active:scale-95
         "
       >
-        <div className="mx-auto max-w-md">
-          {/* HotelRunner injects the booking button here */}
-        </div>
-      </div>
-
-      <Script
-        id="hr_button_script"
-        src="https://pure-house-marrakech.hotelrunner.com/widgets/4167ea2abb3c34f130dc/booking_button.js?v=1.0.0"
-        strategy="afterInteractive"
-      />
-    </>
+        {text}
+      </Link>
+    </div>
   );
-}
+};
+
+export default ButtonBook;

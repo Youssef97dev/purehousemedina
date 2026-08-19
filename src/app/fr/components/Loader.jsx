@@ -8,6 +8,7 @@ import Map from "./Map";
 import Footer from "./Footer";
 import ButtonWtsp from "@/components/ButtonWtsp";
 import GoogleReviews from "@/components/GoogleReviews";
+import ButtonBook from "@/components/ButtonBook";
 
 const Loader = () => {
   const jsonLd = {
@@ -70,6 +71,7 @@ const Loader = () => {
       <div className="fixed bottom-7 right-6 text-riad_primary z-50">
         <ButtonWtsp />
       </div>
+      <ButtonBook text={"Réserver"} />
     </div>
   );
 };
