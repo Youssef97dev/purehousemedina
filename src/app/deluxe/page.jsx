@@ -3,6 +3,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Intro from "./components/Intro";
 import Ameneties from "./components/Ameneties";
+import RoomBookingCTA from "@/components/RoomBookingCTA";
 
 export const metadata = {
   title: "Deluxe Rooms | Luxury Boutique Riad in Marrakech | Pure House Medina",
@@ -78,6 +79,13 @@ const page = () => {
       />
       <Navbar path="/fr/deluxe" second_path={"/es/deluxe"} change={true} />
       <Intro />
+      <RoomBookingCTA
+        roomName="Deluxe Room"
+        fromPrice="From €159"
+        text="Check your dates for the best available rate."
+        btn="Check Availability"
+        night="night"
+      />
       <Ameneties />
       <Footer path="/fr/deluxe" second_path={"/es/deluxe"} />
     </div>

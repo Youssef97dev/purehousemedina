@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Intro from "./components/Intro";
 import Ameneties from "./components/Ameneties";
+import RoomBookingCTA from "@/components/RoomBookingCTA";
 
 export const metadata = {
   title: "Habitaciones Deluxe en Marrakech | Pure House",
@@ -121,6 +122,13 @@ const page = () => {
       />
       <Navbar path="/deluxe" second_path={"/fr/deluxe"} change={true} />
       <Intro />
+      <RoomBookingCTA
+        roomName="Habitación Deluxe"
+        fromPrice="Desde 159 €"
+        text="Consulta tus fechas para conocer la mejor tarifa disponible."
+        btn="Ver disponibilidad"
+        night="noche"
+      />
       <Ameneties />
       <Footer path="/deluxe" second_path={"/fr/deluxe"} />
     </div>

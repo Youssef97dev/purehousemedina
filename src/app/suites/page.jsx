@@ -3,6 +3,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Intro from "./components/Intro";
 import Ameneties from "./components/Ameneties";
+import RoomBookingCTA from "@/components/RoomBookingCTA";
 
 export const metadata = {
   title:
@@ -91,6 +92,13 @@ const page = () => {
       />
       <Navbar path="/fr/suites" second_path={"/es/suites"} change={true} />
       <Intro />
+      <RoomBookingCTA
+        roomName="Suite"
+        fromPrice="From €184"
+        text="Check your dates for the best available rate."
+        btn="Check Availability"
+        night="night"
+      />
       <Ameneties />
       <Footer path="/fr/suites" second_path={"/es/suites"} />
     </div>

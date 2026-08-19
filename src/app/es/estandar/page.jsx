@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Intro from "./components/Intro";
 import Ameneties from "./components/Ameneties";
+import RoomBookingCTA from "@/components/RoomBookingCTA";
 
 export const metadata = {
   title: "Habitaciones Estándar en Marrakech | Pure House",
@@ -123,6 +124,13 @@ const page = () => {
       />
       <Navbar path="/standard" second_path={"/fr/standard"} change={true} />
       <Intro />
+      <RoomBookingCTA
+        roomName="Habitación Estándar"
+        fromPrice="Desde 133 €"
+        text="Consulta tus fechas para conocer la mejor tarifa disponible."
+        btn="Ver disponibilidad"
+        night="noche"
+      />
       <Ameneties />
       <Footer path="/standard" second_path={"/fr/standard"} />
     </div>

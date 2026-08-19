@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Intro from "./components/Intro";
 import Ameneties from "./components/Ameneties";
+import RoomBookingCTA from "@/components/RoomBookingCTA";
 
 export const metadata = {
   title:
@@ -79,6 +80,13 @@ const page = () => {
       />
       <Navbar path="/standard" second_path={"/es/estandar"} change={true} />
       <Intro />
+      <RoomBookingCTA
+        roomName="Chambre Standard"
+        fromPrice="À partir de 133 €"
+        text="Vérifiez vos dates pour connaître le meilleur tarif disponible."
+        btn="Vérifier les disponibilités"
+        night="nuit"
+      />
       <Ameneties />
       <Footer path="/standard" second_path={"/es/estandar"} />
     </div>

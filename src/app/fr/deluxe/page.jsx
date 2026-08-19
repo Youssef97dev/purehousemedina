@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Intro from "./components/Intro";
 import Ameneties from "./components/Ameneties";
+import RoomBookingCTA from "@/components/RoomBookingCTA";
 
 export const metadata = {
   title:
@@ -79,6 +80,13 @@ const page = () => {
       />
       <Navbar path="/deluxe" second_path={"/es/deluxe"} change={true} />
       <Intro />
+      <RoomBookingCTA
+        roomName="Chambre Deluxe"
+        fromPrice="À partir de 159 €"
+        text="Vérifiez vos dates pour connaître le meilleur tarif disponible."
+        btn="Vérifier les disponibilités"
+        night="nuit"
+      />
       <Ameneties />
       <Footer path="/deluxe" second_path={"/es/deluxe"} />
     </div>
