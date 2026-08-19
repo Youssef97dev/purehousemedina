@@ -16,22 +16,24 @@ const BookDirect = ({ isOpen, onClose }) => {
       role="dialog"
       aria-modal="true"
       aria-labelledby="modal-title"
-      onClick={onClose} // Close modal when clicking the backdrop
-      className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 px-4 
-        [&_.swiper-button-next]:text-white [&_.swiper-button-prev]:text-white 
-        [&_.swiper-pagination-bullet]:bg-white [&_.swiper-pagination-bullet-active]:bg-red-500 
-        animate-[fadeIn_0.4s_forwards] duration-300"
+      onClick={onClose}
+      className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 px-4
+        [&_.swiper-button-next]:text-white
+        [&_.swiper-button-prev]:text-white
+        animate-[fadeIn_0.4s_forwards]"
     >
       {/* Modal Container */}
       <div
-        onClick={(e) => e.stopPropagation()} // Prevent clicks inside the modal from closing it
-        className="relative w-full max-w-md rounded-lg bg-white overflow-hidden shadow-xl"
+        onClick={(e) => e.stopPropagation()}
+        className="relative w-full max-w-md overflow-hidden rounded-lg bg-white shadow-xl"
       >
         {/* Close button */}
         <button
           onClick={onClose}
           aria-label="Close dialog"
-          className="absolute right-3 top-3 z-20 flex h-8 w-8 items-center justify-center rounded-full bg-black/30 text-white transition hover:bg-black/50"
+          className="absolute right-3 top-3 z-20 flex h-8 w-8
+            items-center justify-center rounded-full bg-black/30
+            text-white transition hover:bg-black/50"
         >
           <IoCloseSharp size={20} />
         </button>
@@ -40,14 +42,14 @@ const BookDirect = ({ isOpen, onClose }) => {
         <Swiper modules={[Navigation]} navigation className="w-full">
           {popupBook.map((image, index) => (
             <SwiperSlide key={image.src}>
-              <div className="relative w-full h-[35vh] lg:h-[40vh]">
+              <div className="relative h-[35vh] w-full lg:h-[40vh]">
                 <Image
                   src={image.src}
                   alt={image.en.alt}
                   title={image.en.title}
                   fill
                   sizes="(max-width: 768px) 100vw, 500px"
-                  priority={index === 0} // CRITICAL: Only preloads the first slide for speed
+                  priority={index === 0}
                   className={`object-cover object-[50%,30%] ${
                     image.class || ""
                   }`}
@@ -58,46 +60,80 @@ const BookDirect = ({ isOpen, onClose }) => {
         </Swiper>
 
         {/* Content */}
-        <div className="p-6 text-center">
-          <h2
-            id="modal-title"
-            className="mb-3 text-xl text-[#b59a5a] font-light"
-          >
-            Why book direct?
-          </h2>
+        <div className="px-6 pb-7 pt-6">
+          {/* Heading */}
+          <div className="text-center">
+            <p className="mb-2 text-[10px] uppercase tracking-[0.3em] text-[#b59a5a]">
+              Pure House Marrakech
+            </p>
 
-          <p className="mb-5 text-sm text-gray-600 text-left font-winthorpe">
-            Book your stay directly through our website and enjoy exclusive
-            benefits:
-          </p>
+            <h2 id="modal-title" className="text-xl font-light text-[#b59a5a]">
+              Why book direct?
+            </h2>
 
-          <ul className="mb-6 space-y-3 text-sm text-gray-700 font-winthorpe">
-            <li className="flex items-center justify-start gap-2">
-              <span className="text-[#b59a5a]" aria-hidden="true">
+            <p className="mt-3 text-left text-sm leading-6 text-gray-600 font-winthorpe">
+              Book directly through our website and enjoy a more personal
+              experience with exclusive direct-booking benefits.
+            </p>
+          </div>
+
+          {/* Benefits */}
+          <ul className="mt-6 space-y-2 text-sm text-gray-700 font-winthorpe">
+            <li className="flex items-start gap-3">
+              <span className="mt-0.5 text-[#b59a5a]" aria-hidden="true">
                 ✓
               </span>
-              Best rate guaranteed
+
+              <span>
+                <strong className="font-medium">
+                  Complimentary airport transfer
+                </strong>
+                <br />
+                Personal escort to the riad.
+              </span>
             </li>
-            <li className="flex items-center justify-start gap-2">
-              <span className="text-[#b59a5a]" aria-hidden="true">
+
+            <li className="flex items-start gap-3">
+              <span className="mt-0.5 text-[#b59a5a]" aria-hidden="true">
                 ✓
               </span>
-              Exclusive offers and privileges
+
+              <span>
+                <strong className="font-medium">Late checkout</strong>
+                <br />
+                Subject to availability.
+              </span>
             </li>
-            <li className="flex items-center justify-start gap-2">
-              <span className="text-[#b59a5a]" aria-hidden="true">
+
+            <li className="flex items-start gap-3">
+              <span className="mt-0.5 text-[#b59a5a]" aria-hidden="true">
                 ✓
               </span>
-              Priority and personalised service
+
+              <span>
+                <strong className="font-medium">Secure payment</strong>
+                <br />
+                Book with confidence through our secure booking system.
+              </span>
             </li>
           </ul>
 
+          {/* CTA */}
           <Link
-            href="/booking"
-            className="inline-block w-full bg-[#b59a5ab7] py-3 px-7 text-sm font-winthorpe text-white hover:bg-[#a4894f] transition tracking-widest"
+            href="https://pure-house-marrakech.hotelrunner.com/bv3/search"
+            onClick={onClose}
+            className="mt-5 flex w-full items-center justify-center
+              bg-[#b59a5a] px-7 py-3 text-sm 
+              tracking-[0.15em] text-white transition
+              hover:bg-[#a4894f]"
           >
-            Book Direct
+            CHECK AVAILABILITY
           </Link>
+
+          {/* Reassurance */}
+          <p className="mt-3 text-center text-[10px] tracking-wide text-gray-400">
+            Book directly with Pure House Marrakech
+          </p>
         </div>
       </div>
     </div>
