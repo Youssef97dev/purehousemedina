@@ -59,9 +59,9 @@ export const metadata = {
 
 const benefits = [
   {
-    title: "Traslado al aeropuerto incluido",
+    title: "Servicio de traslado desde el aeropuerto",
     description:
-      "Disfruta de un traslado gratuito desde el aeropuerto y de un acompañamiento personalizado hasta el riad.",
+      "Un traslado desde el aeropuerto y de un acompañamiento personalizado hasta el riad.",
   },
   {
     title: "Salida tardía",
@@ -156,7 +156,7 @@ const page = () => {
       <Intro />
       <RoomBookingCTA
         roomName="Habitación Deluxe"
-        fromPrice="Desde 159 €"
+        fromPrice="Desde 280 €"
         text="Consulta tus fechas para conocer la mejor tarifa disponible."
         btn="Ver disponibilidad"
         night="noche"

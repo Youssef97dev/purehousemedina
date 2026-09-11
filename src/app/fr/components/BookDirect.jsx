@@ -86,7 +86,7 @@ const BookDirect = ({ isOpen, onClose }) => {
 
               <span>
                 <strong className="font-medium">
-                  Transfert aéroport offert
+                  {"Service de transfert depuis l’aéroport"}
                 </strong>
                 <br />
                 Accompagnement personnalisé {"jusqu'au"} riad.

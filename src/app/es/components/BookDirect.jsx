@@ -86,7 +86,7 @@ const BookDirect = ({ isOpen, onClose }) => {
 
               <span>
                 <strong className="font-medium">
-                  Traslado al aeropuerto incluido
+                  Servicio de traslado desde el aeropuerto
                 </strong>
                 <br />
                 Acompañamiento personalizado hasta el riad.

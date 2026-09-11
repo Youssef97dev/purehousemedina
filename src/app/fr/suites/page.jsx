@@ -52,9 +52,9 @@ export const metadata = {
 
 const benefits = [
   {
-    title: "Transfert aéroport offert",
+    title: "Service de transfert depuis l’aéroport",
     description:
-      "Profitez d’un transfert aéroport offert et d’un accompagnement personnalisé jusqu’au riad.",
+      "Un transfert depuis l’aéroport et d’un accompagnement personnalisé jusqu’au riad.",
   },
   {
     title: "Départ tardif",
@@ -128,7 +128,7 @@ const page = () => {
       <Intro />
       <RoomBookingCTA
         roomName="Suite"
-        fromPrice="À partir de 184 €"
+        fromPrice="À partir de 330 €"
         text="Vérifiez vos dates pour connaître le meilleur tarif disponible."
         btn="Vérifier les disponibilités"
         night="nuit"

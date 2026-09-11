@@ -51,9 +51,8 @@ export const metadata = {
 };
 const benefits = [
   {
-    title: "Complimentary Airport Transfer",
-    description:
-      "Enjoy a complimentary airport transfer and personal escort to the riad.",
+    title: "Airport transfer service",
+    description: "Enjoy airport transfer and personal escort to the riad.",
   },
   {
     title: "Late Checkout",
@@ -112,7 +111,7 @@ const page = () => {
       <Intro />
       <RoomBookingCTA
         roomName="Standard Room"
-        fromPrice="From €133"
+        fromPrice="From €230"
         text="Check your dates for the best available rate."
         btn="Check Availability"
         night="night"

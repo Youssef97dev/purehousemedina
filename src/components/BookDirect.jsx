@@ -86,7 +86,7 @@ const BookDirect = ({ isOpen, onClose }) => {
 
               <span>
                 <strong className="font-medium">
-                  Complimentary airport transfer
+                  Airport transfer service
                 </strong>
                 <br />
                 Personal escort to the riad.
