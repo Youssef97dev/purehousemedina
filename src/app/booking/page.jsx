@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Marcellus, Jost } from "next/font/google";
 import Navbar from "@/components/Navbar";
+import Map from "@/components/Map";
 
 const marcellus = Marcellus({
   weight: "400",
@@ -122,14 +123,14 @@ export default function StoryPage() {
         </section>
 
         {/* Map */}
-        <section className="mx-auto mt-12 max-w-md px-6">
-          <h2 className="font-[family-name:var(--font-display)] text-2xl">
+        <section className="mx-auto mt-12 max-w-lg px-6">
+          <h2 className="text-riad_primary font-[family-name:var(--font-display)] text-2xl ">
             Find us in the Medina
           </h2>
-          <p className="mt-2 text-[#EFE7D6]/75">
+          <p className="mt-2 text-riad_primary">
             16 Derb Abou El Fdail, Marrakech 40000
           </p>
-          <div className="mt-4 overflow-hidden rounded-2xl border border-[#EFE7D6]/15">
+          {/*<div className="mt-4 overflow-hidden rounded-2xl border border-[#EFE7D6]/15">
             <iframe
               title="Pure House Marrakech on Google Maps"
               src={MAPS_EMBED}
@@ -138,7 +139,8 @@ export default function StoryPage() {
               referrerPolicy="no-referrer-when-downgrade"
               allowFullScreen
             />
-          </div>
+          </div>*/}
+          <Map />
           <a
             href={MAPS_LINK}
             target="_blank"
