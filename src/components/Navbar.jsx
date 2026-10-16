@@ -31,93 +31,97 @@ const Navbar = ({ path, second_path, change = false }) => {
   }, []);
 
   return (
-    isClient && (
-      <nav
-        className={`fixed z-50 w-full transition-colors duration-300 py-0 ${
-          scrolled || change
-            ? "bg-riad_background text-secondary"
-            : "bg-transparent text-white"
-        }`}
-      >
-        <div className="w-full flex justify-center items-center mx-auto px-5 lg:px-10 ">
+    <nav
+      className={`fixed z-50 w-full transition-colors duration-300 py-0 ${
+        scrolled || change
+          ? "bg-riad_background text-secondary"
+          : "bg-transparent text-white"
+      }`}
+    >
+      <div className="w-full flex justify-center items-center mx-auto px-5 lg:px-10 ">
+        <div
+          className={`pt-1 lg:pt-0 cursor-pointer w-[25%] lg:w-[20%] text-[18px] lg:text-[30px] ${
+            scrolled || change ? "text-riad_primary" : "text-white"
+          }`}
+          onClick={() => setIsOpen(true)}
+        >
+          {/*<IoIosMenu />*/}
           <div
-            className={`pt-1 lg:pt-0 cursor-pointer w-[25%] lg:w-[20%] text-[18px] lg:text-[30px] ${
-              scrolled || change ? "text-riad_primary" : "text-white"
+            className={`border-b-2 border-t-2 h-3 w-9 ${
+              scrolled || change
+                ? "border-riad_primary"
+                : "border-riad_background"
             }`}
-            onClick={() => setIsOpen(true)}
-          >
-            {/*<IoIosMenu />*/}
-            <div
-              className={`border-b-2 border-t-2 h-3 w-9 ${
+          ></div>
+        </div>
+        <div className="w-[50%] lg:w-[60%] flex justify-center items-center pb-2">
+          <Link href="/">
+            <Image
+              src={
                 scrolled || change
-                  ? "border-riad_primary"
-                  : "border-riad_background"
+                  ? "/riad/riad-logo-black.png"
+                  : "/riad/riad-logo-white.png"
+              }
+              width={300}
+              height={300}
+              alt="Pure House Marrakech"
+              className={`mt-2 w-16 lg:w-20`}
+            />
+          </Link>
+        </div>
+        <div className="flex justify-start items-center gap-5 w-[25%] lg:w-[20%]">
+          <div className="w-full flex justify-end items-center text-white cursor-pointer">
+            <Link
+              href="https://pure-house-marrakech.hotelrunner.com/bv3/search"
+              target="_blank"
+              rel="noopener"
+              className={`w-full text-center lg:w-[60%] tracking-[0.1em] lg:tracking-[0.2em] text-[12px] lg:text-[12px] leading-[28px] lg:leading-[28px] py-1 px-4 lg:px-6 italic transition-all duration-300 ease-in-out ${
+                scrolled || change
+                  ? "text-riad_background bg-riad_secondary hover:bg-riad_primary"
+                  : "text-riad_primary bg-riad_background hover:bg-riad_primary hover:text-riad_background"
               }`}
-            ></div>
-          </div>
-          <div className="w-[50%] lg:w-[60%] flex justify-center items-center pb-2">
-            <Link href="/">
-              <Image
-                src={
-                  scrolled || change
-                    ? "/riad/riad-logo-black.png"
-                    : "/riad/riad-logo-white.png"
-                }
-                width={300}
-                height={300}
-                alt="Logo pure house medina"
-                className={`mt-2 w-16 lg:w-20`}
-              />
+            >
+              Reserve
             </Link>
           </div>
-          <div className="flex justify-start items-center gap-5 w-[25%] lg:w-[20%]">
-            <div className="w-full flex justify-end items-center  text-white cursor-pointer">
-              <Link
-                href="https://pure-house-marrakech.hotelrunner.com/bv3/search"
-                className={`w-full text-center  lg:w-[60%] tracking-[0.1em] lg:tracking-[0.2em]  text-[12px] lg:text-[12px] leading-[28px] lg:leading-[28px] py-1 px-4 lg:px-6 italic transition-all duration-300 ease-in-out ${
-                  scrolled || change
-                    ? "text-riad_background bg-riad_secondary hover:bg-riad_primary"
-                    : "text-riad_primary bg-riad_background hover:bg-riad_primary hover:text-riad_background"
-                }`}
-              >
-                Reserve
-              </Link>
-            </div>
-            <div
-              className="relative lg:block hidden"
-              onClick={() => setIsDropdownOpen(!isDropdownOpen)}
+          <div
+            className="relative lg:block hidden group"
+            onClick={() => setIsDropdownOpen(!isDropdownOpen)}
+          >
+            <button
+              aria-label="Language selection"
+              className={`font-light tracking-widest flex justify-center items-center text-[12px] gap-2 pb-1 ${
+                scrolled || change ? "text-riad_primary" : "text-white"
+              }`}
             >
-              <button
-                className={`font-light tracking-widest flex justify-center items-center text-[12px] gap-2 pb-1 ${
-                  scrolled || change ? "text-riad_primary" : "text-white"
-                }`}
-              >
-                <MdLanguage size={20} />
-                <div className="">
-                  <RiArrowDownSLine size={18} />
-                </div>
-              </button>
-              {isDropdownOpen && (
-                <ul className="absolute rounded top-8 -left-12 bg-riad_background mt-2 py-1 w-28 shadow-lg flex justify-center items-center">
-                  <li className="px-2 py-2 rounded-lg cursor-pointer hover:bg-riad_secondary transition-all duration-200 ease-in-out font-light text-riad_primary">
-                    <Link rel="alternate" hrefLang="en" href="#">
-                      {"EN"}
-                    </Link>
-                  </li>
-                  <li className="px-2 py-2 rounded-lg cursor-pointer hover:bg-riad_secondary transition-all duration-200 ease-in-out font-light text-riad_primary">
-                    <Link rel="alternate" hrefLang="fr" href={`${path}`}>
-                      {"FR"}
-                    </Link>
-                  </li>
-                  <li className="px-2 py-2 rounded-lg cursor-pointer hover:bg-riad_secondary transition-all duration-200 ease-in-out font-light text-riad_primary">
-                    <Link rel="alternate" hrefLang="es" href={`${second_path}`}>
-                      {"ES"}
-                    </Link>
-                  </li>
-                </ul>
-              )}
-            </div>
+              <MdLanguage size={20} />
+              <div className="">
+                <RiArrowDownSLine size={18} />
+              </div>
+            </button>
+            <ul
+              className={`absolute rounded top-8 -left-12 bg-riad_background mt-2 py-1 w-28 shadow-lg flex justify-center items-center ${
+                isDropdownOpen ? "flex" : "hidden group-hover:flex"
+              }`}
+            >
+              <li className="px-2 py-2 rounded-lg cursor-pointer hover:bg-riad_secondary transition-all duration-200 ease-in-out font-light text-riad_primary">
+                <Link rel="alternate" hrefLang="en" lang="en" href="/">
+                  {"EN"}
+                </Link>
+              </li>
+              <li className="px-2 py-2 rounded-lg cursor-pointer hover:bg-riad_secondary transition-all duration-200 ease-in-out font-light text-riad_primary">
+                <Link rel="alternate" hrefLang="fr" lang="fr" href={path || "/fr/"}>
+                  {"FR"}
+                </Link>
+              </li>
+              <li className="px-2 py-2 rounded-lg cursor-pointer hover:bg-riad_secondary transition-all duration-200 ease-in-out font-light text-riad_primary">
+                <Link rel="alternate" hrefLang="es" lang="es" href={second_path || "/es/"}>
+                  {"ES"}
+                </Link>
+              </li>
+            </ul>
           </div>
+        </div>
           {/* Full-screen mobile menu */}
           <Transition
             show={isOpen}
@@ -293,7 +297,6 @@ const Navbar = ({ path, second_path, change = false }) => {
           </Transition>
         </div>
       </nav>
-    )
   );
 };
 

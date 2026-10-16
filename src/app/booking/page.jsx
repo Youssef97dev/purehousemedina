@@ -16,7 +16,7 @@ const jost = Jost({
 });
 
 export const metadata = {
-  title: "Pure House Marrakech | Adults-only riad in the Medina",
+  title: "Adults-Only Boutique Riad in the Medina",
   description:
     "An adults-only boutique riad steps from Jemaa el-Fna. Courtyard pool, rooftop terrace, private hammam.",
   // Campaign page: keep it out of search results to avoid duplicate content.

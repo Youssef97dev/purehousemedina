@@ -2,7 +2,7 @@ import React from "react";
 import Loader from "./components/Loader";
 
 export const metadata = {
-  title: "Meilleur Riad de Luxe pour Adultes à Marrakech Médina | Pure House",
+  title: "Meilleur Riad de Luxe pour Adultes à Marrakech Médina",
   description:
     "Évadez-vous au Pure House Marrakech, un riad de luxe exclusif réservé aux adultes dans la Médina. Réservez votre retraite romantique en couple avec piscines paisibles et suites de charme.",
   alternates: {

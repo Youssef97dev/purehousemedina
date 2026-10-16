@@ -11,7 +11,7 @@ const Footer = ({ path, second_path }) => {
         {/* Left Section */}
         <Image
           src="/riad/riad-logo-gray.png"
-          alt="logo pure house riad medina"
+          alt="Pure House Marrakech"
           width={100}
           height={100}
           className="object-cover w-40"
@@ -28,13 +28,13 @@ const Footer = ({ path, second_path }) => {
           </span>
           <span>+212 6 82 22 52 35</span>
           <div className="w-full flex justify-center items-center gap-4 lg:hidden text-[14px] font-light">
-            <Link rel="alternate" hrefLang="fr" href={`${second_path}`}>
-              {"FR"}
-            </Link>
-            <Link rel="alternate" hrefLang="en" href={`${path}`}>
+            <Link rel="alternate" hrefLang="en" lang="en" href={path || "/"} className="hover:text-riad_secondary">
               {"EN"}
             </Link>
-            <Link rel="alternate" hrefLang="es" href="#">
+            <Link rel="alternate" hrefLang="fr" lang="fr" href={second_path || "/fr/"} className="hover:text-riad_secondary">
+              {"FR"}
+            </Link>
+            <Link rel="alternate" hrefLang="es" lang="es" href="/es/" className="hover:text-riad_secondary">
               {"ES"}
             </Link>
           </div>

@@ -7,8 +7,7 @@ import RoomBookingCTA from "@/components/RoomBookingCTA";
 import WhyBookDirect from "@/components/WhyBookDirect";
 
 export const metadata = {
-  title:
-    "Royal King Bed Suite | Luxury Honeymoon Riad in Marrakech | Pure House Medina",
+  title: "Royal King Bed Suite | Luxury Honeymoon Riad in Marrakech",
   description:
     "Experience ultimate luxury in our premier King Suites at Pure House Marrakech. Featuring spacious layouts, premium amenities, and romantic decor, perfect for your Medina honeymoon.",
   alternates: {

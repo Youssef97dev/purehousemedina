@@ -2,7 +2,7 @@ import React from "react";
 import Loader from "./components/Loader";
 
 export const metadata = {
-  title: "Riad Solo para Adultos en Marrakech | Pure House",
+  title: "Riad Solo para Adultos en Marrakech Medina",
   description:
     "Descubre Pure House Marrakech, un riad boutique de lujo solo para adultos en la Medina. Un refugio exclusivo para parejas, lunas de miel y escapadas románticas en un ambiente de calma y privacidad.",
   keywords: [

@@ -10,7 +10,7 @@ const Footer = ({ path, second_path }) => {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center md:items-center space-y-4 md:space-y-0">
         <Image
           src="/riad/riad-logo-gray.png"
-          alt="logo pure house riad medina"
+          alt="Pure House Marrakech"
           width={100}
           height={100}
           className="object-cover w-40"
@@ -28,13 +28,13 @@ const Footer = ({ path, second_path }) => {
           </span>
           <span>+212 6 82 22 52 35</span>
           <div className="w-full flex justify-center items-center gap-4 lg:hidden text-[14px] font-light">
-            <Link rel="alternate" hrefLang="fr" href={`${path}`}>
-              {"FR"}
-            </Link>
-            <Link rel="alternate" hrefLang="en" href="#">
+            <Link rel="alternate" hrefLang="en" lang="en" href="/" className="hover:text-riad_secondary">
               {"EN"}
             </Link>
-            <Link rel="alternate" hrefLang="es" href={`${second_path}`}>
+            <Link rel="alternate" hrefLang="fr" lang="fr" href={path || "/fr/"} className="hover:text-riad_secondary">
+              {"FR"}
+            </Link>
+            <Link rel="alternate" hrefLang="es" lang="es" href={second_path || "/es/"} className="hover:text-riad_secondary">
               {"ES"}
             </Link>
           </div>

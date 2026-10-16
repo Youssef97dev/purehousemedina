@@ -7,7 +7,7 @@ import RoomBookingCTA from "@/components/RoomBookingCTA";
 import WhyBookDirect from "@/components/WhyBookDirect";
 
 export const metadata = {
-  title: "Suites de Lujo en Marrakech | Pure House",
+  title: "Suites de Lujo en Marrakech | Riad Boutique",
   description:
     "Descubre las Suites de Lujo de Pure House Marrakech, un riad boutique solo para adultos en la Medina. Espacios amplios para dos, confort refinado, diseño marroquí y privacidad.",
   keywords: [

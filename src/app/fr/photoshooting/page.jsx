@@ -5,8 +5,7 @@ import Intro from "./components/Intro";
 import Shooting from "./components/Shooting";
 
 export const metadata = {
-  title:
-    "Lieu de Shooting Photo à Marrakech | Riad de Luxe | Pure House Medina",
+  title: "Lieu de Shooting Photo à Marrakech | Riad de Luxe Studio",
   description:
     "Réservez le lieu de shooting photo idéal à Marrakech. Notre riad de luxe dans la Médina offre une lumière naturelle, des zelliges traditionnels, une piscine et un rooftop pour la photographie de mode et de mariage.",
   alternates: {

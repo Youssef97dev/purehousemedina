@@ -7,8 +7,7 @@ import RoomBookingCTA from "@/components/RoomBookingCTA";
 import WhyBookDirect from "@/components/WhyBookDirect";
 
 export const metadata = {
-  title:
-    "Chambres Standards | Riad Authentique à Marrakech Médina | Pure House Medina",
+  title: "Chambres Standard | Riad Authentique à Marrakech Médina",
   description:
     "Découvrez l'âme du Maroc dans nos Chambres Standards au Pure House. Profitez d'un séjour calme, élégant et romantique réservé aux adultes, idéalement situé au cœur de la Médina de Marrakech.",
   alternates: {

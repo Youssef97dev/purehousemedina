@@ -23,25 +23,28 @@ const Menu = ({ setIsOpen, path, second_path }) => {
               src="/riad/riad-logo-black.png"
               width={300}
               height={300}
-              alt="Logo Pure House Medina"
+              alt="Pure House Marrakech"
               className={`mt-2 w-16 lg:w-20`}
             />
           </Link>
         </div>
         <div className="flex justify-start items-center gap-5 w-[20%] ">
-          <div className="w-full flex justify-end items-center  text-white cursor-pointer">
+          <div className="w-full flex justify-end items-center text-white cursor-pointer">
             <Link
               href="https://pure-house-marrakech.hotelrunner.com/bv3/search"
+              target="_blank"
+              rel="noopener"
               className={`tracking-[0.1em] lg:tracking-[0.2em] font-light text-[10px] lg:text-[12px] leading-[28px] lg:leading-[34px] py-1 px-4 text-riad_background bg-riad_secondary hover:bg-riad_primary`}
             >
               Réserver
             </Link>
           </div>
           <div
-            className="relative lg:block hidden"
+            className="relative lg:block hidden group"
             onClick={() => setIsDropdownOpen(!isDropdownOpen)}
           >
             <button
+              aria-label="Sélection de la langue"
               className={`font-light tracking-widest flex justify-center items-center text-[12px] gap-2 pb-1 text-riad_primary`}
             >
               <MdLanguage size={20} />
@@ -49,25 +52,27 @@ const Menu = ({ setIsOpen, path, second_path }) => {
                 <RiArrowDownSLine size={18} />
               </div>
             </button>
-            {isDropdownOpen && (
-              <ul className="absolute rounded top-8 -left-12 bg-riad_background mt-2 py-1 w-28 shadow-lg flex justify-center items-center">
-                <li className="px-2 py-2 rounded-lg cursor-pointer hover:bg-riad_secondary transition-all duration-200 ease-in-out font-light text-riad_primary">
-                  <Link rel="alternate" hrefLang="en" href={`${path}`}>
-                    {"EN"}
-                  </Link>
-                </li>
-                <li className="px-2 py-2 rounded-lg cursor-pointer hover:bg-riad_secondary transition-all duration-200 ease-in-out font-light text-riad_primary">
-                  <Link rel="alternate" hrefLang="fr" href="#">
-                    {"FR"}
-                  </Link>
-                </li>
-                <li className="px-2 py-2 rounded-lg cursor-pointer hover:bg-riad_secondary transition-all duration-200 ease-in-out font-light text-riad_primary">
-                  <Link rel="alternate" hrefLang="es" href={`${second_path}`}>
-                    {"ES"}
-                  </Link>
-                </li>
-              </ul>
-            )}
+            <ul
+              className={`absolute rounded top-8 -left-12 bg-riad_background mt-2 py-1 w-28 shadow-lg flex justify-center items-center ${
+                isDropdownOpen ? "flex" : "hidden group-hover:flex"
+              }`}
+            >
+              <li className="px-2 py-2 rounded-lg cursor-pointer hover:bg-riad_secondary transition-all duration-200 ease-in-out font-light text-riad_primary">
+                <Link rel="alternate" hrefLang="en" lang="en" href={path || "/"}>
+                  {"EN"}
+                </Link>
+              </li>
+              <li className="px-2 py-2 rounded-lg cursor-pointer hover:bg-riad_secondary transition-all duration-200 ease-in-out font-light text-riad_primary">
+                <Link rel="alternate" hrefLang="fr" lang="fr" href="/fr/">
+                  {"FR"}
+                </Link>
+              </li>
+              <li className="px-2 py-2 rounded-lg cursor-pointer hover:bg-riad_secondary transition-all duration-200 ease-in-out font-light text-riad_primary">
+                <Link rel="alternate" hrefLang="es" lang="es" href={second_path || "/es/"}>
+                  {"ES"}
+                </Link>
+              </li>
+            </ul>
           </div>
         </div>
       </div>

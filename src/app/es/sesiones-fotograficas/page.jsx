@@ -5,7 +5,7 @@ import Intro from "./components/Intro";
 import Shooting from "./components/Shooting";
 
 export const metadata = {
-  title: "Sesiones Fotográficas en Marrakech | Pure House",
+  title: "Sesiones Fotográficas en Marrakech | Estudio Riad de Lujo",
   description:
     "Descubre Pure House Marrakech como escenario privado para sesiones fotográficas exclusivas. Un riad boutique de lujo solo para adultos en la Medina, ideal para bodas, lunas de miel, editoriales y fotografía de lifestyle.",
   keywords: [

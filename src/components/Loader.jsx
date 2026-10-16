@@ -4,6 +4,11 @@ import About from "./About";
 import Categories from "./Categories";
 import Info from "./Info";
 import Features from "./Features";
+import WhyChooseUs from "./home/WhyChooseUs";
+import LocationGuide from "./home/LocationGuide";
+import Attractions from "./home/Attractions";
+import FaqSection from "./home/FaqSection";
+import BookingCtaBand from "./home/BookingCtaBand";
 import Map from "./Map";
 import Footer from "./Footer";
 import ButtonWtsp from "./ButtonWtsp";
@@ -13,12 +18,17 @@ import ButtonBook from "./ButtonBook";
 const Loader = () => {
   return (
     <div className="relative">
-      <Navbar path={"/fr"} second_path={"/es"} />
+      <Navbar path={"/fr/"} second_path={"/es/"} />
       <Hero />
       <About />
       <Categories />
       <Info />
       <Features />
+      <WhyChooseUs locale="en" />
+      <LocationGuide locale="en" />
+      <Attractions locale="en" />
+      <FaqSection locale="en" />
+      <BookingCtaBand locale="en" />
       <GoogleReviews
         title="What Our Guests Say"
         subtitle="Guest Reviews"
@@ -27,7 +37,7 @@ const Loader = () => {
       />
       <Map />
       <div className="w-[80%] lg:w-full h-[1px] bg-riad_secondary mx-auto"></div>
-      <Footer path={"/fr"} second_path={"/es"} />
+      <Footer path={"/fr/"} second_path={"/es/"} />
 
       <div className="fixed bottom-7 right-6 text-riad_primary z-50">
         <ButtonWtsp />

@@ -1,26 +1,31 @@
 import React from "react";
 import Loader from "./components/Loader";
+import { getHomeJsonLd, safeJsonLdReplacer } from "@/lib/jsonLd";
 
 export const metadata = {
-  title:
-    "Meilleur Riad de Luxe pour Adultes à Marrakech Médina | Pure House Medina",
+  title: {
+    absolute: "Riad de luxe adults-only à Marrakech, Médina | Pure House",
+  },
   description:
-    "Découvrez Pure House Marrakech, un riad de luxe exclusif réservé aux adultes dans la Médina. Oasis de calme avec suites de charme, piscine et toit-terrasse romantique.",
+    "Découvrez Pure House, riad de luxe adults-only dans la Médina de Marrakech près de Jemaa el-Fna. Cour avec piscine, toit-terrasse et sérénité absolue.",
   alternates: {
     canonical: "https://purehousemarrakech.com/fr/",
     languages: {
-      "en-US": "https://purehousemarrakech.com/",
-      "fr-FR": "https://purehousemarrakech.com/fr/",
+      en: "https://purehousemarrakech.com/",
+      fr: "https://purehousemarrakech.com/fr/",
+      es: "https://purehousemarrakech.com/es/",
       "x-default": "https://purehousemarrakech.com/",
     },
   },
   openGraph: {
-    title:
-      "Meilleur Riad de Luxe pour Adultes à Marrakech Médina | Pure House Medina",
+    title: "Riad de luxe adults-only à Marrakech, Médina | Pure House",
     description:
-      "Découvrez Pure House Marrakech, un riad de luxe exclusif réservé aux adultes dans la Médina. Oasis de calme avec suites de charme, piscine et toit-terrasse romantique.",
+      "Découvrez Pure House, riad de luxe adults-only dans la Médina de Marrakech près de Jemaa el-Fna. Cour avec piscine, toit-terrasse et sérénité absolue.",
     url: "https://purehousemarrakech.com/fr/",
     siteName: "Pure House Marrakech",
+    locale: "fr_FR",
+    alternateLocale: ["en_US", "es_ES"],
+    type: "website",
     images: [
       {
         url: "https://purehousemarrakech.com/images/traditional-moroccan-riad-experience.webp",
@@ -29,23 +34,32 @@ export const metadata = {
         alt: "Riad de luxe réservé aux adultes Pure House dans la Médina de Marrakech",
       },
     ],
-    locale: "fr_FR",
-    type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title:
-      "Meilleur Riad de Luxe pour Adultes à Marrakech Médina | Pure House Medina",
+    title: "Riad de luxe adults-only à Marrakech, Médina | Pure House",
     description:
-      "Découvrez Pure House Marrakech, un riad de luxe exclusif réservé aux adultes dans la Médina. Oasis de calme avec suites de charme, piscine et toit-terrasse romantique.",
+      "Découvrez Pure House, riad de luxe adults-only dans la Médina de Marrakech près de Jemaa el-Fna. Cour avec piscine, toit-terrasse et sérénité absolue.",
     images: [
       "https://purehousemarrakech.com/images/traditional-moroccan-riad-experience.webp",
     ],
   },
 };
 
-const page = () => {
-  return <Loader />;
+const Page = () => {
+  const jsonLd = getHomeJsonLd("fr");
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: safeJsonLdReplacer(jsonLd),
+        }}
+      />
+      <Loader />
+    </>
+  );
 };
 
-export default page;
+export default Page;

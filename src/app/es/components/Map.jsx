@@ -6,7 +6,7 @@ const Map = () => {
     <div className="w-full flex justify-center items-center h-full  md:h-fit">
       <Image
         src="/riad/map-pure-house-medina.png"
-        alt="map pure house riad"
+        alt="Plano de ubicación de Pure House Marrakech en la Medina cerca de Jemaa el-Fna"
         width={500}
         height={500}
         className="object-cover w-full lg:w-[600px]"

@@ -7,8 +7,7 @@ import RoomBookingCTA from "@/components/RoomBookingCTA";
 import WhyBookDirect from "@/components/WhyBookDirect";
 
 export const metadata = {
-  title:
-    "Suite avec lit Royal King | Riad de Luxe pour Lune de Miel à Marrakech | Pure House Medina",
+  title: "Suite avec lit Royal King | Riad de Luxe à Marrakech",
   description:
     "Vivez le luxe absolu dans nos Suites King au Pure House Marrakech. Des espaces généreux, des équipements haut de gamme et une décoration romantique, parfaits pour votre lune de miel dans la Médina.",
   alternates: {

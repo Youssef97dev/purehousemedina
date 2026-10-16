@@ -2,7 +2,7 @@ import React from "react";
 import Container from "./components/Container";
 
 export const metadata = {
-  title: "Galerie Photos | Riad de Luxe à Marrakech Médina | Pure House Medina",
+  title: "Galerie Photos | Riad de Luxe à Marrakech Médina",
   description:
     "Découvrez en images la beauté du Pure House Marrakech. Explorez les photos de nos suites de luxe pour adultes, notre piscine sereine et notre superbe terrasse sur le toit.",
   alternates: {

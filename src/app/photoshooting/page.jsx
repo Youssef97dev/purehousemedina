@@ -5,8 +5,7 @@ import Intro from "./components/Intro";
 import Shooting from "./components/Shooting";
 
 export const metadata = {
-  title:
-    "Photoshoot Location in Marrakech | Luxury Riad Studio | Pure House Medina",
+  title: "Photoshoot Location in Marrakech | Luxury Riad Studio",
   description:
     "Book the ultimate photoshoot location in Marrakech. Our luxury riad in the Medina offers stunning natural light, traditional Moroccan zellige, a courtyard pool, and a rooftop for fashion and wedding photography.",
   alternates: {

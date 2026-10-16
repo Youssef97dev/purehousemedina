@@ -2,7 +2,7 @@ import React from "react";
 import Loader from "./components/Loader";
 
 export const metadata = {
-  title: "Best Adults-Only Luxury Riad in Marrakech Medina | Pure House",
+  title: "Best Adults-Only Luxury Riad in Marrakech Medina",
   description:
     "Escape to Pure House Marrakech, an exclusive adults-only luxury riad in the Medina. Book your romantic couples retreat featuring peaceful pools and boutique suites.",
   alternates: {

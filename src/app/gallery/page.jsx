@@ -1,7 +1,7 @@
 import Container from "./components/Container";
 
 export const metadata = {
-  title: "Photo Gallery | Luxury Riad in Marrakech Medina | Pure House Medina",
+  title: "Photo Gallery | Luxury Riad in Marrakech Medina",
   description:
     "Explore the visual beauty of Pure House Marrakech. View photos of our adults-only luxury suites, serene courtyard pool, and stunning rooftop terrace in the Medina.",
   alternates: {

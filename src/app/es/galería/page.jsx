@@ -1,7 +1,7 @@
 import Container from "./components/Container";
 
 export const metadata = {
-  title: "Galería | Riad de Lujo en Marrakech | Pure House",
+  title: "Galería | Riad de Lujo en Marrakech",
   description:
     "Explora la galería de Pure House Marrakech, un riad boutique de lujo solo para adultos en la Medina. Descubre nuestras habitaciones, patios, piscina, hammam y terraza con vistas a Marrakech.",
   keywords: [

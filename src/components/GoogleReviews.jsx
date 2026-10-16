@@ -133,8 +133,8 @@ export default function GoogleReviews({ title, subtitle, text_, link_ }) {
                   <div>
                     <Stars />
 
-                    <p className="mt-7 font-serif text-[17px] leading-8 text-neutral-700">
-                      “{truncateText(review.text, 180)}”
+                    <p className="mt-7 font-serif text-[16px] md:text-[17px] leading-7 md:leading-8 text-neutral-700 line-clamp-5">
+                      “{review.text}”
                     </p>
                   </div>
 

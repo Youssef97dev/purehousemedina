@@ -7,7 +7,7 @@ import RoomBookingCTA from "@/components/RoomBookingCTA";
 import WhyBookDirect from "@/components/WhyBookDirect";
 
 export const metadata = {
-  title: "Deluxe Rooms | Luxury Boutique Riad in Marrakech | Pure House Medina",
+  title: "Deluxe Rooms | Luxury Boutique Riad in Marrakech",
   description:
     "Relax in our Deluxe Rooms at Pure House, a luxury adults-only riad in the Marrakech Medina. Enjoy king-size beds, traditional tadelakt bathrooms, and romantic Moroccan decor.",
   alternates: {

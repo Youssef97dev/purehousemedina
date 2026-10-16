@@ -15,7 +15,7 @@ const jost = Jost({
 });
 
 export const metadata = {
-  title: "Pure House Marrakech | Riad réservé aux adultes dans la Médina",
+  title: "Riad Boutique Réservé aux Adultes dans la Médina",
 
   description:
     "Un riad boutique réservé aux adultes à quelques pas de Jemaa el-Fna. Bassin dans la cour, terrasse sur le toit et hammam privé.",
