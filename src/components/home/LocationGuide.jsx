@@ -90,7 +90,7 @@ export default function LocationGuide({ locale = "en" }) {
                         {item.distance}
                       </p>
                     </div>
-                    <span className="text-[12px] uppercase tracking-wider text-riad_secondary bg-riad_background px-3 py-1 border border-riad_secondary/30">
+                    <span className="text-[12px] uppercase tracking-wider text-riad_secondary bg-riad_background px-3 py-1">
                       {item.time}
                     </span>
                   </div>
@@ -98,7 +98,8 @@ export default function LocationGuide({ locale = "en" }) {
               </div>
             </div>
             <p className="text-[11px] text-riad_secondary/80 font-light mt-6 pt-4 border-t border-riad_secondary/20">
-              * Exact times are approximate walking times through the Medina alleys.
+              * Exact times are approximate walking times through the Medina
+              alleys.
             </p>
           </div>
         </div>
