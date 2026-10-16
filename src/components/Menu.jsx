@@ -6,7 +6,7 @@ import { RiArrowDownSLine } from "react-icons/ri";
 import { MdLanguage } from "react-icons/md";
 import Image from "next/image";
 
-const Menu = ({ setIsOpen, path, second_path }) => {
+const Menu = ({ setIsOpen, path, second_path, en_path = "/" }) => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   return (
     <div className="w-full flex flex-col justify-center items-center ">
@@ -58,7 +58,7 @@ const Menu = ({ setIsOpen, path, second_path }) => {
               }`}
             >
               <li className="px-2 py-2 rounded-lg cursor-pointer hover:bg-riad_secondary transition-all duration-200 ease-in-out font-light text-riad_primary">
-                <Link rel="alternate" hrefLang="en" lang="en" href="/">
+                <Link rel="alternate" hrefLang="en" lang="en" href={en_path || "/"}>
                   {"EN"}
                 </Link>
               </li>

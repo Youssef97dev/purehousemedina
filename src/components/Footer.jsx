@@ -4,7 +4,7 @@ import React from "react";
 import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 
-const Footer = ({ path, second_path }) => {
+const Footer = ({ path, second_path, en_path = "/" }) => {
   return (
     <footer className="bg-riad_background text-riad_primary px-6 py-8">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center md:items-center space-y-4 md:space-y-0">
@@ -28,7 +28,7 @@ const Footer = ({ path, second_path }) => {
           </span>
           <span>+212 6 82 22 52 35</span>
           <div className="w-full flex justify-center items-center gap-4 lg:hidden text-[14px] font-light">
-            <Link rel="alternate" hrefLang="en" lang="en" href="/" className="hover:text-riad_secondary">
+            <Link rel="alternate" hrefLang="en" lang="en" href={en_path || "/"} className="hover:text-riad_secondary">
               {"EN"}
             </Link>
             <Link rel="alternate" hrefLang="fr" lang="fr" href={path || "/fr/"} className="hover:text-riad_secondary">

@@ -7,7 +7,7 @@ import { RiArrowDownSLine } from "react-icons/ri";
 import { MdLanguage } from "react-icons/md";
 import Menu from "./Menu";
 
-const Navbar = ({ path, second_path, change = false }) => {
+const Navbar = ({ path, second_path, change = false, en_path = "/" }) => {
   const [scrolled, setScrolled] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   const [isClient, setIsClient] = useState(false);
@@ -105,7 +105,7 @@ const Navbar = ({ path, second_path, change = false }) => {
               }`}
             >
               <li className="px-2 py-2 rounded-lg cursor-pointer hover:bg-riad_secondary transition-all duration-200 ease-in-out font-light text-riad_primary">
-                <Link rel="alternate" hrefLang="en" lang="en" href="/">
+                <Link rel="alternate" hrefLang="en" lang="en" href={en_path || "/"}>
                   {"EN"}
                 </Link>
               </li>
@@ -137,6 +137,7 @@ const Navbar = ({ path, second_path, change = false }) => {
                 setIsOpen={setIsOpen}
                 path={path}
                 second_path={second_path}
+                en_path={en_path}
               />
               <div className=" px-6 py-5">
                 <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-8">

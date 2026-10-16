@@ -1,0 +1,78 @@
+ROLE
+You are a senior Next.js developer, UI designer and travel copywriter. Work on purehousemarrakech.com: a multilingual (EN default, FR /fr, ES /es) Next.js + Tailwind CSS site for "Pure House Marrakech", an ADULTS-ONLY luxury boutique riad in the Marrakech Medina. This is NOT purehouseonthelake.com; never mix the two.
+
+GOAL
+Create a high-converting, SEO-optimized blog post about New Year in Marrakech (2026/2027) in 3 languages (EN/FR/ES) with an attractive editorial design that feels native to the brand: calm, refined, understated luxury.
+
+STEP 0: AUDIT FIRST
+Inspect the project before writing: the app/pages structure, i18n pattern, existing layout, header/footer, Tailwind config (colors, fonts, spacing), existing components (buttons, cards, sections), image handling, sitemap, and whether a /blog route already exists. Reuse the existing design tokens, fonts and components. If no blog structure exists, create a minimal reusable one (blog post layout + single post) that can host 3 more posts later. Report what you found in 5 lines, then build.
+
+URLS (localized slugs, self-canonical, hreflang reciprocal + x-default → EN)
+- EN: /blog/new-year-in-marrakech
+- FR: /fr/blog/nouvel-an-a-marrakech
+- ES: /es/blog/fin-de-ano-en-marrakech
+No year in the slug (the same URL is updated every year). Put "2026/2027" in the title and H1 only.
+
+FACTS YOU MAY USE (ONLY these)
+- Property: Pure House Marrakech, adults-only boutique riad, Medina, steps from Jemaa el-Fna, near Koutoubia Mosque and Bahia Palace.
+- Address: 16 Derb Abou El Fdail, Marrakech 40000, Morocco. Phone/WhatsApp +212 6 82 22 52 35.
+- Features confirmed on the site: courtyard swimming pool, rooftop terrace, air-conditioned suites, tadelakt bathrooms, bar, private spa and traditional hammam (black soap exfoliation, argan oil treatments), vegetarian continental breakfast, Moroccan & Mediterranean dining, candlelit dinner on the rooftop terrace, English-speaking team, personalized service.
+- Rooms: Standard (/standard), Deluxe (/deluxe), Suites (/suites).
+- Rates from €230 per night (do NOT claim this price applies to New Year dates).
+- Check-in from 15:00, check-out at 12:00.
+- Google rating 4.9/5 from 173 reviews. Tripadvisor 5.0 (70 reviews), Booking.com 9.5/10 (531), Trip.com 9.7/10 (41). Show as visible text only; never average them.
+- Booking: https://pure-house-marrakech.hotelrunner.com/bv3/search
+- WhatsApp: https://wa.me/212682225235
+- Instagram: https://www.instagram.com/pure_house_marrakech
+- Existing images in /images: luxury-riad-marrakech.webp, hotels-in-marrakech.webp, top-riad-marrakech.webp, traditional-moroccan-riad-experience.webp, riad-marrakech-with-private-chef.webp, marrakech-riad-with-hammam-and-spa.webp, luxury-stay-in-marrakech-medina.webp, pure-house-marrakech-riad-medina.webp, riad-in-marrakech.webp, riad-slow-living.webp. Choose the best fit for each section; no remote images.
+
+STRICT RULES
+- NEVER invent: a New Year's Eve gala, special menu, party, package, price, minimum stay, distances, exact temperatures, awards or events. If the riad offers a special New Year's Eve dinner/package, I will tell you; until then write only about confirmed services and leave "// TODO: confirm NYE offer, minimum stay, special rates with Sara" in code.
+- Weather: general terms only ("mild sunny days, cool evenings"). No exact numbers.
+- Do not change the existing site design, header, footer or other pages.
+- Plain JS/JSX, server components where possible, no heavy new client JS or libraries.
+
+CONTENT STRUCTURE (each language written natively by a native-level copywriter, not a literal translation; 1,300–1,800 words)
+1. Hero: H1 + short subtitle + breadcrumb + reading time + "Updated [Month Year]" + CTA button "Check availability" (booking link).
+   - EN H1: "New Year's Eve in Marrakech 2026/2027: A Romantic Escape in a Medina Riad"
+   - FR H1: "Nouvel An à Marrakech 2026/2027 : une escapade romantique dans un riad de la Médina"
+   - ES H1: "Fin de año en Marrakech 2026/2027: una escapada romántica en un riad de la Medina"
+2. Intro (first 100 words contain the primary keyword and the promise: sun, calm, romance, no crowds vs European cities).
+3. H2 Why Marrakech for New Year (mild winter sun, culture, calm for couples).
+4. H2 The Medina and Jemaa el-Fna on New Year's Eve (atmosphere, practical advice on noise/crowds, retreating to a quiet adults-only riad).
+5. H2 A romantic New Year plan at Pure House (morning courtyard pool or breakfast, afternoon hammam, candlelit rooftop dinner, January 1st slow morning). Use only confirmed services.
+6. H2 Nearby places to visit (Koutoubia Mosque, Bahia Palace, Majorelle Garden, Saadian Tombs, Jemaa el-Fna) — 1 line each, no invented distances, internal link only to pages that exist.
+7. H2 Practical tips (what to pack for mild days and cool nights, airport transfer to the Medina is arranged with the riad on request — mark as TODO if unconfirmed, book early because holiday dates fill up, check-in 15:00 / check-out 12:00).
+8. Pull-quote/testimonial block using one real Google review from the home page, with author and "Google" source (take the text exactly as on the site).
+9. Trust bar: "Google 4.9/5 · 173 reviews | Tripadvisor 5.0 · 70 reviews | Booking.com 9.5/10 · 531 reviews | Trip.com 9.7/10 · 41 reviews".
+10. FAQ (6 questions, 2–3 lines each, visible and mirrored in JSON-LD): Is Marrakech warm at New Year? Is it quiet in an adults-only riad on New Year's Eve? Is Pure House close to Jemaa el-Fna? What are check-in/check-out times? Do you have a pool, hammam and rooftop? How do I book?
+11. Final CTA band: "Book your New Year in Marrakech" with Book Now (HotelRunner) + WhatsApp buttons + links to /suites /deluxe /standard.
+
+DESIGN (attractive, editorial, luxurious — within the existing brand system)
+- Full-width hero with a large image, soft dark gradient overlay for text legibility (WCAG AA contrast), generous whitespace, elegant serif/heading font from the existing typography, comfortable reading width (max ~70ch) for body text.
+- Sticky/inline table of contents on desktop (anchor links), collapsible on mobile.
+- Alternating image + text sections, rounded images with subtle shadow, pull-quote styling, soft section dividers, subtle fade-in on scroll using CSS only (respect prefers-reduced-motion).
+- Cards for "Nearby places" and for the three room links; FAQ as accessible <details>/<summary> accordion styled with existing classes.
+- Sticky mobile CTA bar at the bottom ("Book Now" + WhatsApp) that does not cover content.
+- Fully responsive (mobile first), good tap targets, dark-mode untouched unless the site already has one.
+- Images: next/image with sizes, priority only on the hero, lazy elsewhere, no layout shift, descriptive natural localized alt text (no keyword stuffing).
+
+SEO
+- Metadata per locale via generateMetadata: unique title ≤ 60 chars, description 140–160 chars, canonical, hreflang (en, fr, es, x-default), Open Graph (article type, localized og:locale + alternates, 1200x630 image with alt), Twitter large card, robots index/follow, max-image-preview:large. Use the title template so the brand suffix is never duplicated.
+- Target keywords — EN: new year's eve Marrakech, Marrakech new year for couples, where to stay Marrakech new year. FR: nouvel an à Marrakech, réveillon à Marrakech en amoureux, où dormir à Marrakech pour le nouvel an. ES: fin de año en Marrakech, Nochevieja en Marrakech, dónde alojarse en Marrakech en fin de año. One H1, logical H2/H3, keyword in H1, first 100 words, one H2, meta title/description. Natural usage only.
+- JSON-LD @graph (stable @id, reuse the site's Organization/Hotel entities, do not duplicate them): BlogPosting (headline, description, image, author = Organization Pure House Marrakech, publisher, datePublished, dateModified, mainEntityOfPage, inLanguage), BreadcrumbList (Home > Blog > Post), FAQPage matching the visible FAQ exactly. No fake ratings; no Review markup.
+- Internal links: ≥ 3 contextual links to /suites, /deluxe, /standard and to the home page sections (hammam, dining) with descriptive anchor text; booking link rel="noopener".
+- Add the 3 URLs to sitemap.xml with hreflang alternates and lastmod; ensure robots allow them.
+- Add a small promo banner/link block on the home page ONLY if it can be done without altering the existing design (otherwise skip and tell me).
+
+PERFORMANCE & QUALITY
+- Server-rendered, no CLS, LCP image preloaded, Lighthouse Perf/SEO/Accessibility ≥ current site scores.
+- Valid HTML, valid JSON-LD, no console errors, i18n keys centralized following the project's existing pattern, language switcher on the post links to the 3 localized slugs.
+
+DELIVERABLES
+1. All created/modified files with a clean, minimal diff.
+2. A table: locale | URL | title | meta description | H1.
+3. The EN JSON-LD output for review.
+4. A TODO list of anything I must confirm (NYE offer, minimum stay, special rates, airport transfer, any real facts you could not verify).
+5. A verification checklist: view-source on all 3 URLs (title, description, canonical, hreflang x4, og:*, single H1, JSON-LD once), sitemap entries, mobile screenshot check, Lighthouse before/after.
+Do the work now; ask me only for the TODO items at the end.
