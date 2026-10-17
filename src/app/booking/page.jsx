@@ -2,6 +2,9 @@ import Image from "next/image";
 import { Marcellus, Jost } from "next/font/google";
 import Navbar from "@/components/Navbar";
 import Map from "@/components/Map";
+import Link from "next/link";
+import { FaWhatsapp } from "react-icons/fa";
+import Footer from "@/components/Footer";
 
 const marcellus = Marcellus({
   weight: "400",
@@ -151,15 +154,37 @@ export default function StoryPage() {
           </a>
         </section>
 
+        <Footer
+          en_path={"/booking"}
+          path={"/fr/booking"}
+          second_path={"/es/booking"}
+        />
+
         {/* Sticky booking button */}
-        <div className="fixed inset-x-0 bottom-0 z-50 bg-gradient-to-t from-riad_background via-riad_background/95 to-transparent px-6 pb-[max(1rem,env(safe-area-inset-bottom))] pt-8">
-          <a
-            href={BOOKING_URL}
-            className="mx-auto flex h-14 max-w-md items-center justify-center rounded-full bg-riad_secondary hover:bg-riad_primary text-lg font-medium text-riad_primary hover:text-riad_background transition-colors hover:bg-[#E6CB98] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#EFE7D6]"
-          >
-            Check availability
-          </a>
-        </div>
+        <aside
+          aria-label="Mobile quick booking"
+          className="fixed bottom-0 inset-x-0 z-40 bg-riad_background/95 backdrop-blur-md border-t border-riad_secondary/30 p-3 shadow-lg lg:hidden"
+        >
+          <div className="flex items-center justify-between gap-3 max-w-md mx-auto">
+            <Link
+              href={"https://pure-house-marrakech.hotelrunner.com/bv3/search"}
+              target="_blank"
+              rel="noopener"
+              className="flex-1 bg-riad_primary text-white text-center py-2.5 px-4 text-xs uppercase tracking-[0.15em] font-medium rounded shadow hover:bg-riad_secondary transition-colors"
+            >
+              {"Book Now"}
+            </Link>
+            <Link
+              href={"https://wa.me/212682225235"}
+              target="_blank"
+              rel="noopener"
+              aria-label="Contact Pure House Marrakech on WhatsApp"
+              className="bg-riad_primary hover:bg-riad_secondary text-white p-[9px] rounded shadow flex items-center justify-center shrink-0"
+            >
+              <FaWhatsapp size={18} />
+            </Link>
+          </div>
+        </aside>
       </main>
     </>
   );
