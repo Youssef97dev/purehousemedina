@@ -3,7 +3,15 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { FaWhatsapp, FaArrowRight, FaCalendarAlt, FaClock, FaCheck, FaChevronDown, FaMapMarkerAlt } from "react-icons/fa";
+import {
+  FaWhatsapp,
+  FaArrowRight,
+  FaCalendarAlt,
+  FaClock,
+  FaCheck,
+  FaChevronDown,
+  FaMapMarkerAlt,
+} from "react-icons/fa";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
@@ -27,12 +35,7 @@ export default function NewYearBlogPost({ data, locale = "en" }) {
   return (
     <div className="relative min-h-screen bg-riad_background text-riad_primary selection:bg-riad_secondary selection:text-white">
       {/* Top Navbar with reciprocal localized routes */}
-      <Navbar
-        en_path={enPath}
-        path={frPath}
-        second_path={esPath}
-        change={true}
-      />
+      <Navbar en_path={enPath} path={frPath} second_path={esPath} />
 
       {/* 1. HERO SECTION */}
       <header className="relative w-full pt-24 lg:pt-32 pb-16 lg:pb-24 px-6 md:px-12 bg-gradient-to-b from-[#2a2725] to-[#1f1d1b] text-white overflow-hidden">
@@ -46,7 +49,6 @@ export default function NewYearBlogPost({ data, locale = "en" }) {
             sizes="100vw"
             className="object-cover opacity-35 scale-105 transition-transform duration-1000 ease-out"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#1f1d1b] via-[#1f1d1b]/70 to-transparent" />
         </div>
 
         <div className="relative z-10 max-w-4xl mx-auto flex flex-col items-center text-center">
@@ -57,7 +59,10 @@ export default function NewYearBlogPost({ data, locale = "en" }) {
                 <li key={crumb.name} className="flex items-center gap-2">
                   {idx > 0 && <span className="opacity-40">/</span>}
                   {idx === data.breadcrumbs.length - 1 ? (
-                    <span className="text-[#e4e0dc] font-medium" aria-current="page">
+                    <span
+                      className="text-[#e4e0dc] font-medium"
+                      aria-current="page"
+                    >
                       {crumb.name}
                     </span>
                   ) : (
@@ -114,16 +119,27 @@ export default function NewYearBlogPost({ data, locale = "en" }) {
       </header>
 
       {/* 2. TRUST BAR */}
-      <section className="border-b border-riad_secondary/25 bg-[#eae7e3] py-4 px-6" aria-label="Guest Ratings and Trust">
+      <section
+        className="border-b border-riad_secondary/25 bg-[#eae7e3] py-4 px-6"
+        aria-label="Guest Ratings and Trust"
+      >
         <div className="max-w-6xl mx-auto flex flex-wrap items-center justify-center gap-y-3 gap-x-6 md:gap-x-12 text-xs md:text-sm text-riad_primary/90 font-light text-center">
           {data.trustBar.map((item, idx) => (
             <div key={item.platform} className="flex items-center gap-2">
-              {idx > 0 && <span className="hidden sm:inline text-riad_secondary/50">|</span>}
-              <span className="font-medium text-riad_primary">{item.platform}</span>
+              {idx > 0 && (
+                <span className="hidden sm:inline text-riad_secondary/50">
+                  |
+                </span>
+              )}
+              <span className="font-medium text-riad_primary">
+                {item.platform}
+              </span>
               <span className="bg-[#dfdbd6] px-2 py-0.5 rounded text-[11px] font-semibold text-riad_primary">
                 {item.score}
               </span>
-              <span className="text-riad_secondary text-xs">({item.count})</span>
+              <span className="text-riad_secondary text-xs">
+                ({item.count})
+              </span>
             </div>
           ))}
         </div>
@@ -132,7 +148,6 @@ export default function NewYearBlogPost({ data, locale = "en" }) {
       {/* 3. MAIN EDITORIAL CONTENT CONTAINER */}
       <main className="max-w-5xl mx-auto px-6 md:px-12 py-12 lg:py-20 pb-28 lg:pb-24">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
-          
           {/* Table of Contents (Sticky on desktop, collapsible on mobile) */}
           <aside className="lg:col-span-4 lg:sticky lg:top-28 order-2 lg:order-1">
             <div className="bg-[#edeae6] border border-riad_secondary/30 rounded-lg p-6 shadow-sm">
@@ -157,9 +172,7 @@ export default function NewYearBlogPost({ data, locale = "en" }) {
               </div>
 
               <nav
-                className={`mt-4 ${
-                  tocOpen ? "block" : "hidden lg:block"
-                }`}
+                className={`mt-4 ${tocOpen ? "block" : "hidden lg:block"}`}
                 aria-label="Article Table of Contents"
               >
                 <ol className="space-y-2.5 text-xs text-riad_primary/80 font-light border-l border-riad_secondary/30 pl-4">
@@ -170,7 +183,10 @@ export default function NewYearBlogPost({ data, locale = "en" }) {
                         onClick={() => setTocOpen(false)}
                         className="block hover:text-riad_primary hover:translate-x-1 transition-all duration-200 leading-snug"
                       >
-                        <span className="text-riad_secondary mr-1">{index + 1}.</span> {item.title}
+                        <span className="text-riad_secondary mr-1">
+                          {index + 1}.
+                        </span>{" "}
+                        {item.title}
                       </a>
                     </li>
                   ))}
@@ -179,7 +195,8 @@ export default function NewYearBlogPost({ data, locale = "en" }) {
 
               <div className="hidden lg:block mt-8 pt-6 border-t border-riad_secondary/25">
                 <p className="text-xs text-riad_secondary italic mb-4 leading-relaxed">
-                  Adults-only tranquility in Marrakech Medina · Steps from Jemaa el-Fna
+                  Adults-only tranquility in Marrakech Medina · Steps from Jemaa
+                  el-Fna
                 </p>
                 <Link
                   href="https://pure-house-marrakech.hotelrunner.com/bv3/search"
@@ -195,7 +212,6 @@ export default function NewYearBlogPost({ data, locale = "en" }) {
 
           {/* Article Body */}
           <article className="lg:col-span-8 order-1 lg:order-2 space-y-16">
-            
             {/* INTRO SECTION */}
             <section className="space-y-6 text-[15px] md:text-[16px] leading-[1.8] font-light text-riad_primary/95 border-b border-riad_secondary/25 pb-12">
               <p className="first-letter:text-5xl first-letter:font-serif first-letter:font-light first-letter:float-left first-letter:mr-3 first-letter:text-riad_primary leading-relaxed">
@@ -206,7 +222,10 @@ export default function NewYearBlogPost({ data, locale = "en" }) {
             </section>
 
             {/* SECTION 1: WHY MARRAKECH */}
-            <section id={data.whyMarrakech.id} className="space-y-8 scroll-mt-28">
+            <section
+              id={data.whyMarrakech.id}
+              className="space-y-8 scroll-mt-28"
+            >
               <div className="space-y-3">
                 <span className="text-xs uppercase tracking-[0.25em] text-riad_secondary font-medium">
                   Winter Sun & Culture
@@ -235,7 +254,10 @@ export default function NewYearBlogPost({ data, locale = "en" }) {
             </section>
 
             {/* SECTION 2: MEDINA ATMOSPHERE */}
-            <section id={data.medinaAtmosphere.id} className="space-y-8 scroll-mt-28 border-t border-riad_secondary/25 pt-14">
+            <section
+              id={data.medinaAtmosphere.id}
+              className="space-y-8 scroll-mt-28 border-t border-riad_secondary/25 pt-14"
+            >
               <div className="space-y-3">
                 <span className="text-xs uppercase tracking-[0.25em] text-riad_secondary font-medium">
                   The Medina on New Year&apos;s Eve
@@ -264,7 +286,10 @@ export default function NewYearBlogPost({ data, locale = "en" }) {
             </section>
 
             {/* SECTION 3: ROMANTIC ITINERARY */}
-            <section id={data.romanticPlan.id} className="space-y-8 scroll-mt-28 border-t border-riad_secondary/25 pt-14">
+            <section
+              id={data.romanticPlan.id}
+              className="space-y-8 scroll-mt-28 border-t border-riad_secondary/25 pt-14"
+            >
               <div className="space-y-3">
                 <span className="text-xs uppercase tracking-[0.25em] text-riad_secondary font-medium">
                   An Exclusive Retreat
@@ -324,7 +349,10 @@ export default function NewYearBlogPost({ data, locale = "en" }) {
             </section>
 
             {/* SECTION 4: NEARBY CULTURAL LANDMARKS */}
-            <section id={data.nearbyPlaces.id} className="space-y-8 scroll-mt-28 border-t border-riad_secondary/25 pt-14">
+            <section
+              id={data.nearbyPlaces.id}
+              className="space-y-8 scroll-mt-28 border-t border-riad_secondary/25 pt-14"
+            >
               <div className="space-y-3">
                 <span className="text-xs uppercase tracking-[0.25em] text-riad_secondary font-medium">
                   Walkable Medina Highlights
@@ -414,7 +442,10 @@ export default function NewYearBlogPost({ data, locale = "en" }) {
             </section>
 
             {/* SECTION 6: PRACTICAL TIPS */}
-            <section id={data.practicalTips.id} className="space-y-8 scroll-mt-28 border-t border-riad_secondary/25 pt-14">
+            <section
+              id={data.practicalTips.id}
+              className="space-y-8 scroll-mt-28 border-t border-riad_secondary/25 pt-14"
+            >
               <div className="space-y-3">
                 <span className="text-xs uppercase tracking-[0.25em] text-riad_secondary font-medium">
                   Medina Travel Essentials
@@ -447,7 +478,10 @@ export default function NewYearBlogPost({ data, locale = "en" }) {
             </section>
 
             {/* SECTION 7: FAQ ACCORDION (Mirrors JSON-LD exactly) */}
-            <section id={data.faq.id} className="space-y-8 scroll-mt-28 border-t border-riad_secondary/25 pt-14">
+            <section
+              id={data.faq.id}
+              className="space-y-8 scroll-mt-28 border-t border-riad_secondary/25 pt-14"
+            >
               <div className="space-y-3">
                 <span className="text-xs uppercase tracking-[0.25em] text-riad_secondary font-medium">
                   Answers to Common Queries
@@ -515,19 +549,29 @@ export default function NewYearBlogPost({ data, locale = "en" }) {
 
               {/* Internal Links to Room Types */}
               <div className="pt-6 border-t border-white/10 flex flex-wrap items-center gap-6 text-xs text-[#d6cfc7]">
-                <span className="uppercase tracking-widest text-[11px] opacity-60">Accommodations:</span>
-                <Link href="/suites" className="hover:text-white underline underline-offset-4 transition-colors">
+                <span className="uppercase tracking-widest text-[11px] opacity-60">
+                  Accommodations:
+                </span>
+                <Link
+                  href="/suites"
+                  className="hover:text-white underline underline-offset-4 transition-colors"
+                >
                   {data.finalCta.suitesLink}
                 </Link>
-                <Link href="/deluxe" className="hover:text-white underline underline-offset-4 transition-colors">
+                <Link
+                  href="/deluxe"
+                  className="hover:text-white underline underline-offset-4 transition-colors"
+                >
                   {data.finalCta.deluxeLink}
                 </Link>
-                <Link href="/standard" className="hover:text-white underline underline-offset-4 transition-colors">
+                <Link
+                  href="/standard"
+                  className="hover:text-white underline underline-offset-4 transition-colors"
+                >
                   {data.finalCta.standardLink}
                 </Link>
               </div>
             </section>
-
           </article>
         </div>
       </main>
@@ -551,7 +595,7 @@ export default function NewYearBlogPost({ data, locale = "en" }) {
             target="_blank"
             rel="noopener"
             aria-label="Contact Pure House Marrakech on WhatsApp"
-            className="bg-[#25D366] text-white p-2.5 rounded shadow flex items-center justify-center shrink-0"
+            className="bg-riad_primary hover:bg-riad_secondary text-white p-[9px] rounded shadow flex items-center justify-center shrink-0"
           >
             <FaWhatsapp size={18} />
           </Link>
@@ -559,11 +603,7 @@ export default function NewYearBlogPost({ data, locale = "en" }) {
       </aside>
 
       {/* Footer */}
-      <Footer
-        en_path={enPath}
-        path={frPath}
-        second_path={esPath}
-      />
+      <Footer en_path={enPath} path={frPath} second_path={esPath} />
     </div>
   );
 }

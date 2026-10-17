@@ -32,8 +32,14 @@ export const newYearBlogData = {
     modifiedDate: "2026-10-16",
     breadcrumbs: [
       { name: "Home", url: "https://purehousemarrakech.com/" },
-      { name: "Blog", url: "https://purehousemarrakech.com/blog/new-year-in-marrakech/" },
-      { name: "New Year in Marrakech 2026/2027", url: "https://purehousemarrakech.com/blog/new-year-in-marrakech/" },
+      {
+        name: "Blog",
+        url: "https://purehousemarrakech.com/blog/new-year-in-marrakech/",
+      },
+      {
+        name: "New Year in Marrakech 2026/2027",
+        url: "https://purehousemarrakech.com/blog/new-year-in-marrakech/",
+      },
     ],
 
     // Hero Section
@@ -49,10 +55,22 @@ export const newYearBlogData = {
     tocTitle: "In this guide",
     toc: [
       { id: "why-marrakech", title: "Why Marrakech for New Year 2026/2027" },
-      { id: "medina-atmosphere", title: "The Medina & Jemaa el-Fna on New Year's Eve" },
-      { id: "romantic-itinerary", title: "A Romantic Celebration Plan at Pure House" },
-      { id: "nearby-attractions", title: "Cultural Landmarks to Explore Nearby" },
-      { id: "practical-tips", title: "Essential Practical Tips for Your Winter Stay" },
+      {
+        id: "medina-atmosphere",
+        title: "The Medina & Jemaa el-Fna on New Year's Eve",
+      },
+      {
+        id: "romantic-itinerary",
+        title: "A Romantic Celebration Plan at Pure House",
+      },
+      {
+        id: "nearby-attractions",
+        title: "Cultural Landmarks to Explore Nearby",
+      },
+      {
+        id: "practical-tips",
+        title: "Essential Practical Tips for Your Winter Stay",
+      },
       { id: "guest-reviews", title: "Guest Impressions & Authentic Peace" },
       { id: "faq", title: "Frequently Asked Questions" },
     ],
@@ -68,8 +86,9 @@ export const newYearBlogData = {
     whyMarrakech: {
       id: "why-marrakech",
       h2: "Why Marrakech is the Ultimate Destination for New Year 2026/2027",
-      image: "/images/luxury-stay-in-marrakech-medina.webp",
-      imageAlt: "Peaceful sun-drenched rooftop terrace overlooking Marrakech Medina skyline",
+      image: "/images/best-riads-marrakech-medina.webp",
+      imageAlt:
+        "Peaceful sun-drenched rooftop terrace overlooking Marrakech Medina skyline",
       paragraphs: [
         "While northern latitudes endure dark afternoons and biting frosts, Marrakech welcomes late December and early January with clear azure skies, soft golden sunlight, and crisp, invigorating air. The winter climate is famously comfortable: daytime brings pleasant warmth perfect for exploring open-air gardens, historic palaces, and labyrinthine souks, while nightfall introduces a cool, refreshing stillness that invites warm woolen djellabas, cozy fireplace lounges, and restorative hot tea.",
         "Beyond the welcoming weather, Marrakech offers a cultural richness that transforms the holiday period. The city does not overwhelm visitors with commercialized winter festivals. Instead, it invites couples into an atmospheric realm where centuries-old traditions meet modern culinary creativity. You can spend sunny mornings meandering through ancient palace courtyards, quiet afternoons indulging in warm eucalyptus steam rituals, and evenings admiring the snow-dusted High Atlas mountain peaks in the far distance from a scenic rooftop terrace.",
@@ -81,8 +100,9 @@ export const newYearBlogData = {
     medinaAtmosphere: {
       id: "medina-atmosphere",
       h2: "The Medina and Jemaa el-Fna on New Year's Eve: Energy vs. Sanctuary",
-      image: "/images/riad-in-marrakech.webp",
-      imageAlt: "Traditional architectural symmetry and plunge pool within Pure House Marrakech",
+      image: "/images/aerial-view-luxury-riad-marrakech-medina.webp",
+      imageAlt:
+        "Traditional architectural symmetry and plunge pool within Pure House Marrakech",
       paragraphs: [
         "On December 31st, the heartbeat of Marrakech quickens. The legendary Jemaa el-Fna square—located just a 5-minute walk from Pure House—fills with an infectious, celebratory energy. Storytellers, acoustic musicians, acrobats, and steaming open-air food stalls create an unforgettable spectacle of Moroccan life. Travelers from across the globe gather to share smiles, sample roasted spiced nuts, and listen to the hypnotic rhythms of gnawa musicians under the starlit North African sky.",
         "However, navigating the Medina on New Year's Eve requires mindful planning. The main thoroughfares and central square can become lively and densely populated as midnight approaches. For travelers seeking a romantic, restful escape, spending the entire evening amidst the bustling crowds can feel overwhelming.",
@@ -94,10 +114,11 @@ export const newYearBlogData = {
     romanticPlan: {
       id: "romantic-itinerary",
       h2: "A Romantic New Year Plan at Pure House Marrakech",
-      image: "/images/marrakech-riad-with-hammam-and-spa.webp",
-      imageAlt: "Authentic private hammam and spa relaxation area at Pure House Marrakech",
-      secondaryImage: "/images/riad-marrakech-with-private-chef.webp",
-      secondaryImageAlt: "Exquisite candlelit dining prepared with fresh local market ingredients",
+      image: "/images/riad-pure-house-marrakech-retreat-corridor-pool.webp",
+      imageAlt:
+        "Retreat corridor at Riad Pure House Marrakech, leading to the pool",
+      secondaryImage: "/images/riad-pure-house-marrakech-retreat-room.webp",
+      secondaryImageAlt: "Peaceful retreat room at Riad Pure House Marrakech",
       paragraphs: [
         "To help you envision your holiday escape, here is how a perfectly paced New Year's Eve and New Year's Day unfolds within our adults-only boutique riad:",
         "Your December 31st begins with an unhurried morning. Wake up naturally in your air-conditioned suite, where plush bedding and understated tadelakt design foster absolute calm. Step down into the central courtyard, where sunlight dances across the emerald swimming pool, or head up to the rooftop terrace for breakfast. Our team serves a generous, freshly prepared vegetarian continental breakfast featuring fresh-squeezed citrus juice, artisanal Moroccan breads, local preserves, and fragrant coffee or traditional mint tea.",
@@ -106,7 +127,8 @@ export const newYearBlogData = {
         "On January 1st, greet the first morning of 2027 at your own leisurely pace. Enjoy a slow morning lounging beside the courtyard pool, sip freshly poured mint tea beneath orange trees, and soak in the soothing Moroccan winter sun.",
       ],
       // Note in code for Sara
-      saraComment: "// TODO: confirm NYE offer, minimum stay, special rates with Sara",
+      saraComment:
+        "// TODO: confirm NYE offer, minimum stay, special rates with Sara",
     },
 
     // H2 Nearby Places to Visit
@@ -160,24 +182,26 @@ export const newYearBlogData = {
           url: "/standard",
           description:
             "Cozy, beautifully appointed rooms ideal for solo travelers or couples seeking minimalist elegance and peaceful rest.",
-          image: "/images/luxury-riad-marrakech.webp",
-          imageAlt: "Standard room interior at Pure House with traditional Moroccan craftsmanship",
+          image: "/images/adults-only-luxury-riad-marrakech-pool.webp",
+          imageAlt:
+            "Standard room interior at Pure House with traditional Moroccan craftsmanship",
         },
         {
           title: "Deluxe Rooms",
           url: "/deluxe",
           description:
             "Spacious quarters blending traditional plasterwork with contemporary comforts, featuring comfortable king beds and refined tadelakt finishes.",
-          image: "/images/top-riad-marrakech.webp",
-          imageAlt: "Deluxe room with plush bedding and artisanal furnishings at Pure House",
+          image: "/images/riad-pure-house-marrakech-deluxe-room.webp",
+          imageAlt:
+            "Deluxe room with traditional Moroccan décor at Riad Pure House Marrakech",
         },
         {
           title: "Suites",
           url: "/suites",
           description:
             "Our premier accommodations offering generous living spaces, romantic ambiance, luxury bath amenities, and elevated privacy.",
-          image: "/images/hotels-in-marrakech.webp",
-          imageAlt: "Royal King Suite with romantic decor at Pure House Marrakech",
+          image: "/images/riad-pure-house-marrakech-suite-room.webp",
+          imageAlt: "Elegant suite at Riad Pure House Marrakech in the Medina",
         },
       ],
     },
@@ -194,7 +218,8 @@ export const newYearBlogData = {
         {
           title: "Seamless Arrival & Medina Airport Transfer",
           text: "Pure House is nestled within a pedestrian derb inside the Medina walls. While vehicular taxis cannot navigate the narrow alleyways, private airport transfers from Marrakech Menara Airport (RAK) can be arranged directly with our concierge team prior to arrival, ensuring a staff member meets you at the nearest drop-off point with luggage assistance.",
-          todoComment: "// TODO: confirm airport transfer pricing and pickup procedures with Sara",
+          todoComment:
+            "// TODO: confirm airport transfer pricing and pickup procedures with Sara",
         },
         {
           title: "Early Reservation is Crucial",
@@ -280,7 +305,8 @@ export const newYearBlogData = {
   fr: {
     locale: "fr",
     slug: "nouvel-an-a-marrakech",
-    canonicalUrl: "https://purehousemarrakech.com/fr/blog/nouvel-an-a-marrakech/",
+    canonicalUrl:
+      "https://purehousemarrakech.com/fr/blog/nouvel-an-a-marrakech/",
     alternateUrls: {
       en: "https://purehousemarrakech.com/blog/new-year-in-marrakech/",
       fr: "https://purehousemarrakech.com/fr/blog/nouvel-an-a-marrakech/",
@@ -301,8 +327,14 @@ export const newYearBlogData = {
     modifiedDate: "2026-10-16",
     breadcrumbs: [
       { name: "Accueil", url: "https://purehousemarrakech.com/fr/" },
-      { name: "Blog", url: "https://purehousemarrakech.com/fr/blog/nouvel-an-a-marrakech/" },
-      { name: "Nouvel An à Marrakech 2026/2027", url: "https://purehousemarrakech.com/fr/blog/nouvel-an-a-marrakech/" },
+      {
+        name: "Blog",
+        url: "https://purehousemarrakech.com/fr/blog/nouvel-an-a-marrakech/",
+      },
+      {
+        name: "Nouvel An à Marrakech 2026/2027",
+        url: "https://purehousemarrakech.com/fr/blog/nouvel-an-a-marrakech/",
+      },
     ],
 
     // Hero Section
@@ -317,11 +349,26 @@ export const newYearBlogData = {
     // Table of Contents
     tocTitle: "Au sommaire de ce guide",
     toc: [
-      { id: "why-marrakech", title: "Pourquoi choisir Marrakech pour le Nouvel An" },
-      { id: "medina-atmosphere", title: "La Médina et Jemaa el-Fna le soir du réveillon" },
-      { id: "romantic-itinerary", title: "Votre réveillon romantique à Pure House" },
-      { id: "nearby-attractions", title: "Les trésors culturels à découvrir à pied" },
-      { id: "practical-tips", title: "Conseils pratiques pour votre séjour hivernal" },
+      {
+        id: "why-marrakech",
+        title: "Pourquoi choisir Marrakech pour le Nouvel An",
+      },
+      {
+        id: "medina-atmosphere",
+        title: "La Médina et Jemaa el-Fna le soir du réveillon",
+      },
+      {
+        id: "romantic-itinerary",
+        title: "Votre réveillon romantique à Pure House",
+      },
+      {
+        id: "nearby-attractions",
+        title: "Les trésors culturels à découvrir à pied",
+      },
+      {
+        id: "practical-tips",
+        title: "Conseils pratiques pour votre séjour hivernal",
+      },
       { id: "guest-reviews", title: "Témoignage client & sérénité absolue" },
       { id: "faq", title: "Foire aux questions" },
     ],
@@ -337,8 +384,9 @@ export const newYearBlogData = {
     whyMarrakech: {
       id: "why-marrakech",
       h2: "Pourquoi Marrakech est la destination idéale pour le Nouvel An 2026/2027",
-      image: "/images/luxury-stay-in-marrakech-medina.webp",
-      imageAlt: "Toit-terrasse ensoleillé de Pure House Marrakech avec vue sur les toits de la Médina",
+      image: "/images/best-riads-marrakech-medina.webp",
+      imageAlt:
+        "Toit-terrasse ensoleillé de Pure House Marrakech avec vue sur les toits de la Médina",
       paragraphs: [
         "Alors que l’hiver s’installe durablement sur le continent européen, Marrakech bénéficie à la fin décembre d’une météo exceptionnellement clémente. Le soleil généreux réchauffe les après-midis, créant des conditions idylliques pour flâner à ciel ouvert dans les allées des palais historiques et les jardins verdoyants. À la tombée de la nuit, l’air se rafraîchit agréablement, invitant à se draper dans une étoffe chaude et à savourer un thé à la menthe fumant au coin d’un salon intimiste.",
         "Marrakech ne se contente pas d’offrir un climat privilégié : la ville fascine par son atmosphère sensorielle unique. Loin de la frénésie commerciale artificielle, elle propose une célébration empreinte d’élégance, de culture et de déconnexion. On y vient pour admirer les cimes enneigées du Haut Atlas se découpant à l’horizon depuis une terrasse ensoleillée, pour s’enivrer des senteurs d’épices et de bois de cèdre, et pour vivre des moments de complicité à deux.",
@@ -350,8 +398,9 @@ export const newYearBlogData = {
     medinaAtmosphere: {
       id: "medina-atmosphere",
       h2: "La Médina et la place Jemaa el-Fna le soir du 31 décembre : fête et quiétude",
-      image: "/images/riad-in-marrakech.webp",
-      imageAlt: "Architecture traditionnelle marocaine et bassin du patio de Pure House",
+      image: "/images/aerial-view-luxury-riad-marrakech-medina.webp",
+      imageAlt:
+        "Architecture traditionnelle marocaine et bassin du patio de Pure House",
       paragraphs: [
         "Le soir du 31 décembre, la place Jemaa el-Fna—située à seulement 5 minutes de marche de Pure House—vibre d’une ferveur festive tout à fait singulière. Les conteurs populaires, les joueurs de luth, les troupes d'acrobates et les étals gourmands en plein air créent un tourbillon de vie captivant. Des voyageurs venus des quatre coins du monde se mêlent aux habitants pour célébrer le passage à la nouvelle année dans une ambiance spontanée et chaleureuse.",
         "Néanmoins, arpenter la Médina un soir de réveillon demande un brin de discernement. Les grandes artères peuvent s’avérer très animées et denses à l'approche de minuit. Pour les voyageurs en quête de romantisme et de sérénité, rester plongé de longues heures au milieu de la foule peut devenir fatigant.",
@@ -363,10 +412,12 @@ export const newYearBlogData = {
     romanticPlan: {
       id: "romantic-itinerary",
       h2: "Votre programme romantique pour le Nouvel An à Pure House Marrakech",
-      image: "/images/marrakech-riad-with-hammam-and-spa.webp",
-      imageAlt: "Hammam marocain traditionnel et espace bien-être à Pure House Marrakech",
-      secondaryImage: "/images/riad-marrakech-with-private-chef.webp",
-      secondaryImageAlt: "Dîner raffiné aux chandelles servi sur le toit-terrasse du riad",
+      image: "/images/riad-pure-house-marrakech-retreat-corridor-pool.webp",
+      imageAlt:
+        "Couloir Retreat du Riad Pure House Marrakech, donnant sur la piscine",
+      secondaryImage: "/images/riad-pure-house-marrakech-retreat-room.webp",
+      secondaryImageAlt:
+        "Chambre Retreat paisible au Riad Pure House Marrakech",
       paragraphs: [
         "Afin de vous projeter dans votre séjour de fête, voici le déroulement d'une journée de réveillon et d'un premier de l'an au sein de notre maison réservée aux adultes :",
         "Votre journée du 31 décembre débute dans la douceur de votre suite climatisée, où la pureté du tadelakt et la noblesse des matières créent une atmosphère reposante. Vous descendez dans le patio baigné d'une clarté matinale dorée, ou vous montez sur le toit-terrasse pour débuter la journée face au ciel bleu. Notre équipe attentionnée vous sert un petit-déjeuner continental végétarien complet : jus d'oranges pressées à la minute, crêpes marocaines tièdes, pains traditionnels, confitures locales et café fraîchement moulu.",
@@ -374,7 +425,8 @@ export const newYearBlogData = {
         "Au crépuscule, lorsque le ciel se teinte d'ocre et de pourpre, prenez place sur notre toit-terrasse panoramique. Pure House propose une table d'hôtes marocaine et méditerranéenne mettant à l'honneur les produits frais du marché du jour. Savourez un dîner intime aux chandelles sous la voûte céleste, accompagné de vins choisis ou d'un cocktail préparé au bar du riad. Ici, pas de décibels agressifs : seul le murmure d'une conversation complice, la lueur des bougies et la douceur d'un service personnalisé.",
         "Le 1er janvier 2027 se savoure avec lenteur. Réveillez-vous sans hâte, détendez-vous au bord du bassin du patio, savourez un thé à la menthe parfumé et goûtez à la quiétude bienfaisante du premier jour de l'année.",
       ],
-      saraComment: "// TODO: confirm NYE offer, minimum stay, special rates with Sara",
+      saraComment:
+        "// TODO: confirm NYE offer, minimum stay, special rates with Sara",
     },
 
     // H2 Nearby Places to Visit
@@ -428,24 +480,27 @@ export const newYearBlogData = {
           url: "/standard",
           description:
             "Des cocons élégants et harmonieux, parfaits pour les couples en quête de quiétude et de sobriété raffinée.",
-          image: "/images/luxury-riad-marrakech.webp",
-          imageAlt: "Intérieur élégant d'une chambre standard à Pure House Marrakech",
+          image: "/images/adults-only-luxury-riad-marrakech-pool.webp",
+          imageAlt:
+            "Intérieur élégant d'une chambre standard à Pure House Marrakech",
         },
         {
           title: "Chambres Deluxe",
           url: "/deluxe",
           description:
             "Des volumes généreux alliant le charme de l'artisanat marocain, de grands lits king-size et de superbes salles de bains en tadelakt.",
-          image: "/images/top-riad-marrakech.webp",
-          imageAlt: "Chambre deluxe avec lit king-size et finitions en tadelakt à Pure House",
+          image: "/images/riad-pure-house-marrakech-deluxe-room.webp",
+          imageAlt:
+            "Chambre deluxe au décor marocain traditionnel, Riad Pure House Marrakech",
         },
         {
           title: "Suites",
           url: "/suites",
           description:
             "Nos hébergements les plus prestigieux offrant un espace salon spacieux, un cadre romantique incomparable et une intimité totale.",
-          image: "/images/hotels-in-marrakech.webp",
-          imageAlt: "Suite royale romantique avec décoration artisanale à Pure House",
+          image: "/images/riad-pure-house-marrakech-suite-room.webp",
+          imageAlt:
+            "Suite élégante au Riad Pure House Marrakech, dans la Médina",
         },
       ],
     },
@@ -456,13 +511,15 @@ export const newYearBlogData = {
       h2: "Conseils pratiques pour préparer votre séjour du Nouvel An",
       items: [
         {
-          title: "Que glisser dans sa valise : journées douces et soirées fraîches",
+          title:
+            "Que glisser dans sa valise : journées douces et soirées fraîches",
           text: "En hiver, Marrakech offre des après-midis ensoleillés et agréables, mais les soirées deviennent vite fraîches dès la tombée de la nuit. Prévoyez des vêtements légers et confortables pour la journée, complétés par un manteau chaud, une veste élégante ou un châle en laine pour vos dîners en terrasse.",
         },
         {
           title: "Transfert aéroport et arrivée dans la Médina",
           text: "Pure House est situé dans un derb piétonnier typique de la Médina. Les voitures n'y accédant pas, notre conciergerie organise sur simple demande votre transfert privé depuis l'aéroport de Marrakech Menara (RAK). Un membre de notre équipe vous attendra au point de dépose le plus proche pour porter vos bagages jusqu'au riad.",
-          todoComment: "// TODO: confirm airport transfer pricing and pickup procedures with Sara",
+          todoComment:
+            "// TODO: confirm airport transfer pricing and pickup procedures with Sara",
         },
         {
           title: "Réservez le plus tôt possible",
@@ -518,7 +575,8 @@ export const newYearBlogData = {
             "L'arrivée se fait à partir de 15h00 et le départ est fixé à 12h00. Si vous arrivez plus tôt ou repartez plus tard, notre conciergerie garde vos bagages avec plaisir.",
         },
         {
-          question: "Le riad dispose-t-il d'une piscine, d'un hammam et d'un toit-terrasse ?",
+          question:
+            "Le riad dispose-t-il d'une piscine, d'un hammam et d'un toit-terrasse ?",
           answer:
             "Oui. Notre établissement dispose d'un bassin de baignade rafraîchissant dans le patio, d'un hammam traditionnel privé pour gommages et soins à l'argan, et d'un toit-terrasse panoramique avec bar.",
         },
@@ -548,7 +606,8 @@ export const newYearBlogData = {
   es: {
     locale: "es",
     slug: "fin-de-ano-en-marrakech",
-    canonicalUrl: "https://purehousemarrakech.com/es/blog/fin-de-ano-en-marrakech/",
+    canonicalUrl:
+      "https://purehousemarrakech.com/es/blog/fin-de-ano-en-marrakech/",
     alternateUrls: {
       en: "https://purehousemarrakech.com/blog/new-year-in-marrakech/",
       fr: "https://purehousemarrakech.com/fr/blog/nouvel-an-a-marrakech/",
@@ -569,8 +628,14 @@ export const newYearBlogData = {
     modifiedDate: "2026-10-16",
     breadcrumbs: [
       { name: "Inicio", url: "https://purehousemarrakech.com/es/" },
-      { name: "Blog", url: "https://purehousemarrakech.com/es/blog/fin-de-ano-en-marrakech/" },
-      { name: "Fin de año en Marrakech 2026/2027", url: "https://purehousemarrakech.com/es/blog/fin-de-ano-en-marrakech/" },
+      {
+        name: "Blog",
+        url: "https://purehousemarrakech.com/es/blog/fin-de-ano-en-marrakech/",
+      },
+      {
+        name: "Fin de año en Marrakech 2026/2027",
+        url: "https://purehousemarrakech.com/es/blog/fin-de-ano-en-marrakech/",
+      },
     ],
 
     // Hero Section
@@ -585,12 +650,27 @@ export const newYearBlogData = {
     // Table of Contents
     tocTitle: "Índice de la guía",
     toc: [
-      { id: "why-marrakech", title: "Por qué elegir Marrakech para fin de año" },
-      { id: "medina-atmosphere", title: "La Medina y Jemaa el-Fna en Nochevieja" },
+      {
+        id: "why-marrakech",
+        title: "Por qué elegir Marrakech para fin de año",
+      },
+      {
+        id: "medina-atmosphere",
+        title: "La Medina y Jemaa el-Fna en Nochevieja",
+      },
       { id: "romantic-itinerary", title: "Un plan romántico en Pure House" },
-      { id: "nearby-attractions", title: "Monumentos cercanos para visitar a pie" },
-      { id: "practical-tips", title: "Consejos prácticos para tu viaje en invierno" },
-      { id: "guest-reviews", title: "Opinión real de huéspedes & tranquilidad" },
+      {
+        id: "nearby-attractions",
+        title: "Monumentos cercanos para visitar a pie",
+      },
+      {
+        id: "practical-tips",
+        title: "Consejos prácticos para tu viaje en invierno",
+      },
+      {
+        id: "guest-reviews",
+        title: "Opinión real de huéspedes & tranquilidad",
+      },
       { id: "faq", title: "Preguntas frecuentes" },
     ],
 
@@ -605,8 +685,9 @@ export const newYearBlogData = {
     whyMarrakech: {
       id: "why-marrakech",
       h2: "Por qué Marrakech es el destino perfecto para recibir el 2027",
-      image: "/images/luxury-stay-in-marrakech-medina.webp",
-      imageAlt: "Terraza en la azotea de Pure House Marrakech con vistas panorámicas a la Medina",
+      image: "/images/best-riads-marrakech-medina.webp",
+      imageAlt:
+        "Terraza en la azotea de Pure House Marrakech con vistas panorámicas a la Medina",
       paragraphs: [
         "Mientras gran parte de Europa afronta temperaturas bajo cero y cielos nublados, Marrakech disfruta a finales de diciembre de un clima suave y luminoso. Durante el día, el sol calienta con delicadeza, ofreciendo temperaturas ideales para pasear sin abrigo por los patios palaciegos, mezquitas y callejones históricos. Al caer la noche, el ambiente se refresca de forma agradable, invitando a abrigarse con una suave prenda de lana y disfrutar de una taza de té a la menta junto a la tenue luz de las velas.",
         "La magia de Marrakech en fin de año reside además en su espíritu atemporal. Lejos de las aglomeraciones masivas y fiestas ruidosas de las grandes capitales, la ciudad roja invita a un deleite sosegado y sensorial. Es un momento único para contemplar las cumbres nevadas del Alto Atlas desde una terraza soleada, recorrer los mercados de especias y disfrutar de cenas elaboradas con productos frescos de temporada.",
@@ -618,7 +699,7 @@ export const newYearBlogData = {
     medinaAtmosphere: {
       id: "medina-atmosphere",
       h2: "La Medina y Jemaa el-Fna en Nochevieja: festividad y refugio",
-      image: "/images/riad-in-marrakech.webp",
+      image: "/images/aerial-view-luxury-riad-marrakech-medina.webp",
       imageAlt: "Patio interior simétrico con piscina en Pure House Marrakech",
       paragraphs: [
         "La noche del 31 de diciembre, la plaza Jemaa el-Fna—ubicada a solo 5 minutos a pie de Pure House—despierta con un encanto especial. Músicos locales, narradores de historias, puestos de comida típica y aromas a especias llenan el aire de una alegría contagiosa. Viajeros y locales comparten miradas cómplices en un ambiente festivo muy diferente al bullicio comercial de las ciudades occidentales.",
@@ -631,10 +712,12 @@ export const newYearBlogData = {
     romanticPlan: {
       id: "romantic-itinerary",
       h2: "Un plan romántico para fin de año en Pure House Marrakech",
-      image: "/images/marrakech-riad-with-hammam-and-spa.webp",
-      imageAlt: "Hammam tradicional marroquí y zona de masajes en Pure House Marrakech",
-      secondaryImage: "/images/riad-marrakech-with-private-chef.webp",
-      secondaryImageAlt: "Cena romántica servida a la luz de las velas en la terraza de la azotea",
+      image: "/images/riad-pure-house-marrakech-retreat-corridor-pool.webp",
+      imageAlt:
+        "Pasillo Retreat del Riad Pure House Marrakech, junto a la piscina",
+      secondaryImage: "/images/riad-pure-house-marrakech-retreat-room.webp",
+      secondaryImageAlt:
+        "Tranquila habitación Retreat del Riad Pure House Marrakech",
       paragraphs: [
         "Para ayudarte a visualizar tu estancia de Nochevieja, te presentamos cómo transcurre un día de celebración y un primer día del año en nuestro riad boutique solo para adultos:",
         "La mañana del 31 de diciembre comienza sin alarmas en tu suite climatizada, donde los acabados de tadelakt artesanal y las texturas naturales garantizan un descanso reparador. Puedes bajar al patio bañado por la luz del sol o subir a la azotea para desayunar. Nuestro equipo prepara un delicioso desayuno continental vegetariano con zumos de naranja recién exprimidos, panes y crepes marroquíes recién horneados, confituras caseras y café aromático.",
@@ -642,7 +725,8 @@ export const newYearBlogData = {
         "Al caer el sol, toma asiento en nuestra terraza panorámica en la azotea. Pure House ofrece cenas de inspiración marroquí y mediterránea elaboradas con ingredientes seleccionados cada mañana en los mercados locales. Brinda bajo las estrellas en una cena íntima a la luz de las velas, acompañada de un buen vino o cóctel de nuestro bar. Aquí no hay música estruendosa ni prisas: solo buena compañía, el cielo despejado de Marrakech y un servicio cercano y multilingüe.",
         "El 1 de enero de 2027 se disfruta con calma absoluta. Despiértate tarde, descansa junto a la piscina del patio, comparte un té a la menta y siente la tranquilidad del primer día del año en la Medina.",
       ],
-      saraComment: "// TODO: confirm NYE offer, minimum stay, special rates with Sara",
+      saraComment:
+        "// TODO: confirm NYE offer, minimum stay, special rates with Sara",
     },
 
     // H2 Nearby Places to Visit
@@ -696,24 +780,27 @@ export const newYearBlogData = {
           url: "/standard",
           description:
             "Habitaciones acogedoras y luminosas, perfectas para parejas que buscan descanso en un entorno de sobria elegancia.",
-          image: "/images/luxury-riad-marrakech.webp",
-          imageAlt: "Habitación estándar en Pure House Marrakech con diseño tradicional",
+          image: "/images/adults-only-luxury-riad-marrakech-pool.webp",
+          imageAlt:
+            "Habitación estándar en Pure House Marrakech con diseño tradicional",
         },
         {
           title: "Habitaciones Deluxe",
           url: "/deluxe",
           description:
             "Amplios espacios que combinan detalles artesanales marroquíes, camas king-size y elegantes baños de tadelakt.",
-          image: "/images/top-riad-marrakech.webp",
-          imageAlt: "Habitación deluxe con cama king-size y acabados en tadelakt en Pure House",
+          image: "/images/riad-pure-house-marrakech-deluxe-room.webp",
+          imageAlt:
+            "Habitación deluxe con decoración marroquí tradicional, Riad Pure House Marrakech",
         },
         {
           title: "Suites",
           url: "/suites",
           description:
             "Nuestras opciones más exclusivas, con salón independiente, ambiente sumamente romántico y máxima privacidad.",
-          image: "/images/hotels-in-marrakech.webp",
-          imageAlt: "Suite real romántica decorada con artesanía marroquí en Pure House",
+          image: "/images/riad-pure-house-marrakech-suite-room.webp",
+          imageAlt:
+            "Elegante suite del Riad Pure House Marrakech, en la Medina",
         },
       ],
     },
@@ -730,7 +817,8 @@ export const newYearBlogData = {
         {
           title: "Llegada y traslados desde el aeropuerto",
           text: "Pure House se encuentra en una calle peatonal de la Medina. Dado que los taxis no pueden entrar en los callejones, podemos coordinar con antelación tu traslado privado desde el aeropuerto Marrakech Menara (RAK). Un miembro de nuestro equipo te esperará en el punto de encuentro para llevar tu equipaje hasta el riad.",
-          todoComment: "// TODO: confirm airport transfer pricing and pickup procedures with Sara",
+          todoComment:
+            "// TODO: confirm airport transfer pricing and pickup procedures with Sara",
         },
         {
           title: "Reserva con la mayor antelación posible",

@@ -448,97 +448,33 @@ const sitePages = [
   },
   {
     pageUrl: "/blog/new-year-in-marrakech/",
-    lastmod: "2026-10-16",
+    lastmod: "2026-10-17",
     priority: "0.9",
     images: [
       {
-        image: "/images/pure-house-marrakech-riad-medina.webp",
-        alt: "Pure House Marrakech serene central courtyard and pool bathed in warm natural light",
+        image: "/images/riad-pure-house-marrakech-deluxe-room.webp",
+        alt: "Deluxe room with traditional Moroccan décor at Riad Pure House Marrakech",
         title: "New Year's Eve in Marrakech - Pure House Riad",
       },
       {
-        image: "/images/luxury-stay-in-marrakech-medina.webp",
-        alt: "Peaceful sun-drenched rooftop terrace overlooking Marrakech Medina skyline",
-        title: "Winter Sunshine and Rooftop Terrace in Marrakech",
+        image: "/images/riad-pure-house-marrakech-retreat-corridor-pool.webp",
+        alt: "Retreat corridor at Riad Pure House Marrakech, leading to the pool",
+        title: "Retreat Corridor & Pool – Riad Pure House Marrakech",
       },
       {
-        image: "/images/riad-in-marrakech.webp",
-        alt: "Traditional architectural symmetry and plunge pool within Pure House Marrakech",
-        title: "Intimate Courtyard Pool Sanctuary in the Medina",
+        image: "/images/riad-pure-house-marrakech-retreat-room.webp",
+        alt: "Peaceful retreat room at Riad Pure House Marrakech",
+        title: "Retreat Room – Riad Pure House Marrakech",
       },
       {
-        image: "/images/marrakech-riad-with-hammam-and-spa.webp",
-        alt: "Authentic private hammam and spa relaxation area at Pure House Marrakech",
-        title: "Traditional Moroccan Hammam and Spa Treatments",
+        image: "/images/riad-pure-house-marrakech-suite-room.webp",
+        alt: "Elegant suite at Riad Pure House Marrakech in the Medina",
+        title: "Suite Room – Riad Pure House Marrakech",
       },
       {
-        image: "/images/riad-marrakech-with-private-chef.webp",
-        alt: "Exquisite candlelit dining prepared with fresh local market ingredients",
-        title: "Romantic Rooftop Candlelit Dining at Pure House",
-      },
-    ],
-  },
-  {
-    pageUrl: "/fr/blog/nouvel-an-a-marrakech/",
-    lastmod: "2026-10-16",
-    priority: "0.9",
-    images: [
-      {
-        image: "/images/pure-house-marrakech-riad-medina.webp",
-        alt: "Patio central et bassin de baignade de Pure House Marrakech baignés de lumière douce",
-        title: "Nouvel An à Marrakech - Pure House Riad",
-      },
-      {
-        image: "/images/luxury-stay-in-marrakech-medina.webp",
-        alt: "Toit-terrasse ensoleillé de Pure House Marrakech avec vue sur les toits de la Médina",
-        title: "Douceur hivernale et toit-terrasse à Marrakech",
-      },
-      {
-        image: "/images/riad-in-marrakech.webp",
-        alt: "Architecture traditionnelle marocaine et bassin du patio de Pure House",
-        title: "Bassin de patio et calme absolu en Médina",
-      },
-      {
-        image: "/images/marrakech-riad-with-hammam-and-spa.webp",
-        alt: "Hammam marocain traditionnel et espace bien-être à Pure House Marrakech",
-        title: "Hammam marocain traditionnel et soins à l'argan",
-      },
-      {
-        image: "/images/riad-marrakech-with-private-chef.webp",
-        alt: "Dîner raffiné aux chandelles servi sur le toit-terrasse du riad",
-        title: "Dîner romantique aux chandelles sur le toit-terrasse",
-      },
-    ],
-  },
-  {
-    pageUrl: "/es/blog/fin-de-ano-en-marrakech/",
-    lastmod: "2026-10-16",
-    priority: "0.9",
-    images: [
-      {
-        image: "/images/pure-house-marrakech-riad-medina.webp",
-        alt: "Patio interior con piscina y diseño tradicional marroquí en Pure House Marrakech",
-        title: "Fin de Año en Marrakech - Pure House Riad",
-      },
-      {
-        image: "/images/luxury-stay-in-marrakech-medina.webp",
-        alt: "Terraza en la azotea de Pure House Marrakech con vistas panorámicas a la Medina",
-        title: "Sol de invierno y terraza panorámica en Marrakech",
-      },
-      {
-        image: "/images/riad-in-marrakech.webp",
-        alt: "Patio interior simétrico con piscina en Pure House Marrakech",
-        title: "Piscina en el patio interior de la Medina",
-      },
-      {
-        image: "/images/marrakech-riad-with-hammam-and-spa.webp",
-        alt: "Hammam tradicional marroquí y zona de masajes en Pure House Marrakech",
-        title: "Hammam tradicional marroquí y spa",
-      },
-      {
-        image: "/images/riad-marrakech-with-private-chef.webp",
-        alt: "Cena romántica servida a la luz de las velas en la terraza de la azotea",
-        title: "Cena romántica a la luz de las velas en la azotea",
+        image: "/images/riad-pure-house-marrakech-terrace-pool-view.webp",
+        alt: "Terrace with a view over the pool at Riad Pure House Marrakech",
+        title: "Terrace & Pool View – Riad Pure House Marrakech",
       },
     ],
   },
