@@ -585,4 +585,51 @@
       <image:license>https://purehousemarrakech.com/license.html</image:license>
     </image:image>
   </url>
+  <url>
+    <loc>https://purehousemarrakech.com/blog/where-to-stay-in-marrakech-medina/</loc>
+    <lastmod>2026-10-19</lastmod>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://purehousemarrakech.com/images/pure-house-marrakech-luxury-riad-courtyard.webp</image:loc>
+      <image:caption>Serene sunlit central courtyard and emerald pool at Pure House Marrakech riad | Pure House Medina Adults Only</image:caption>
+      <image:title>Where to Stay in Marrakech Medina - Pure House Courtyard</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+      <image:license>https://purehousemarrakech.com/license.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://purehousemarrakech.com/images/best-riads-marrakech-medina.webp</image:loc>
+      <image:caption>Panoramic view of Marrakech Medina rooftops and historic skyline | Pure House Medina Adults Only</image:caption>
+      <image:title>Marrakech Medina Rooftops and Historic Skyline</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+      <image:license>https://purehousemarrakech.com/license.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://purehousemarrakech.com/images/aerial-view-pure-house-marrakech-medina.webp</image:loc>
+      <image:caption>Aerial view of the historic Marrakech Medina showing serene internal riad courtyards | Pure House Medina Adults Only</image:caption>
+      <image:title>Historic Marrakech Medina Quarters and Architecture</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+      <image:license>https://purehousemarrakech.com/license.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://purehousemarrakech.com/images/pure-house-marrakech-staircase-design.webp</image:loc>
+      <image:caption>Architectural staircase and inward-facing arches in Pure House Marrakech | Pure House Medina Adults Only</image:caption>
+      <image:title>Traditional Riad Architecture in Marrakech Medina</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+      <image:license>https://purehousemarrakech.com/license.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://purehousemarrakech.com/images/courtyard-plunge-pool-pure-house-marrakech.webp</image:loc>
+      <image:caption>Tranquil courtyard plunge pool reflecting sunlight in an authentic Marrakech riad | Pure House Medina Adults Only</image:caption>
+      <image:title>Courtyard Plunge Pool Oasis at Pure House Marrakech</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+      <image:license>https://purehousemarrakech.com/license.html</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://purehousemarrakech.com/images/biophilic-design-hotel-morocco-green-riad.webp</image:loc>
+      <image:caption>Serene botanical and wabi-sabi design details at Pure House Marrakech | Pure House Medina Adults Only</image:caption>
+      <image:title>Adults-Only Sanctuary at Pure House Marrakech</image:title>
+      <image:geo_location>Marrakech, Morocco</image:geo_location>
+      <image:license>https://purehousemarrakech.com/license.html</image:license>
+    </image:image>
+  </url>
 </urlset>

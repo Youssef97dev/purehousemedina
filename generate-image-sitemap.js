@@ -478,6 +478,43 @@ const sitePages = [
       },
     ],
   },
+  {
+    pageUrl: "/blog/where-to-stay-in-marrakech-medina/",
+    lastmod: "2026-10-19",
+    priority: "0.9",
+    images: [
+      {
+        image: "/images/pure-house-marrakech-luxury-riad-courtyard.webp",
+        alt: "Serene sunlit central courtyard and emerald pool at Pure House Marrakech riad",
+        title: "Where to Stay in Marrakech Medina - Pure House Courtyard",
+      },
+      {
+        image: "/images/best-riads-marrakech-medina.webp",
+        alt: "Panoramic view of Marrakech Medina rooftops and historic skyline",
+        title: "Marrakech Medina Rooftops and Historic Skyline",
+      },
+      {
+        image: "/images/aerial-view-pure-house-marrakech-medina.webp",
+        alt: "Aerial view of the historic Marrakech Medina showing serene internal riad courtyards",
+        title: "Historic Marrakech Medina Quarters and Architecture",
+      },
+      {
+        image: "/images/pure-house-marrakech-staircase-design.webp",
+        alt: "Architectural staircase and inward-facing arches in Pure House Marrakech",
+        title: "Traditional Riad Architecture in Marrakech Medina",
+      },
+      {
+        image: "/images/courtyard-plunge-pool-pure-house-marrakech.webp",
+        alt: "Tranquil courtyard plunge pool reflecting sunlight in an authentic Marrakech riad",
+        title: "Courtyard Plunge Pool Oasis at Pure House Marrakech",
+      },
+      {
+        image: "/images/biophilic-design-hotel-morocco-green-riad.webp",
+        alt: "Serene botanical and wabi-sabi design details at Pure House Marrakech",
+        title: "Adults-Only Sanctuary at Pure House Marrakech",
+      },
+    ],
+  },
 ];
 
 // Build the XML structure
