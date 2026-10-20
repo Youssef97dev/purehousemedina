@@ -332,7 +332,8 @@ export function getNewYearBlogJsonLd(locale = "en") {
 }
 
 export function getWhereToStayBlogJsonLd(locale = "en") {
-  const data = whereToStayMedinaBlogData[locale] || whereToStayMedinaBlogData.en;
+  const data =
+    whereToStayMedinaBlogData[locale] || whereToStayMedinaBlogData.en;
   const baseUrl = "https://purehousemarrakech.com";
   const postUrl = data.canonicalUrl;
 
@@ -394,11 +395,10 @@ export function getWhereToStayBlogJsonLd(locale = "en") {
         "Pure House Marrakech is an adults-only luxury boutique riad nestled in the Marrakech Medina near Jemaa el-Fna, featuring an intimate courtyard pool, traditional hammam, and rooftop terrace.",
       url: baseUrl,
       image: [
-        `${baseUrl}/images/pure-house-marrakech-luxury-riad-courtyard.webp`,
-        `${baseUrl}/images/pure-house-marrakech-luxury-riad-suite.webp`,
-        `${baseUrl}/images/riad-pure-house-marrakech-deluxe-room.webp`,
-        `${baseUrl}/images/courtyard-plunge-pool-pure-house-marrakech.webp`,
-        `${baseUrl}/images/pure-house-marrakech-rooftop-terrace-medina.webp`,
+        `${baseUrl}/images/riad-marrakech-medina-courtyard-decorative-pool-table.webp`,
+        `${baseUrl}/images/riad-marrakech-medina-interior-lounge-table-chair.webp`,
+        `${baseUrl}/images/riad-marrakech-medina-terrace-decorative-pool-tables.webp`,
+        `${baseUrl}/images/riad-marrakech-medina-terrace-guest-rooms.webp`,
       ],
       telephone: "+212682225235",
       email: "reservations@purehousemarrakech.com",
@@ -472,4 +472,3 @@ export function getWhereToStayBlogJsonLd(locale = "en") {
     "@graph": graph,
   };
 }
-

@@ -116,9 +116,9 @@ export const whereToStayMedinaBlogData = {
     medinaNeighborhoods: {
       id: "medina-neighborhoods",
       h2: "Marrakech Medina Neighborhoods: Where to Base Yourself",
-      image: "/images/aerial-view-pure-house-marrakech-medina.webp",
+      image: "/images/riad-marrakech-medina-interior-lounge-table-chair.webp",
       imageAlt:
-        "Aerial view of the historic Marrakech Medina showing serene internal riad courtyards",
+        "Traditional Moroccan riad interior with a table and chair, Riad Pure House Marrakech",
       paragraphs: [
         "The Medina of Marrakech covers over 600 hectares enclosed within 19 kilometers of ancient adobe walls. While it might look uniform on a map, it is divided into distinct historical quarters (derbs and quarters), each offering a unique character, pace, and degree of accessibility.",
         "Central Medina & Mouassine: Widely regarded by seasoned travelers as the most desirable base. Centrally located between the vibrant Jemaa el-Fna square and the chic artisan boutiques of northern souks, this neighborhood balances convenience and elegance. High-end restaurants, historic fountains, and Le Jardin Secret are steps away. Pure House Marrakech is located here, tucked into Derb Abou El Fdail—a tranquil residential derb where all outside urban bustle instantly dissolves.",
@@ -132,13 +132,14 @@ export const whereToStayMedinaBlogData = {
     whatIsARiad: {
       id: "what-is-a-riad",
       h2: "Understanding Riad Architecture: The Sanctuary Concept",
-      image: "/images/pure-house-marrakech-staircase-design.webp",
+      image:
+        "/images/riad-marrakech-medina-courtyard-decorative-pool-table.webp",
       imageAlt:
-        "Architectural staircase and inward-facing arches in Pure House Marrakech",
+        "Riad courtyard with a decorative pool and a table at Riad Pure House Marrakech, Medina",
       secondaryImage:
-        "/images/courtyard-plunge-pool-pure-house-marrakech.webp",
+        "/images/riad-marrakech-medina-terrace-decorative-pool-tables.webp",
       secondaryImageAlt:
-        "Tranquil courtyard plunge pool reflecting sunlight in an authentic Marrakech riad",
+        "Riad terrace with a decorative pool and tables at Riad Pure House Marrakech, Medina",
       paragraphs: [
         "The word 'Riad' originates from the Arabic 'ryad', meaning garden. Historically built as stately family residences for wealthy merchants and dignitaries, riads were intentionally engineered around the principles of privacy (hurma) and natural thermal regulation.",
         "Unlike Western homes that feature expansive outward-facing exterior windows, an authentic riad presents austere, solid rammed-earth walls to the street. The entire architectural beauty is concealed inside, oriented around an open-air central courtyard. Sunlight pours into the core, illuminating emerald plunge pools, fragrant orange trees, and verdant climbing plants.",
@@ -190,9 +191,9 @@ export const whereToStayMedinaBlogData = {
     pureHouseSpotlight: {
       id: "pure-house-spotlight",
       h2: "Pure House Marrakech: The Adult-Only Benchmark in the Medina",
-      image: "/images/biophilic-design-hotel-morocco-green-riad.webp",
+      image: "/images/riad-marrakech-medina-terrace-guest-rooms.webp",
       imageAlt:
-        "Serene botanical and wabi-sabi design details at Pure House Marrakech",
+        "Riad terrace overlooking the guest rooms at Riad Pure House Marrakech in the Medina",
       paragraphs: [
         "Designed for couples, honeymooners, and mindful travelers who prioritize peace, Pure House Marrakech embodies the ideal balance of Medina authenticity and minimalist luxury. Situated at 16 Derb Abou El Fdail, our boutique riad is located just a peaceful 5-minute walk (500 meters) from Jemaa el-Fna, allowing you to explore the imperial landmarks effortlessly on foot without ever needing a taxi for daily adventures.",
         "As a strictly adults-only property, Pure House preserves an atmosphere of quiet contemplation. Our central courtyard features an intimate emerald swimming pool framed by smooth tadelakt walls, lush greenery, and handcrafted iron lanterns. In the private hammam and spa, guests experience timeless Moroccan cleansing rituals with organic argan oils and authentic eucalyptus black soap.",
@@ -487,9 +488,9 @@ export const whereToStayMedinaBlogData = {
     medinaNeighborhoods: {
       id: "medina-neighborhoods",
       h2: "Les Quartiers de la Médina : Où Établir Votre Camp de Base",
-      image: "/images/aerial-view-pure-house-marrakech-medina.webp",
+      image: "/images/riad-marrakech-medina-interior-lounge-table-chair.webp",
       imageAlt:
-        "Vue aérienne de la Médina montrant les patios secrets des riads traditionnels",
+        "Intérieur de riad marocain avec table et chaise, Riad Pure House Marrakech, Médina",
       paragraphs: [
         "La Médina de Marrakech s'étend sur plus de 600 hectares ceints de 19 kilomètres de remparts historiques. Bien qu'elle semble homogène vue du ciel, elle se compose de quartiers aux personnalités et aux atmosphères bien distinctes.",
         "Médina Centrale & Mouassine : Considéré par les voyageurs avertis comme l'emplacement le plus prestigieux et pratique. Situé idéalement entre la place Jemaa el-Fna et les boutiques d'artisans réputées du nord des souks, ce secteur conjugue raffinement et quiétude. Les grandes tables, les fontaines historiques et Le Jardin Secret s'y rejoignent en quelques pas. C'est ici que se trouve Pure House Marrakech, au Derb Abou El Fdail, une ruelle résidentielle paisible où tout bruit extérieur s'estompe.",
@@ -503,13 +504,14 @@ export const whereToStayMedinaBlogData = {
     whatIsARiad: {
       id: "what-is-a-riad",
       h2: "L'Architecture du Riad : Le Concept d'un Havre Intérieur",
-      image: "/images/pure-house-marrakech-staircase-design.webp",
+      image:
+        "/images/riad-marrakech-medina-courtyard-decorative-pool-table.webp",
       imageAlt:
-        "Escalier en tadelakt et arcades traditionnelles au riad Pure House",
+        "Patio du riad avec bassin décoratif et table, Riad Pure House Marrakech, Médina",
       secondaryImage:
-        "/images/courtyard-plunge-pool-pure-house-marrakech.webp",
+        "/images/riad-marrakech-medina-terrace-decorative-pool-tables.webp",
       secondaryImageAlt:
-        "Bassin de patio rafraîchissant au riad Pure House Marrakech",
+        "Terrasse du riad avec bassin décoratif et tables, Riad Pure House Marrakech, Médina",
       paragraphs: [
         "Le terme 'Riad' provient de l'arabe 'ryad', qui signifie jardin. À l'origine, ces demeures bourgeoises appartenaient à de riches marchands et notables citadins, conçues pour préserver l'intimité familiale (hurma) et tempérer naturellement le climat aride.",
         "À l'inverse des résidences occidentales ouvertes vers l'extérieur, le riad traditionnel oppose à la rue de hauts murs aveugles en pisé. Toute la splendeur architecturale est préservée à l'intérieur, organisée autour d'un patio central à ciel ouvert où la lumière du soleil illumine la piscine, les orangers et la végétation luxuriante.",
@@ -561,9 +563,9 @@ export const whereToStayMedinaBlogData = {
     pureHouseSpotlight: {
       id: "pure-house-spotlight",
       h2: "Pure House Marrakech : La Référence Adults-Only en Médina",
-      image: "/images/biophilic-design-hotel-morocco-green-riad.webp",
+      image: "/images/riad-marrakech-medina-terrace-guest-rooms.webp",
       imageAlt:
-        "Détails de design biophilique et raffinement épuré au riad Pure House",
+        "Terrasse du riad avec vue sur les chambres, Riad Pure House Marrakech, Médina",
       paragraphs: [
         "Pensé pour les couples, les voyageurs en quête de calme et les amateurs d'artisanat noble, Pure House Marrakech incarne l'alliance parfaite entre authenticité marocaine et luxe minimaliste. Situé au 16 Derb Abou El Fdail, notre riad boutique est à seulement 5 minutes à pied (500 mètres) de la place Jemaa el-Fna, permettant d'explorer tous les joyaux historiques sans recourir aux taxis.",
         "En tant qu'établissement strictement réservé aux adultes, Pure House cultive une ambiance de quiétude absolue. Notre patio central abrite un bassin de baignade émeraude entouré de murs en tadelakt chaleureux, de bananiers et de lanternes en fer forgé. Dans notre hammam privé, nos hôtes découvrent les rituels de purification traditionnels aux huiles d'argan biologiques et au savon noir à l'eucalyptus.",
@@ -698,7 +700,8 @@ export const whereToStayMedinaBlogData = {
       h2: "Questions Fréquentes sur le Choix d'un Riad à Marrakech",
       items: [
         {
-          question: "Vaut-il mieux dormir dans un riad ou un hôtel à Marrakech ?",
+          question:
+            "Vaut-il mieux dormir dans un riad ou un hôtel à Marrakech ?",
           answer:
             "Dormir dans un riad offre une immersion culturelle inégalable. Vous logez au cœur de la Médina classée par l'UNESCO, entouré d'architecture traditionnelle et d'un service attentionné sur mesure. Les hôtels modernes sont situés hors des remparts et nécessitent des trajets en taxi pour chaque visite.",
         },
@@ -709,7 +712,8 @@ export const whereToStayMedinaBlogData = {
             "Le quartier central de Mouassine et du Derb Abou El Fdail est le plus prisé. Il offre un emplacement sécurisé, piéton et élégant à 5 minutes de Jemaa el-Fna et des souks, tout en restant préservé du tumulte urbain.",
         },
         {
-          question: "Pourquoi choisir un riad réservé aux adultes (adults-only) ?",
+          question:
+            "Pourquoi choisir un riad réservé aux adultes (adults-only) ?",
           answer:
             "L'architecture d'un riad s'articule autour d'un patio en pierre et stuc où les sons réverbèrent facilement. Un riad réservé aux adultes garantit des après-midis calmes au bord de l'eau et des nuits paisibles sans réveils intempestifs.",
         },
@@ -719,12 +723,14 @@ export const whereToStayMedinaBlogData = {
             "Les taxis déposent les voyageurs aux portes de la Médina. En réservant votre transfert avec Pure House Marrakech, un membre de notre équipe vient à votre rencontre avec un chariot à bagages traditionnel pour transporter vos valises jusqu'à votre suite.",
         },
         {
-          question: "Pure House Marrakech dispose-t-il d'une piscine et d'un spa ?",
+          question:
+            "Pure House Marrakech dispose-t-il d'une piscine et d'un spa ?",
           answer:
             "Oui. Notre maison dispose d'une piscine de patio baignée de soleil et d'un hammam marocain traditionnel privé proposant gommages au savon noir et massages à l'huile d'argan bio.",
         },
         {
-          question: "À quelle distance Pure House se trouve-t-il de Jemaa el-Fna ?",
+          question:
+            "À quelle distance Pure House se trouve-t-il de Jemaa el-Fna ?",
           answer:
             "Pure House est situé au 16 Derb Abou El Fdail, à seulement 5 minutes de marche paisible (500 mètres) de la célèbre place Jemaa el-Fna et des souks artisanaux.",
         },
@@ -857,9 +863,9 @@ export const whereToStayMedinaBlogData = {
     medinaNeighborhoods: {
       id: "medina-neighborhoods",
       h2: "Barrios de la Medina de Marrakech: Dónde Hospedarte",
-      image: "/images/aerial-view-pure-house-marrakech-medina.webp",
+      image: "/images/riad-marrakech-medina-interior-lounge-table-chair.webp",
       imageAlt:
-        "Vista aérea de la Medina mostrando la privacidad de los patios interiores de los riads",
+        "Interior de riad marroquí con mesa y silla, Riad Pure House Marrakech, Medina",
       paragraphs: [
         "La Medina de Marrakech abarca más de 600 hectáreas protegidas por 19 kilómetros de murallas de adobe. Aunque en el plano parezca homogénea, está dividida en distritos y callejones (derbs) con identidades y accesibilidades muy distintas.",
         "Medina Central & Mouassine: Considerada unánimemente por los viajeros expertos como la ubicación más codiciada. Situada estratégicamente entre la animada plaza Jemaa el-Fna y las boutiques de artesanos del norte, combina comodidad, elegancia y seguridad. Excelentes restaurantes, fuentes históricas y Le Jardin Secret están a corta distancia a pie. Aquí se encuentra Pure House Marrakech, en Derb Abou El Fdail, un callejón residencial apacible donde todo el bullicio exterior se disuelve al instante.",
@@ -873,13 +879,14 @@ export const whereToStayMedinaBlogData = {
     whatIsARiad: {
       id: "what-is-a-riad",
       h2: "Arquitectura del Riad: El Concepto del Santuario Interior",
-      image: "/images/pure-house-marrakech-staircase-design.webp",
+      image:
+        "/images/riad-marrakech-medina-courtyard-decorative-pool-table.webp",
       imageAlt:
-        "Escalera de diseño y arquerías tradicionales en Pure House Marrakech",
+        "Patio del riad con estanque decorativo y mesa, Riad Pure House Marrakech, Medina",
       secondaryImage:
-        "/images/courtyard-plunge-pool-pure-house-marrakech.webp",
+        "/images/riad-marrakech-medina-terrace-decorative-pool-tables.webp",
       secondaryImageAlt:
-        "Alberca refrescante en el patio interior de Pure House Marrakech",
+        "Terraza del riad con estanque decorativo y mesas, Riad Pure House Marrakech, Medina",
       paragraphs: [
         "El término 'Riad' procede del árabe clásico 'ryad', que significa jardín. Antaño concebidos como residencias señoriales para ilustres familias de comerciantes y dignatarios, los riads se diseñaron en torno a los principios de intimidad (hurma) y termorregulación natural.",
         "A diferencia de las construcciones occidentales volcadas hacia la calle, el riad muestra hacia el exterior muros ciegos y discretos de tapial. Toda la riqueza artística y arquitectónica florece en su interior, articulada alrededor de un patio a cielo abierto donde la luz natural baña la alberca, los naranjos y la vegetación.",
@@ -931,9 +938,9 @@ export const whereToStayMedinaBlogData = {
     pureHouseSpotlight: {
       id: "pure-house-spotlight",
       h2: "Pure House Marrakech: El Referente Solo Adultos en la Medina",
-      image: "/images/biophilic-design-hotel-morocco-green-riad.webp",
+      image: "/images/riad-marrakech-medina-terrace-guest-rooms.webp",
       imageAlt:
-        "Diseño biofílico y detalles wabi-sabi en el riad Pure House Marrakech",
+        "Terraza del riad con vistas a las habitaciones, Riad Pure House Marrakech, Medina",
       paragraphs: [
         "Diseñado para parejas, lunas de miel y amantes del sosiego, Pure House Marrakech combina a la perfección la autenticidad arquitectónica marroquí con el lujo minimalista contemporáneo. Situado en el 16 Derb Abou El Fdail, nuestro riad boutique se encuentra a escasos 5 minutos caminando (500 metros) de la plaza Jemaa el-Fna, permitiéndote explorar la ciudad a pie con total libertad.",
         "Como hotel exclusivamente para adultos, Pure House vela por un ambiente de serenidad imperturbable. El patio central cuenta con una alberca esmeralda rodeada de paredes de tadelakt, plantas tropicales y elegantes faroles. En nuestro hammam privado, los huéspedes disfrutan de ancestrales rituales de exfoliación con jabón negro de eucalipto y masajes con aceite de argán biológico.",

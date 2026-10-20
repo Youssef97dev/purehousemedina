@@ -480,38 +480,30 @@ const sitePages = [
   },
   {
     pageUrl: "/blog/where-to-stay-in-marrakech-medina/",
-    lastmod: "2026-10-19",
+    lastmod: "2026-10-20",
     priority: "0.9",
     images: [
       {
-        image: "/images/pure-house-marrakech-luxury-riad-courtyard.webp",
-        alt: "Serene sunlit central courtyard and emerald pool at Pure House Marrakech riad",
-        title: "Where to Stay in Marrakech Medina - Pure House Courtyard",
+        image:
+          "/images/riad-marrakech-medina-courtyard-decorative-pool-table.webp",
+        alt: "Riad courtyard with a decorative pool and a table at Riad Pure House Marrakech, Medina",
+        title: "Riad Courtyard & Decorative Pool – Pure House Marrakech",
       },
       {
-        image: "/images/best-riads-marrakech-medina.webp",
-        alt: "Panoramic view of Marrakech Medina rooftops and historic skyline",
-        title: "Marrakech Medina Rooftops and Historic Skyline",
+        image: "/images/riad-marrakech-medina-terrace-guest-rooms.webp",
+        alt: "Riad terrace overlooking the guest rooms at Riad Pure House Marrakech in the Medina",
+        title: "Riad Terrace & Guest Rooms – Pure House Marrakech",
       },
       {
-        image: "/images/aerial-view-pure-house-marrakech-medina.webp",
-        alt: "Aerial view of the historic Marrakech Medina showing serene internal riad courtyards",
-        title: "Historic Marrakech Medina Quarters and Architecture",
+        image:
+          "/images/riad-marrakech-medina-terrace-decorative-pool-tables.webp",
+        alt: "Riad terrace with a decorative pool and tables at Riad Pure House Marrakech, Medina",
+        title: "Riad Terrace with Decorative Pool – Pure House Marrakech",
       },
       {
-        image: "/images/pure-house-marrakech-staircase-design.webp",
-        alt: "Architectural staircase and inward-facing arches in Pure House Marrakech",
-        title: "Traditional Riad Architecture in Marrakech Medina",
-      },
-      {
-        image: "/images/courtyard-plunge-pool-pure-house-marrakech.webp",
-        alt: "Tranquil courtyard plunge pool reflecting sunlight in an authentic Marrakech riad",
-        title: "Courtyard Plunge Pool Oasis at Pure House Marrakech",
-      },
-      {
-        image: "/images/biophilic-design-hotel-morocco-green-riad.webp",
-        alt: "Serene botanical and wabi-sabi design details at Pure House Marrakech",
-        title: "Adults-Only Sanctuary at Pure House Marrakech",
+        image: "/images/riad-marrakech-medina-interior-lounge-table-chair.webp",
+        alt: "Traditional Moroccan riad interior with a table and chair, Riad Pure House Marrakech",
+        title: "Moroccan Riad Interior – Pure House Marrakech",
       },
     ],
   },
